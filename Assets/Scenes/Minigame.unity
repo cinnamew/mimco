@@ -228,6 +228,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b94b1f79e9dbf648800f536a849c5ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  resetCameraPos: {x: 0, y: 0, z: 0}
+  zoomRate: 0.3
+  minmaxZoom: {x: 3, y: 6}
+  startingZoom: 3
 --- !u!1 &832080710
 GameObject:
   m_ObjectHideFlags: 0
