@@ -6,10 +6,17 @@ public class Thing : MonoBehaviour
 {
     LevelManagerScript levelManagerScript;
     bool isMouseOn = false;
+
+    bool isFound = false;
+    [SerializeField] Sprite foundSprite;
+
+    SpriteRenderer spriteRenderer;
+
     // Start is called before the first frame update
     void Start()
     {
         levelManagerScript = FindObjectOfType<LevelManagerScript>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame
@@ -29,8 +36,17 @@ public class Thing : MonoBehaviour
     {
         if (isMouseOn)
         {
-            levelManagerScript.thingsFound++;
-            Destroy(gameObject);
+            if (!isFound)
+            {
+                OnFound();
+            }
         }
+    }
+
+    private void OnFound()
+    {
+        levelManagerScript.ThingFound();
+        isFound = true;
+        spriteRenderer.sprite = foundSprite;
     }
 }
