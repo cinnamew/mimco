@@ -5,7 +5,7 @@ using UnityEngine;
 public class LevelManagerScript : MonoBehaviour
 {
     [SerializeField] int thingsToFind;
-    public int thingsFound;
+    [SerializeField] int thingsFound;
 
     // Start is called before the first frame update
     void Start()
@@ -20,5 +20,9 @@ public class LevelManagerScript : MonoBehaviour
         {
             Debug.Log("COMPLETED LEVEL");
         }
+    }
+    public void ThingFound()
+    {
+        thingsFound++;
     }
 }
