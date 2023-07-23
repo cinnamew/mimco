@@ -16,4 +16,8 @@ public class TitleButtons : MonoBehaviour
         Application.Quit();
     }
 
+    public void LastScene() {
+        SceneManager.LoadScene("Final");
+    }
+
 }
