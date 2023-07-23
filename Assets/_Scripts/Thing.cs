@@ -114,6 +114,29 @@ public class Thing : MonoBehaviour
                 case 14:
                     flowchart.ExecuteBlock("blood");
                     break;
+                case 15:
+                    flowchart.ExecuteBlock("cobweb");
+                    break;
+                case 16:
+                    flowchart.ExecuteBlock("pillow in corner");
+                    break;
+                case 17:
+                    flowchart.ExecuteBlock("pile of clothes");
+                    break;
+                case 18:
+                    flowchart.ExecuteBlock("blood on bed");
+                    break;
+                case 19:
+                    flowchart.ExecuteBlock("blanket messy");
+                    break;
+                case 20:
+                    flowchart.ExecuteBlock("bloodstain");
+                    break;
+                case 21:
+                    flowchart.ExecuteBlock("bloodstain");
+                    break;
+
+                    
             }
             
         }
