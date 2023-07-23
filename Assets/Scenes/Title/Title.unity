@@ -1146,7 +1146,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03b7ef7098e99de47a747aad249049ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  f: {fileID: 0}
+  f: {fileID: 901637952}
 --- !u!1 &993066187
 GameObject:
   m_ObjectHideFlags: 0
@@ -1979,7 +1979,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 185.2876, y: -23.200718}
+  m_AnchoredPosition: {x: 193.65, y: -0.0000095367}
   m_SizeDelta: {x: 275.2952, y: 232.4013}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1613757384
@@ -2002,10 +2002,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '- made for MelonJam 4 (theme: corruption)
+  m_text: '- made in 72 hours for MelonJam 4 (theme: corruption)
 
-    - made by cinnamew, effixs,
-    pocketnii, spiderface721
+    - made by cinnamew,
+    effixs, pocketnii, spiderface721
 
 
     - TW!: mentions of crime, human/sex trafficking,
