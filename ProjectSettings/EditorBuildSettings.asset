@@ -17,4 +17,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Chapters/Final/Final.unity
     guid: 4cf7ebfbbb08f7b4aaa16778e6d09f11
+  - enabled: 1
+    path: Assets/Scenes/Chapters/3/Three_Before.unity
+    guid: 150ed649eadf20a46ae02ca43b9e0937
+  - enabled: 1
+    path: Assets/Scenes/Chapters/0_Intro/Intro.unity
+    guid: 89b35846f121fda4798ab5935eca16e1
+  - enabled: 1
+    path: Assets/Scenes/Chapters/2/Two_Before.unity
+    guid: 0417169e61be7234a8b55d6ec7006e20
   m_configObjects: {}
