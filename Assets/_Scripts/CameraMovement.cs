@@ -11,6 +11,9 @@ public class CameraMovement : MonoBehaviour
     Vector3 difference;
     Vector3 origin;
 
+    [SerializeField] Vector2 minmaxMapWithLimit;
+    [SerializeField] Vector2 minmaxMapHeightLimit;
+
     bool drag;
 
     public float zoomRate;
@@ -72,7 +75,10 @@ public class CameraMovement : MonoBehaviour
         }
         if (drag)
         {
-            camera.transform.position = origin - difference;
+            camera.transform.position = origin - difference; 
+            camera.transform.position = new Vector3(
+      Mathf.Clamp(camera.transform.position.x, minmaxMapWithLimit.x, minmaxMapWithLimit.y),
+        Mathf.Clamp(camera.transform.position.y, minmaxMapHeightLimit.x, minmaxMapHeightLimit.y), transform.position.z);
         }
     }
 }
