@@ -16,7 +16,7 @@ public class LevelManagerScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        text.text = (thingsToFind - thingsFound).ToString();
     }
 
     // Update is called once per frame
