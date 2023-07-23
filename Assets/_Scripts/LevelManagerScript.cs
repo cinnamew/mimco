@@ -11,7 +11,7 @@ public class LevelManagerScript : MonoBehaviour
 
     [SerializeField] TextMeshProUGUI text;
 
-    [SerializeField] int level;
+    public int level;
 
     // Start is called before the first frame update
     void Start()

@@ -13,7 +13,10 @@ public class MusicMan : MonoBehaviour
     void Start()
     {
         audioSource = GetComponent<AudioSource>();
-        audioSource.clip = playlist[SceneManager.GetActiveScene().buildIndex];
+        if (FindObjectOfType<LevelManagerScript>())
+        {
+            audioSource.clip = playlist[FindObjectOfType<LevelManagerScript>().level];
+        }
     }
 
     // Update is called once per frame
