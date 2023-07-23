@@ -404,7 +404,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 67
     y: 70
-    width: 75.2
+    width: 74.63158
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -430,11 +430,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 77.399994, y: 17}
+  scrollPos: {x: 337.69476, y: 149.86844}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 1
+  zoom: 0.6333333
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -542,7 +542,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 184
     y: 168
-    width: 128.4
+    width: 125.789474
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -681,7 +681,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 89.400024
     y: 216.5
-    width: 166.8
+    width: 163.68422
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -736,7 +736,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 163.20001
     y: 274.5
-    width: 169.2
+    width: 166.21054
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -818,7 +818,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 306.2
     y: 216.5
-    width: 126
+    width: 124.52632
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -900,7 +900,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 221.20001
     y: 338.5
-    width: 138
+    width: 135.89474
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1079,7 +1079,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 040c44a7090b0aa4ca33ceefd3ee63e2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a48cf63f2b171f8448324c82eb6bc8a1, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -3122,7 +3122,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 040c44a7090b0aa4ca33ceefd3ee63e2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a48cf63f2b171f8448324c82eb6bc8a1, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -3259,7 +3259,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2090990451
 RectTransform:
   m_ObjectHideFlags: 0
