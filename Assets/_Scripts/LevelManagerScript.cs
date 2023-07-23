@@ -28,7 +28,7 @@ public class LevelManagerScript : MonoBehaviour
             switch(level)
             {
                 case 1:                  
-                        SceneManager.LoadScene("Minigame2");
+                        SceneManager.LoadScene("Two_Before");
                         break;       
                 case 2:                   
                         SceneManager.LoadScene("Three_Before");

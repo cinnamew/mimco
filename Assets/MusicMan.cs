@@ -16,6 +16,7 @@ public class MusicMan : MonoBehaviour
         if (FindObjectOfType<LevelManagerScript>())
         {
             audioSource.clip = playlist[FindObjectOfType<LevelManagerScript>().level];
+            audioSource.Play();
         }
     }
 
@@ -24,7 +25,7 @@ public class MusicMan : MonoBehaviour
     {
         
     }
-    #region Singleton
+    /*#region Singleton
 
     void Awake()
     {
@@ -41,5 +42,5 @@ public class MusicMan : MonoBehaviour
         DontDestroyOnLoad(gameObject);
     }
 
-    #endregion
+    #endregion */
 }
