@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7585690704102262099}
   - component: {fileID: 322760779798361521}
   - component: {fileID: 7024445721353478795}
-  - component: {fileID: 4587415473036304461}
+  - component: {fileID: 7653785958443615891}
   m_Layer: 0
   m_Name: Thing
   m_TagString: Untagged
@@ -32,7 +32,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &322760779798361521
 SpriteRenderer:
@@ -75,7 +75,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 5
-  m_Sprite: {fileID: 21300000, guid: 0b8b6ae1a6956d8419775a1e8f17ef39, type: 3}
+  m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -98,9 +98,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 04dae7127bb655844aae2438eaf13059, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  foundSprite: {fileID: 21300000, guid: a8aa43b34fe809c4d90478a38c2c5a8b, type: 3}
+  foundSprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
   fixParticlePrefab: {fileID: 8168550488560485341, guid: 3036dc6d8d6bca8409af6b8f0f907167, type: 3}
---- !u!61 &4587415473036304461
+--- !u!61 &7653785958443615891
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -132,16 +132,16 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 5.2168503, y: 2.1300497}
+  m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 12.56, y: 1.39}
+    oldSize: {x: 0.2, y: 0.2}
     newSize: {x: 12.56, y: 1.39}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 11.433701, y: 5.2600994}
+  m_Size: {x: 12.56, y: 1.39}
   m_EdgeRadius: 0
