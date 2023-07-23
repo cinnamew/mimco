@@ -60,7 +60,7 @@ public class CameraMovement : MonoBehaviour
 
     private void DragMovementManagment()
     {
-        if (Input.GetMouseButton(0))
+        if (Input.GetMouseButton(0) || Input.GetMouseButton(2))
         {
             difference = (camera.ScreenToWorldPoint(Input.mousePosition)) - camera.transform.position;
             if (!drag)
