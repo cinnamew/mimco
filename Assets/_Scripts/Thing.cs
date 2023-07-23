@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Fungus;
 
 public class Thing : MonoBehaviour
 {
@@ -18,6 +19,10 @@ public class Thing : MonoBehaviour
     [SerializeField] AudioClip sfx;
     [Range(0.0f, 1f)] [SerializeField] float volume;
 
+    [SerializeField] int summonedDialog;
+
+    Flowchart flowchart;
+
 
 
     // Start is called before the first frame update
@@ -26,6 +31,7 @@ public class Thing : MonoBehaviour
         levelManagerScript = FindObjectOfType<LevelManagerScript>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         audioSource = gameObject.GetComponent<AudioSource>();
+        flowchart = FindObjectOfType<Flowchart>();
     }
 
     // Update is called once per frame
@@ -62,5 +68,54 @@ public class Thing : MonoBehaviour
         levelManagerScript.ThingFound();
         isFound = true;
         spriteRenderer.sprite = foundSprite;
+        if (summonedDialog > 0)
+        {
+            switch(summonedDialog)
+            {
+                case 1:
+                    flowchart.ExecuteBlock("tilted painting");
+                    break;
+                case 2:
+                    flowchart.ExecuteBlock("broken glass at front");
+                    break;
+                case 3:
+                    flowchart.ExecuteBlock("broken drawers at back");
+                    break;
+                case 4:
+                    flowchart.ExecuteBlock("glass on floor");
+                    break;
+                case 5:
+                    flowchart.ExecuteBlock("broken window");
+                    break;
+                case 6:
+                    flowchart.ExecuteBlock("bedsheets");
+                    break;
+                case 7:
+                    flowchart.ExecuteBlock("cracked window");
+                    break;
+                case 8:
+                    flowchart.ExecuteBlock("knocked over cup");
+                    break;
+                case 9:
+                    flowchart.ExecuteBlock("pillow on floor");
+                    break;
+                case 10:
+                    flowchart.ExecuteBlock("broken drawer handle");
+                    break;
+                case 11:
+                    flowchart.ExecuteBlock("phone");
+                    break;
+                case 12:
+                    flowchart.ExecuteBlock("tv");
+                    break;
+                case 13:
+                    flowchart.ExecuteBlock("lampshade");
+                    break;
+                case 14:
+                    flowchart.ExecuteBlock("blood");
+                    break;
+            }
+            
+        }
     }
 }

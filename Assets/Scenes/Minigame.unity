@@ -1034,6 +1034,10 @@ PrefabInstance:
       propertyPath: foundSprite
       value: 
       objectReference: {fileID: 21300000, guid: fbae333eeb84ca04aad1a493fc483501, type: 3}
+    - target: {fileID: 7024445721353478795, guid: 3b8508e6f1b554b4da4d5a1aa8eb0b44, type: 3}
+      propertyPath: summonedDialog
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 7585690704102262099, guid: 3b8508e6f1b554b4da4d5a1aa8eb0b44, type: 3}
       propertyPath: m_RootOrder
       value: 13
@@ -3035,6 +3039,10 @@ PrefabInstance:
       propertyPath: foundSprite
       value: 
       objectReference: {fileID: 21300000, guid: 0c6122d7c9b553b459fcba7027f8c3da, type: 3}
+    - target: {fileID: 7024445721353478795, guid: 3b8508e6f1b554b4da4d5a1aa8eb0b44, type: 3}
+      propertyPath: summonedDialog
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 7585690704102262099, guid: 3b8508e6f1b554b4da4d5a1aa8eb0b44, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -3584,6 +3592,10 @@ PrefabInstance:
       propertyPath: foundSprite
       value: 
       objectReference: {fileID: 21300000, guid: ba0231c6c66606548baacb4c628b0374, type: 3}
+    - target: {fileID: 7024445721353478795, guid: 3b8508e6f1b554b4da4d5a1aa8eb0b44, type: 3}
+      propertyPath: summonedDialog
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 7585690704102262099, guid: 3b8508e6f1b554b4da4d5a1aa8eb0b44, type: 3}
       propertyPath: m_RootOrder
       value: 14
@@ -3865,6 +3877,10 @@ PrefabInstance:
       propertyPath: foundSprite
       value: 
       objectReference: {fileID: 21300000, guid: 4fe0b30556d2ff74fb58f0daf42f3841, type: 3}
+    - target: {fileID: 7024445721353478795, guid: 3b8508e6f1b554b4da4d5a1aa8eb0b44, type: 3}
+      propertyPath: summonedDialog
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7585690704102262099, guid: 3b8508e6f1b554b4da4d5a1aa8eb0b44, type: 3}
       propertyPath: m_RootOrder
       value: 15
@@ -4036,6 +4052,10 @@ PrefabInstance:
       propertyPath: foundSprite
       value: 
       objectReference: {fileID: 21300000, guid: 291063c57fd78b24883d9ceec06cfba7, type: 3}
+    - target: {fileID: 7024445721353478795, guid: 3b8508e6f1b554b4da4d5a1aa8eb0b44, type: 3}
+      propertyPath: summonedDialog
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 7585690704102262099, guid: 3b8508e6f1b554b4da4d5a1aa8eb0b44, type: 3}
       propertyPath: m_RootOrder
       value: 8
