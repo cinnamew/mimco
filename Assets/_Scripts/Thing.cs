@@ -14,11 +14,18 @@ public class Thing : MonoBehaviour
 
     [SerializeField] GameObject fixParticlePrefab;
 
+    AudioSource audioSource;
+    [SerializeField] AudioClip sfx;
+    [Range(0.0f, 1f)] [SerializeField] float volume;
+
+
+
     // Start is called before the first frame update
     void Start()
     {
         levelManagerScript = FindObjectOfType<LevelManagerScript>();
         spriteRenderer = GetComponent<SpriteRenderer>();
+        audioSource = gameObject.GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -47,6 +54,7 @@ public class Thing : MonoBehaviour
 
     private void OnFound()
     {
+        audioSource.PlayOneShot(sfx, volume);
         Vector2 clickPos = new Vector2(
             Camera.main.ScreenToWorldPoint(Input.mousePosition).x,
             Camera.main.ScreenToWorldPoint(Input.mousePosition).y);
