@@ -136,6 +136,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 0e75e7dc3a73c8f4b80fe3bb83908c51, type: 3}
     - target: {fileID: 7024445721353478795, guid: 3b8508e6f1b554b4da4d5a1aa8eb0b44, type: 3}
+      propertyPath: sfx
+      value: 
+      objectReference: {fileID: 8300000, guid: f4f7d568a3dcc1f49ae193e5049e7d34, type: 3}
+    - target: {fileID: 7024445721353478795, guid: 3b8508e6f1b554b4da4d5a1aa8eb0b44, type: 3}
       propertyPath: foundSprite
       value: 
       objectReference: {fileID: 21300000, guid: eaa75c63dbf296841b9525a23099e759, type: 3}
@@ -237,6 +241,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 9c26f28cdffbe784baf92160e123eb3e, type: 3}
     - target: {fileID: 7024445721353478795, guid: 3b8508e6f1b554b4da4d5a1aa8eb0b44, type: 3}
+      propertyPath: sfx
+      value: 
+      objectReference: {fileID: 8300000, guid: cc340f76f68f3a44c8c1d727c2720e36, type: 3}
+    - target: {fileID: 7024445721353478795, guid: 3b8508e6f1b554b4da4d5a1aa8eb0b44, type: 3}
       propertyPath: foundSprite
       value: 
       objectReference: {fileID: 21300000, guid: 4aeea725cfe840b43a65af0fe64ac99f, type: 3}
@@ -290,19 +298,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7653785958443615891, guid: 3b8508e6f1b554b4da4d5a1aa8eb0b44, type: 3}
       propertyPath: m_Size.x
-      value: 1.5424066
+      value: 2.1
       objectReference: {fileID: 0}
     - target: {fileID: 7653785958443615891, guid: 3b8508e6f1b554b4da4d5a1aa8eb0b44, type: 3}
       propertyPath: m_Size.y
-      value: 1.6147302
+      value: 2.79
       objectReference: {fileID: 0}
     - target: {fileID: 7653785958443615891, guid: 3b8508e6f1b554b4da4d5a1aa8eb0b44, type: 3}
       propertyPath: m_Offset.x
-      value: -5.88449
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7653785958443615891, guid: 3b8508e6f1b554b4da4d5a1aa8eb0b44, type: 3}
       propertyPath: m_Offset.y
-      value: 0.29402167
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7653785958443615891, guid: 3b8508e6f1b554b4da4d5a1aa8eb0b44, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
@@ -333,6 +341,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 6baa270b1be9ca94884c7d34c455e605, type: 3}
+    - target: {fileID: 7024445721353478795, guid: 3b8508e6f1b554b4da4d5a1aa8eb0b44, type: 3}
+      propertyPath: sfx
+      value: 
+      objectReference: {fileID: 8300000, guid: ab55126b774993143bb9bf3e43ce872b, type: 3}
     - target: {fileID: 7024445721353478795, guid: 3b8508e6f1b554b4da4d5a1aa8eb0b44, type: 3}
       propertyPath: foundSprite
       value: 
@@ -430,6 +442,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: dc58419dbc2df854fa6633e571834761, type: 3}
+    - target: {fileID: 7024445721353478795, guid: 3b8508e6f1b554b4da4d5a1aa8eb0b44, type: 3}
+      propertyPath: sfx
+      value: 
+      objectReference: {fileID: 8300000, guid: ab55126b774993143bb9bf3e43ce872b, type: 3}
     - target: {fileID: 7024445721353478795, guid: 3b8508e6f1b554b4da4d5a1aa8eb0b44, type: 3}
       propertyPath: foundSprite
       value: 
@@ -538,6 +554,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 162392c81cef2fa4b92e2ce357ec4a1c, type: 3}
+    - target: {fileID: 7024445721353478795, guid: 3b8508e6f1b554b4da4d5a1aa8eb0b44, type: 3}
+      propertyPath: sfx
+      value: 
+      objectReference: {fileID: 8300000, guid: ab55126b774993143bb9bf3e43ce872b, type: 3}
     - target: {fileID: 7024445721353478795, guid: 3b8508e6f1b554b4da4d5a1aa8eb0b44, type: 3}
       propertyPath: foundSprite
       value: 
@@ -767,6 +787,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 5c3acb352f06ff84690290c0eaf1a1c5, type: 3}
     - target: {fileID: 7024445721353478795, guid: 3b8508e6f1b554b4da4d5a1aa8eb0b44, type: 3}
+      propertyPath: sfx
+      value: 
+      objectReference: {fileID: 8300000, guid: f4f7d568a3dcc1f49ae193e5049e7d34, type: 3}
+    - target: {fileID: 7024445721353478795, guid: 3b8508e6f1b554b4da4d5a1aa8eb0b44, type: 3}
       propertyPath: foundSprite
       value: 
       objectReference: {fileID: 21300000, guid: 18b987edba0465740a536e7ddd358340, type: 3}
@@ -863,6 +887,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 665db1e2664e6d3438d62924793df193, type: 3}
+    - target: {fileID: 7024445721353478795, guid: 3b8508e6f1b554b4da4d5a1aa8eb0b44, type: 3}
+      propertyPath: sfx
+      value: 
+      objectReference: {fileID: 8300000, guid: f4f7d568a3dcc1f49ae193e5049e7d34, type: 3}
     - target: {fileID: 7024445721353478795, guid: 3b8508e6f1b554b4da4d5a1aa8eb0b44, type: 3}
       propertyPath: foundSprite
       value: 
@@ -1346,10 +1374,10 @@ PrefabInstance:
     - target: {fileID: 7024445721353478795, guid: 3b8508e6f1b554b4da4d5a1aa8eb0b44, type: 3}
       propertyPath: sfx
       value: 
-      objectReference: {fileID: 8300000, guid: ab55126b774993143bb9bf3e43ce872b, type: 3}
+      objectReference: {fileID: 8300000, guid: cc340f76f68f3a44c8c1d727c2720e36, type: 3}
     - target: {fileID: 7024445721353478795, guid: 3b8508e6f1b554b4da4d5a1aa8eb0b44, type: 3}
       propertyPath: volume
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7024445721353478795, guid: 3b8508e6f1b554b4da4d5a1aa8eb0b44, type: 3}
       propertyPath: foundSprite
@@ -1444,6 +1472,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 3c6fc13075e69bc478d55d6d74a3b4a7, type: 3}
+    - target: {fileID: 7024445721353478795, guid: 3b8508e6f1b554b4da4d5a1aa8eb0b44, type: 3}
+      propertyPath: sfx
+      value: 
+      objectReference: {fileID: 8300000, guid: 7ba2d42951dcc4b4fb2e844ed1d2fed3, type: 3}
     - target: {fileID: 7024445721353478795, guid: 3b8508e6f1b554b4da4d5a1aa8eb0b44, type: 3}
       propertyPath: foundSprite
       value: 

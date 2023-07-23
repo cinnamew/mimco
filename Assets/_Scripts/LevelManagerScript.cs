@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class LevelManagerScript : MonoBehaviour
 {
@@ -9,6 +10,8 @@ public class LevelManagerScript : MonoBehaviour
     [SerializeField] int thingsFound;
 
     [SerializeField] TextMeshProUGUI text;
+
+    [SerializeField] int level;
 
     // Start is called before the first frame update
     void Start()
