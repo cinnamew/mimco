@@ -25,6 +25,19 @@ public class LevelManagerScript : MonoBehaviour
         if (thingsFound >= thingsToFind)
         {
             Debug.Log("COMPLETED LEVEL");
+            switch(level)
+            {
+                case 1:                  
+                        SceneManager.LoadScene("Minigame2");
+                        break;       
+                case 2:                   
+                        SceneManager.LoadScene("Three_Before");
+                    break;
+                case 3:
+                    SceneManager.LoadScene("Final");
+                    break;
+
+            }
         }
     }
     
