@@ -105,7 +105,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b94b1f79e9dbf648800f536a849c5ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  resetCameraPos: {x: 0, y: 0, z: 0}
+  resetCameraPos: {x: 0, y: 0, z: -10}
+  minmaxMapWithLimit: {x: -5.77, y: 1.5}
+  minmaxMapHeightLimit: {x: -1.82, y: 1.86}
   zoomRate: 0.3
   minmaxZoom: {x: 3, y: 6}
   startingZoom: 3

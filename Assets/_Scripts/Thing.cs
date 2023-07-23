@@ -12,6 +12,8 @@ public class Thing : MonoBehaviour
 
     SpriteRenderer spriteRenderer;
 
+    [SerializeField] GameObject fixParticlePrefab;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -45,6 +47,10 @@ public class Thing : MonoBehaviour
 
     private void OnFound()
     {
+        Vector2 clickPos = new Vector2(
+            Camera.main.ScreenToWorldPoint(Input.mousePosition).x,
+            Camera.main.ScreenToWorldPoint(Input.mousePosition).y);
+        Instantiate(fixParticlePrefab, clickPos, Quaternion.identity);
         levelManagerScript.ThingFound();
         isFound = true;
         spriteRenderer.sprite = foundSprite;
