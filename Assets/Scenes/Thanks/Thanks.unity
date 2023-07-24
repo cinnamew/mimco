@@ -749,8 +749,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.0000019073, y: -36}
-  m_SizeDelta: {x: 470.2151, y: 234.1299}
+  m_AnchoredPosition: {x: -0.0000019073, y: -15}
+  m_SizeDelta: {x: 470.2151, y: 214.439}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1069860959
 MonoBehaviour:
@@ -776,13 +776,15 @@ MonoBehaviour:
 
     > cinnamew: code/dialogue/story
 
-    > effixs: background
-    + sprite art
+    > effixs: minigame
+    art
 
-    > pocketnii: character art/story
+    > pocketnii: UI/other art/story
 
-    > spiderface721: minigame
-    code'
+    > spiderface721: minigame code
+
+    (music
+    not by us!)'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d4575b43d263e554d9449f06feb058b3, type: 2}
   m_sharedMaterial: {fileID: 2473524833943559444, guid: d4575b43d263e554d9449f06feb058b3, type: 2}
@@ -809,8 +811,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 30
+  m_fontSizeBase: 30
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
