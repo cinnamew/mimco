@@ -1950,6 +1950,10 @@ PrefabInstance:
       value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 4056478017773309920, guid: 71e6e53a781dcbd4fb9b653dcfa32af2, type: 3}
+      propertyPath: startingZoom
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4056478017773309920, guid: 71e6e53a781dcbd4fb9b653dcfa32af2, type: 3}
       propertyPath: minmaxMapWithLimit.y
       value: 6
       objectReference: {fileID: 0}
@@ -2331,45 +2335,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4778411109996167939, guid: 5e97426631eca5947b84784535ae5f48, type: 3}
-      propertyPath: playlist.Array.size
-      value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 4778411109996167939, guid: 5e97426631eca5947b84784535ae5f48, type: 3}
-      propertyPath: playlist.Array.data[0]
-      value: 
-      objectReference: {fileID: 8300000, guid: fe3702128fe1ae84e9ae6bf7723068fd, type: 3}
-    - target: {fileID: 4778411109996167939, guid: 5e97426631eca5947b84784535ae5f48, type: 3}
-      propertyPath: playlist.Array.data[1]
-      value: 
-      objectReference: {fileID: 8300000, guid: fe3702128fe1ae84e9ae6bf7723068fd, type: 3}
-    - target: {fileID: 4778411109996167939, guid: 5e97426631eca5947b84784535ae5f48, type: 3}
-      propertyPath: playlist.Array.data[2]
-      value: 
-      objectReference: {fileID: 8300000, guid: fe3702128fe1ae84e9ae6bf7723068fd, type: 3}
-    - target: {fileID: 4778411109996167939, guid: 5e97426631eca5947b84784535ae5f48, type: 3}
-      propertyPath: playlist.Array.data[3]
-      value: 
-      objectReference: {fileID: 8300000, guid: fe3702128fe1ae84e9ae6bf7723068fd, type: 3}
-    - target: {fileID: 4778411109996167939, guid: 5e97426631eca5947b84784535ae5f48, type: 3}
-      propertyPath: playlist.Array.data[4]
-      value: 
-      objectReference: {fileID: 8300000, guid: fe3702128fe1ae84e9ae6bf7723068fd, type: 3}
-    - target: {fileID: 4778411109996167939, guid: 5e97426631eca5947b84784535ae5f48, type: 3}
-      propertyPath: playlist.Array.data[5]
-      value: 
-      objectReference: {fileID: 8300000, guid: fe3702128fe1ae84e9ae6bf7723068fd, type: 3}
-    - target: {fileID: 4778411109996167939, guid: 5e97426631eca5947b84784535ae5f48, type: 3}
-      propertyPath: playlist.Array.data[6]
-      value: 
-      objectReference: {fileID: 8300000, guid: fe3702128fe1ae84e9ae6bf7723068fd, type: 3}
     - target: {fileID: 7582634825055764377, guid: 5e97426631eca5947b84784535ae5f48, type: 3}
       propertyPath: m_Name
       value: MusicPlayer
-      objectReference: {fileID: 0}
-    - target: {fileID: 8728530001467973639, guid: 5e97426631eca5947b84784535ae5f48, type: 3}
-      propertyPath: m_Volume
-      value: 0.01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

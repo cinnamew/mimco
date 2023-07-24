@@ -31,7 +31,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &4778411109996167939
 MonoBehaviour:
@@ -45,7 +45,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 585d5a07b649bae4184324c05e3cb2ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playlist: []
+  playlist:
+  - {fileID: 8300000, guid: fe3702128fe1ae84e9ae6bf7723068fd, type: 3}
+  - {fileID: 8300000, guid: fe3702128fe1ae84e9ae6bf7723068fd, type: 3}
+  - {fileID: 8300000, guid: fe3702128fe1ae84e9ae6bf7723068fd, type: 3}
+  - {fileID: 8300000, guid: fe3702128fe1ae84e9ae6bf7723068fd, type: 3}
+  - {fileID: 8300000, guid: fe3702128fe1ae84e9ae6bf7723068fd, type: 3}
+  - {fileID: 8300000, guid: fe3702128fe1ae84e9ae6bf7723068fd, type: 3}
+  - {fileID: 8300000, guid: fe3702128fe1ae84e9ae6bf7723068fd, type: 3}
 --- !u!82 &8728530001467973639
 AudioSource:
   m_ObjectHideFlags: 0
@@ -58,7 +65,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.018
   m_Pitch: 1
   Loop: 0
   Mute: 0
