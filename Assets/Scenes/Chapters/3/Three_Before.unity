@@ -3092,6 +3092,7 @@ GameObject:
   - component: {fileID: 897259719}
   - component: {fileID: 897259720}
   - component: {fileID: 897259721}
+  - component: {fileID: 897259722}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -3208,7 +3209,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 897259680}
   selectedCommands:
-  - {fileID: 897259721}
+  - {fileID: 897259722}
   variables: []
   description: 
   stepPause: 0
@@ -5126,6 +5127,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 1521759111}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   booleanParameter:
     booleanRef: {fileID: 0}
     booleanVal: 0
@@ -5430,6 +5443,7 @@ MonoBehaviour:
   - {fileID: 897259712}
   - {fileID: 897259714}
   - {fileID: 897259713}
+  - {fileID: 897259722}
   suppressAllAutoSelections: 0
 --- !u!114 &897259681
 MonoBehaviour:
@@ -6540,8 +6554,8 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1543850218}
         m_TargetAssemblyTypeName: FadeToBlack, Assembly-CSharp
-        m_MethodName: antiFade
-        m_Mode: 1
+        m_MethodName: setFading
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -6644,6 +6658,25 @@ MonoBehaviour:
   fadeColor: {r: 0, g: 0, b: 0, a: 1}
   fadeTexture: {fileID: 0}
   fadeTweenType: 4
+--- !u!114 &897259722
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 897259449}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 272
+  indentLevel: 0
+  _sceneName:
+    stringRef: {fileID: 0}
+    stringVal: Minigame3
+  loadingImage: {fileID: 0}
+  sceneNameOLD: 
 --- !u!1 &905689937
 GameObject:
   m_ObjectHideFlags: 1
