@@ -1009,7 +1009,7 @@ MonoBehaviour:
   sayDialog: {fileID: 785183832}
 --- !u!114 &198135249
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1065,7 +1065,7 @@ MonoBehaviour:
       m_Calls: []
 --- !u!114 &198135250
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1121,7 +1121,7 @@ MonoBehaviour:
       m_Calls: []
 --- !u!114 &198135251
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1177,7 +1177,7 @@ MonoBehaviour:
       m_Calls: []
 --- !u!114 &198135252
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1233,7 +1233,7 @@ MonoBehaviour:
       m_Calls: []
 --- !u!114 &198135253
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2240,7 +2240,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4056478017773309920, guid: 71e6e53a781dcbd4fb9b653dcfa32af2, type: 3}
       propertyPath: startingZoom
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4056478017773309920, guid: 71e6e53a781dcbd4fb9b653dcfa32af2, type: 3}
       propertyPath: minmaxMapWithLimit.y
