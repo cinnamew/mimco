@@ -36,7 +36,7 @@ public class LevelManagerScript : MonoBehaviour
                 timeStamp = Time.time;
                 isTiming = true;
             }
-            if (Time.time > timeStamp + 1.2f)
+            if (Time.time > timeStamp + 1.75f)
             {
                 switch(level)
                 {
