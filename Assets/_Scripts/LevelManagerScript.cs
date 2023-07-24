@@ -13,6 +13,10 @@ public class LevelManagerScript : MonoBehaviour
 
     public int level;
 
+    bool isTiming = false;
+
+    float timeStamp = 0;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -25,18 +29,28 @@ public class LevelManagerScript : MonoBehaviour
         if (thingsFound >= thingsToFind)
         {
             Debug.Log("COMPLETED LEVEL");
-            switch(level)
+            
+            
+            if (!isTiming)
             {
-                case 1:                  
-                        SceneManager.LoadScene("Two_Before");
-                        break;       
-                case 2:                   
-                        SceneManager.LoadScene("Three_Before");
-                    break;
-                case 3:
-                    SceneManager.LoadScene("Final");
-                    break;
+                timeStamp = Time.time;
+                isTiming = true;
+            }
+            if (Time.time > timeStamp + 1.2f)
+            {
+                switch(level)
+                {
+                    case 1:                  
+                            SceneManager.LoadScene("Two_Before");
+                            break;       
+                    case 2:                   
+                            SceneManager.LoadScene("Three_Before");
+                        break;
+                    case 3:
+                        SceneManager.LoadScene("Final");
+                        break;
 
+                }
             }
         }
     }
