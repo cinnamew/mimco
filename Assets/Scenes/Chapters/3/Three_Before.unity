@@ -3089,6 +3089,9 @@ GameObject:
   - component: {fileID: 897259716}
   - component: {fileID: 897259715}
   - component: {fileID: 897259718}
+  - component: {fileID: 897259719}
+  - component: {fileID: 897259720}
+  - component: {fileID: 897259721}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -3167,6 +3170,7 @@ MonoBehaviour:
   - {fileID: 897259650}
   - {fileID: 897259718}
   - {fileID: 897259655}
+  - {fileID: 897259719}
   - {fileID: 897259656}
   - {fileID: 897259663}
   - {fileID: 897259662}
@@ -3202,9 +3206,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 897259451}
+  - {fileID: 897259680}
   selectedCommands:
-  - {fileID: 897259662}
+  - {fileID: 897259721}
   variables: []
   description: 
   stepPause: 0
@@ -4483,6 +4487,7 @@ MonoBehaviour:
   - {fileID: 897259673}
   - {fileID: 897259672}
   - {fileID: 897259671}
+  - {fileID: 897259720}
   - {fileID: 897259686}
   suppressAllAutoSelections: 0
 --- !u!114 &897259655
@@ -4945,7 +4950,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 217
   indentLevel: 0
-  storyText: You know, the...{wc}I motion at the display cases I cleaned.
+  storyText: You know, the...{wc}{i}I motion at the display cases I cleaned.{/i}
   description: 
   character: {fileID: 602770193}
   portrait: {fileID: 0}
@@ -4973,9 +4978,9 @@ MonoBehaviour:
   itemId: 218
   indentLevel: 0
   storyText: "Um\u2026 hmm, I\u2019m not sure what you\u2019re talking about exactly\u2026{wc}...{wc}{i}She
-    seems to pale a little bit as her eyes widen{wc}Ah, were you part of the gang\u2013
-    {wc}I mean, sorry, no, we\u2019re perfectly fine. Don\u2019t worry, your jewelry
-    is genuine."
+    seems to pale a little bit as her eyes widen{/i}{wc}Ah, were you part of the
+    gang\u2013 {wc}I mean, sorry, no, we\u2019re perfectly fine. Don\u2019t worry,
+    your jewelry is genuine."
   description: 
   character: {fileID: 1577704251}
   portrait: {fileID: 0}
@@ -5004,9 +5009,9 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "{i}She\u2019s so awkward I can\u2019t help trying to end things on
     a lighter note. And what does she mean, gang? I thought it was just a simple
-    single-person robbery!{wc}Oh, don\u2019t worry about it! You know, I\u2019m buying
-    this necklace because I\u2019m a cleaner! I used to wear a ring, but you always
-    have to take those off when you wear gloves, and...{wc}{i}The store clerk\u2019s
+    single-person robbery!{/i}{wc}Oh, don\u2019t worry about it! You know, I\u2019m
+    buying this necklace because I\u2019m a cleaner! I used to wear a ring, but you
+    always have to take those off when you wear gloves, and...{wc}{i}The store clerk\u2019s
     mood noticeably shifts at the mention that I\u2019m a cleaner. She looks back
     at the purchase screen."
   description: 
@@ -5406,6 +5411,7 @@ MonoBehaviour:
   - {fileID: 897259694}
   - {fileID: 897259695}
   - {fileID: 897259698}
+  - {fileID: 897259721}
   - {fileID: 897259699}
   - {fileID: 897259696}
   - {fileID: 897259697}
@@ -6568,6 +6574,76 @@ MonoBehaviour:
   stringEvent:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &897259719
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 897259449}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 269
+  indentLevel: 0
+  display: 2
+  stage: {fileID: 0}
+  character: {fileID: 602770193}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: 0}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 0}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 0
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
+--- !u!114 &897259720
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 897259449}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 207aecf668a0345388087ccf522f9957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 270
+  indentLevel: 0
+  duration: 1
+  targetAlpha: 0
+  waitUntilFinished: 1
+  fadeColor: {r: 0, g: 0, b: 0, a: 1}
+  fadeTexture: {fileID: 0}
+  fadeTweenType: 4
+--- !u!114 &897259721
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 897259449}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 207aecf668a0345388087ccf522f9957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 271
+  indentLevel: 0
+  duration: 1
+  targetAlpha: 0
+  waitUntilFinished: 1
+  fadeColor: {r: 0, g: 0, b: 0, a: 1}
+  fadeTexture: {fileID: 0}
+  fadeTweenType: 4
 --- !u!1 &905689937
 GameObject:
   m_ObjectHideFlags: 1
