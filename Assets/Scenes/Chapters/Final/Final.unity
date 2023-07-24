@@ -1407,7 +1407,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &256958345
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1498,7 +1498,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0, b: 0.09375, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1632,7 +1632,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0, b: 0.090909004, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1734,8 +1734,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 304421849}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.0077, y: 0.0113, z: 0}
-  m_LocalScale: {x: 0.9252, y: 0.9252, z: 0.9252}
+  m_LocalPosition: {x: 0.0017, y: 0, z: 0}
+  m_LocalScale: {x: 0.92603284, y: 0.92603284, z: 0.92603284}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -4819,6 +4819,8 @@ GameObject:
   - component: {fileID: 897259739}
   - component: {fileID: 897259738}
   - component: {fileID: 897259740}
+  - component: {fileID: 897259742}
+  - component: {fileID: 897259741}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -4925,8 +4927,10 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 897259615}
+  selectedCommands:
+  - {fileID: 897259636}
   variables: []
   description: 
   stepPause: 0
@@ -5330,7 +5334,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 81
   indentLevel: 0
-  storyText: "Weird, I swear I just heard some sort of sound come from inside.{wc}...{wc}Okay,
+  storyText: "{i}Weird, I swear I just heard some sort of sound come from inside.{wc}...{wc}Okay,
     well, it wouldn\u2019t be good if the crime scene was ruined, right?{wc}...But
     it\u2019s kind of scary, and I don\u2019t want to be that type of dumb horror
     movie protagonist...{wc}This wooden door in front of me is all that\u2019s blocking
@@ -5507,7 +5511,7 @@ MonoBehaviour:
   waitForClick: 1
   stopVoiceover: 1
   waitForVO: 0
-  setSayDialog: {fileID: 0}
+  setSayDialog: {fileID: 1277694563}
 --- !u!114 &897259540
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -5610,7 +5614,7 @@ MonoBehaviour:
   waitForClick: 1
   stopVoiceover: 1
   waitForVO: 0
-  setSayDialog: {fileID: 560494625}
+  setSayDialog: {fileID: 1868900508}
 --- !u!114 &897259542
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -5682,7 +5686,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 96
   indentLevel: 0
-  storyText: "What\u2019s wrong? {wi}Is it disturbing?"
+  storyText: "What\u2019s wrong? {wi}Is it too disturbing?"
   description: 
   character: {fileID: 2040923802}
   portrait: {fileID: 0}
@@ -6291,7 +6295,7 @@ MonoBehaviour:
   waitForClick: 1
   stopVoiceover: 1
   waitForVO: 0
-  setSayDialog: {fileID: 248849212}
+  setSayDialog: {fileID: 1277694563}
 --- !u!114 &897259567
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -7399,9 +7403,9 @@ MonoBehaviour:
     Ellie. People who do these things for fun, just for a short adrenaline boost
     and a flow of bloody cash.{wc}You know what that motel was used for? Storing
     the trafficked victims.{wc}And you know who used to live in that abandoned underground
-    building? Children who were sold and raped and whose innocence was forcibly seized
-    when their day came.{wc}And the guy I just killed was the ringleader of it all.
-    So I\u2019m getting rid of corrupt people like that, one by one."
+    building? {wi}Children who were sold and raped and whose innocence was forcibly
+    seized when their day came.{wc}And the guy I just killed was the ringleader of
+    it all. So I\u2019m getting rid of corrupt people like that, one by one."
   description: 
   character: {fileID: 2040923802}
   portrait: {fileID: 0}
@@ -7519,9 +7523,9 @@ MonoBehaviour:
     behind everyone else, for the future.{wc}There\u2019s a sense of peace in staying
     back behind them all, in watching like we\u2019re binging our favorite shows
     as they all take the same immoral paths and end up paying the price for it some
-    way or another \u2013 a price that sometimes we have to dole out.{wc}But not
-    everyone is in such a huge position of power, and we\u2019re all different levels
-    of immoral."
+    way or another \u2013 {wc}\u2013 a price that sometimes we have to be the ones
+    to dole out.{wc}But not everyone is in such a huge position of power, and we\u2019re
+    all different levels of immoral."
   description: 
   character: {fileID: 2040923802}
   portrait: {fileID: 0}
@@ -7636,6 +7640,8 @@ MonoBehaviour:
   - {fileID: 897259632}
   - {fileID: 897259635}
   - {fileID: 897259634}
+  - {fileID: 897259741}
+  - {fileID: 897259742}
   - {fileID: 897259633}
   - {fileID: 897259636}
   - {fileID: 897259637}
@@ -7801,13 +7807,13 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "\u2018Humanity isn\u2019t all that bad\u2019? Think about yourself
     for a second, from the clothes you wear that were probably manufactured in a
-    sweatshop to the way countless poor little animals that went into making your
-    cosmetics.{wc}Look at the accidents you see on the street, at the signs telling
-    you not to feed animals or touch a relic yet people do so anyway.{wc}And I hate
-    to bring this up, but if anything, global warming and the incompetence of humanity
-    go hand in hand.{wc}So if you truly believe humanity \u2018isn\u2019t all that
-    bad,\u2019 then there wouldn't be so many unfixable problems in our world. But
-    at the heart of it all, we\u2019re just a corrupted species."
+    sweatshop to the way countless poor little animals went into making your cosmetics.{wc}Look
+    at the accidents you see on the street, at the signs telling you not to feed
+    animals or touch a relic yet people do so anyway.{wc}And I hate to bring this
+    up, but if anything, global warming and the incompetence of humanity go hand
+    in hand.{wc}So if you truly believe humanity \u2018isn\u2019t all that bad,\u2019
+    then there wouldn't be so many unfixable problems in our world. But at the heart
+    of it all, we\u2019re just a corrupted species."
   description: 
   character: {fileID: 2040923802}
   portrait: {fileID: 0}
@@ -8179,9 +8185,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 185
   indentLevel: 0
-  storyText: "Yeah. Yeah, I don\u2019t care what \u2018corruption\u2019 you say is
-    in this world, I\u2019m going to be a better person. You\u2019re not the person
-    I know."
+  storyText: See what?
   description: 
   character: {fileID: 602770193}
   portrait: {fileID: 0}
@@ -8235,8 +8239,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 187
   indentLevel: 0
-  storyText: "...I don\u2019t care. I don\u2019t want to have anything to do with
-    someone as messed up as you."
+  storyText: "...Your name isn't \u2013 ?{wc}Ahh \u2013 no, I don\u2019t care.{wi}I
+    don\u2019t want to have anything to do with someone as messed up as you."
   description: 
   character: {fileID: 602770193}
   portrait: {fileID: 0}
@@ -10718,10 +10722,10 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 602770193}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 74829ca7a48d56946b7537f00987a2cd, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
-  toPosition: {fileID: 0}
+  toPosition: {fileID: 1183037617}
   facing: 0
   useDefaultSettings: 1
   fadeDuration: 0.5
@@ -10906,7 +10910,7 @@ MonoBehaviour:
   waitForClick: 1
   stopVoiceover: 1
   waitForVO: 0
-  setSayDialog: {fileID: 248849212}
+  setSayDialog: {fileID: 1277694563}
 --- !u!114 &897259734
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -11211,6 +11215,62 @@ MonoBehaviour:
   stringEvent:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &897259741
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 897259449}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 297
+  indentLevel: 0
+  storyText: "Yeah. Yeah, I don\u2019t care what \u2018corruption\u2019 you say is
+    in this world, I\u2019m going to be a better person. You\u2019re not the person
+    I know."
+  description: 
+  character: {fileID: 602770193}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &897259742
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 897259449}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 296
+  indentLevel: 0
+  storyText: You don't see it?
+  description: 
+  character: {fileID: 2040923802}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!1 &903196325
 GameObject:
   m_ObjectHideFlags: 0
@@ -14925,8 +14985,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1940259383}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.0077, y: 0.0113, z: 0}
-  m_LocalScale: {x: 0.9252, y: 0.9252, z: 0.9252}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.92640275, y: 0.92640275, z: 0.92640275}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}

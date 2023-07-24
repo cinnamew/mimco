@@ -21,7 +21,7 @@ public class Thing : MonoBehaviour
 
     [SerializeField] int summonedDialog;
 
-    Flowchart flowchart;
+    [SerializeField] Flowchart flowchart;
 
 
 
@@ -31,13 +31,20 @@ public class Thing : MonoBehaviour
         levelManagerScript = FindObjectOfType<LevelManagerScript>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         audioSource = gameObject.GetComponent<AudioSource>();
-        flowchart = FindObjectOfType<Flowchart>();
+        if(flowchart == null) {
+            //flowchart = FindObjectOfType<Flowchart>();
+            flowchart = GameObject.FindWithTag("Flowchart").GetComponent<Flowchart>();
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(isMouseOn);
+        //Debug.Log(isMouseOn);
+        //if(flowchart == null) {
+        //    //flowchart = FindObjectOfType<Flowchart>();
+        //    flowchart = GameObject.FindWithTag("Flowchart").GetComponent<Flowchart>();
+        //}
     }
     private void OnMouseEnter()
     {

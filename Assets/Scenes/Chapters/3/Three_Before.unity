@@ -3207,9 +3207,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 897259680}
+  - {fileID: 897259653}
   selectedCommands:
-  - {fileID: 897259722}
+  - {fileID: 897259672}
   variables: []
   description: 
   stepPause: 0
@@ -4979,7 +4979,7 @@ MonoBehaviour:
   itemId: 218
   indentLevel: 0
   storyText: "Um\u2026 hmm, I\u2019m not sure what you\u2019re talking about exactly\u2026{wc}...{wc}{i}She
-    seems to pale a little bit as her eyes widen{/i}{wc}Ah, were you part of the
+    seems to pale a little bit as her eyes widen.{/i}{wc}Ah, were you part of the
     gang\u2013 {wc}I mean, sorry, no, we\u2019re perfectly fine. Don\u2019t worry,
     your jewelry is genuine."
   description: 
@@ -5058,18 +5058,6 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1521759111}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
         m_CallState: 2
   booleanParameter:
     booleanRef: {fileID: 0}

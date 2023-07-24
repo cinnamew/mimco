@@ -10,6 +10,7 @@ public class LevelManagerScript : MonoBehaviour
     [SerializeField] int thingsFound;
 
     [SerializeField] TextMeshProUGUI text;
+    private bool canContinue = false;
 
     public int level;
 
@@ -36,7 +37,7 @@ public class LevelManagerScript : MonoBehaviour
                 timeStamp = Time.time;
                 isTiming = true;
             }
-            if (Time.time > timeStamp + 1.75f)
+            if (Time.time > timeStamp + 1.75f && canContinue)
             {
                 switch(level)
                 {
@@ -59,5 +60,10 @@ public class LevelManagerScript : MonoBehaviour
     {
         thingsFound++;
         text.text = (thingsToFind - thingsFound).ToString();
+        canContinue = false;
+    }
+
+    public void okToContinue() {    //the flowchart calls this so that the last dialogue isn't cut off
+        canContinue = true;
     }
 }

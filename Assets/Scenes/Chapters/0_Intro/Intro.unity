@@ -2850,6 +2850,8 @@ GameObject:
   - component: {fileID: 897259659}
   - component: {fileID: 897259660}
   - component: {fileID: 897259661}
+  - component: {fileID: 897259662}
+  - component: {fileID: 897259663}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -2944,9 +2946,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 897259518}
+  - {fileID: 897259654}
   selectedCommands:
-  - {fileID: 897259547}
+  - {fileID: 897259663}
   variables: []
   description: 
   stepPause: 0
@@ -4139,7 +4141,7 @@ MonoBehaviour:
   portrait: {fileID: 21300000, guid: a3fa71c08ed070c4e893927086d4b06c, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
-  toPosition: {fileID: 0}
+  toPosition: {fileID: 1431656508}
   facing: 0
   useDefaultSettings: 1
   fadeDuration: 0.5
@@ -4683,7 +4685,7 @@ MonoBehaviour:
   portrait: {fileID: 21300000, guid: 74829ca7a48d56946b7537f00987a2cd, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
-  toPosition: {fileID: 0}
+  toPosition: {fileID: 1411629783}
   facing: 0
   useDefaultSettings: 1
   fadeDuration: 0.5
@@ -4713,7 +4715,7 @@ MonoBehaviour:
   portrait: {fileID: 21300000, guid: fabc44a13e2b7e742995b863c2c22589, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
-  toPosition: {fileID: 0}
+  toPosition: {fileID: 1346886071}
   facing: 0
   useDefaultSettings: 1
   fadeDuration: 0.5
@@ -4936,7 +4938,7 @@ MonoBehaviour:
   portrait: {fileID: 21300000, guid: 74829ca7a48d56946b7537f00987a2cd, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
-  toPosition: {fileID: 0}
+  toPosition: {fileID: 1431656508}
   facing: 0
   useDefaultSettings: 1
   fadeDuration: 0.5
@@ -7430,7 +7432,7 @@ MonoBehaviour:
   indentLevel: 0
   display: 2
   stage: {fileID: 0}
-  character: {fileID: 602770193}
+  character: {fileID: 640021666}
   replacedCharacter: {fileID: 0}
   portrait: {fileID: 0}
   offset: 0
@@ -7495,6 +7497,8 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 897259657}
+  - {fileID: 897259662}
+  - {fileID: 897259663}
   - {fileID: 897259655}
   suppressAllAutoSelections: 0
 --- !u!114 &897259655
@@ -7672,6 +7676,56 @@ MonoBehaviour:
   stringEvent:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &897259662
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 897259449}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 207
+  indentLevel: 0
+  text: Yes (ends the game)
+  description: 
+  targetBlock: {fileID: 897259486}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+--- !u!114 &897259663
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 897259449}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 208
+  indentLevel: 0
+  text: No (good choice)
+  description: 
+  targetBlock: {fileID: 897259482}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
 --- !u!1 &905689937
 GameObject:
   m_ObjectHideFlags: 1
