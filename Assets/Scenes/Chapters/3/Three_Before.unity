@@ -2986,7 +2986,6 @@ GameObject:
   - component: {fileID: 897259460}
   - component: {fileID: 897259459}
   - component: {fileID: 897259458}
-  - component: {fileID: 897259468}
   - component: {fileID: 897259469}
   - component: {fileID: 897259472}
   - component: {fileID: 897259471}
@@ -3042,7 +3041,6 @@ GameObject:
   - component: {fileID: 897259669}
   - component: {fileID: 897259670}
   - component: {fileID: 897259678}
-  - component: {fileID: 897259677}
   - component: {fileID: 897259676}
   - component: {fileID: 897259675}
   - component: {fileID: 897259674}
@@ -3093,7 +3091,6 @@ GameObject:
   - component: {fileID: 897259720}
   - component: {fileID: 897259721}
   - component: {fileID: 897259722}
-  - component: {fileID: 897259725}
   - component: {fileID: 897259724}
   - component: {fileID: 897259723}
   - component: {fileID: 897259728}
@@ -3102,6 +3099,15 @@ GameObject:
   - component: {fileID: 897259729}
   - component: {fileID: 897259730}
   - component: {fileID: 897259731}
+  - component: {fileID: 897259734}
+  - component: {fileID: 897259733}
+  - component: {fileID: 897259732}
+  - component: {fileID: 897259735}
+  - component: {fileID: 897259736}
+  - component: {fileID: 897259738}
+  - component: {fileID: 897259737}
+  - component: {fileID: 897259739}
+  - component: {fileID: 897259740}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -3132,8 +3138,9 @@ MonoBehaviour:
   itemId: 0
   blockName: start
   description: 
-  eventHandler: {fileID: 897259468}
+  eventHandler: {fileID: 897259736}
   commandList:
+  - {fileID: 897259738}
   - {fileID: 897259460}
   - {fileID: 897259459}
   - {fileID: 897259559}
@@ -3178,6 +3185,7 @@ MonoBehaviour:
   - {fileID: 897259657}
   - {fileID: 897259652}
   - {fileID: 897259650}
+  - {fileID: 897259737}
   - {fileID: 897259718}
   - {fileID: 897259655}
   - {fileID: 897259719}
@@ -3188,6 +3196,7 @@ MonoBehaviour:
   - {fileID: 897259658}
   - {fileID: 897259660}
   - {fileID: 897259665}
+  - {fileID: 897259734}
   - {fileID: 897259659}
   - {fileID: 897259628}
   suppressAllAutoSelections: 0
@@ -3216,9 +3225,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 897259680}
+  - {fileID: 897259653}
   selectedCommands:
-  - {fileID: 897259731}
+  - {fileID: 897259728}
   variables: []
   description: 
   stepPause: 0
@@ -3340,21 +3349,6 @@ MonoBehaviour:
   fadeColor: {r: 0, g: 0, b: 0, a: 1}
   fadeTexture: {fileID: 0}
   fadeTweenType: 4
---- !u!114 &897259468
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 897259449}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d2f6487d21a03404cb21b245f0242e79, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  parentBlock: {fileID: 897259451}
-  suppressBlockAutoSelect: 0
-  waitForFrames: 1
 --- !u!114 &897259469
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -4394,8 +4388,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "It seems like today is another work day. There\u2019ve been so many
     I lost count, from all over the place!{wc}That reminds me: the other day, I finally
-    got enough money to purchase something at Pocket Jewelry \u2013 a cute little
-    cat pendant necklace \u2013 and sort of hinted at the robbery..."
+    got enough money to purchase something at Pocket Jewelry -- a cute little cat
+    pendant necklace -- and sort of hinted at the robbery..."
   description: 
   character: {fileID: 602770193}
   portrait: {fileID: 0}
@@ -4472,8 +4466,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 57.600006
-    y: 155.5
+    x: 58.600006
+    y: 154.5
     width: 78
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -4483,21 +4477,24 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 897259725}
   - {fileID: 897259664}
   - {fileID: 897259666}
   - {fileID: 897259667}
   - {fileID: 897259668}
+  - {fileID: 897259739}
   - {fileID: 897259669}
   - {fileID: 897259724}
   - {fileID: 897259723}
   - {fileID: 897259728}
   - {fileID: 897259670}
   - {fileID: 897259726}
+  - {fileID: 897259740}
   - {fileID: 897259727}
   - {fileID: 897259729}
   - {fileID: 897259678}
-  - {fileID: 897259677}
+  - {fileID: 897259733}
+  - {fileID: 897259732}
+  - {fileID: 897259735}
   - {fileID: 897259676}
   - {fileID: 897259675}
   - {fileID: 897259674}
@@ -4759,6 +4756,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 42513827}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   booleanParameter:
     booleanRef: {fileID: 0}
     booleanVal: 0
@@ -4967,7 +4976,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 217
   indentLevel: 0
-  storyText: You know, the...{wc}{i}I motion at the display cases I cleaned.{/i}
+  storyText: You know, the...
   description: 
   character: {fileID: 602770193}
   portrait: {fileID: 0}
@@ -5006,7 +5015,7 @@ MonoBehaviour:
   waitForClick: 1
   stopVoiceover: 1
   waitForVO: 0
-  setSayDialog: {fileID: 0}
+  setSayDialog: {fileID: 1505918710}
 --- !u!114 &897259670
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -5022,10 +5031,7 @@ MonoBehaviour:
   itemId: 219
   indentLevel: 0
   storyText: "Oh, don\u2019t worry about it! You know, I\u2019m buying this necklace
-    because I\u2019m a cleaner! I used to wear a ring, but you always have to take
-    those off when you wear gloves, and...{wc}{i}The store clerk\u2019s mood noticeably
-    shifts at the mention that I\u2019m a cleaner. She looks back at the purchase
-    screen."
+    because I\u2019m a cleaner!"
   description: 
   character: {fileID: 602770193}
   portrait: {fileID: 0}
@@ -5137,6 +5143,18 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 42513827}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
         m_CallState: 2
   booleanParameter:
     booleanRef: {fileID: 0}
@@ -5276,26 +5294,6 @@ MonoBehaviour:
   stringEvent:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &897259677
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 897259449}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 207aecf668a0345388087ccf522f9957, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 222
-  indentLevel: 0
-  duration: 1
-  targetAlpha: 1
-  waitUntilFinished: 1
-  fadeColor: {r: 0, g: 0, b: 0, a: 1}
-  fadeTexture: {fileID: 0}
-  fadeTweenType: 4
 --- !u!114 &897259678
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -6519,8 +6517,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 265
   indentLevel: 0
-  storyText: "Hmm, but \u2013 short thought experiment \u2013 what if the money was
-    coming from an immoral place?"
+  storyText: Hmm, but -- short thought experiment -- what if the money was coming
+    from an immoral place?
   description: 
   character: {fileID: 2040923802}
   portrait: {fileID: 0}
@@ -6692,8 +6690,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 275
   indentLevel: 0
-  storyText: "Ah, were you part of the gang\u2013 {wc}I mean, sorry, no, we\u2019re
-    perfectly fine. Don\u2019t worry, your jewelry is genuine."
+  storyText: "Ah, were you part of the drug-- {wc}I mean, sorry, no, we\u2019re perfectly
+    fine. Don\u2019t worry, your jewelry is genuine."
   description: 
   character: {fileID: 1577704251}
   portrait: {fileID: 0}
@@ -6733,36 +6731,6 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 295800908}
---- !u!114 &897259725
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 897259449}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 273
-  indentLevel: 0
-  display: 1
-  stage: {fileID: 0}
-  character: {fileID: 1577704251}
-  replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 52101e56b8b898043af1c0395cbee394, type: 3}
-  offset: 0
-  fromPosition: {fileID: 0}
-  toPosition: {fileID: 36879469}
-  facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
-  moveDuration: 1
-  shiftOffset: {x: 0, y: 0}
-  move: 0
-  shiftIntoPlace: 0
-  waitUntilFinished: 0
 --- !u!114 &897259726
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6810,7 +6778,7 @@ MonoBehaviour:
   storyText: "{i}The store clerk\u2019s mood noticeably shifts at the mention that
     I\u2019m a cleaner. She looks back at the purchase screen."
   description: 
-  character: {fileID: 602770193}
+  character: {fileID: 0}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -6836,8 +6804,8 @@ MonoBehaviour:
   itemId: 276
   indentLevel: 0
   storyText: "{i}She\u2019s so awkward I can\u2019t help trying to end things on
-    a lighter note. And what does she mean, gang? I thought it was just a simple
-    single-person robbery!{/i}"
+    a lighter note. And what does she mean, drugs? I thought it was just a simple
+    robbery!{/i}"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -6951,6 +6919,219 @@ MonoBehaviour:
   stringEvent:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &897259732
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 897259449}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 284
+  indentLevel: 0
+  display: 2
+  stage: {fileID: 0}
+  character: {fileID: 602770193}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: 0}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 0}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 0
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
+--- !u!114 &897259733
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 897259449}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 207aecf668a0345388087ccf522f9957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 283
+  indentLevel: 0
+  duration: 1
+  targetAlpha: 1
+  waitUntilFinished: 1
+  fadeColor: {r: 0, g: 0, b: 0, a: 1}
+  fadeTexture: {fileID: 0}
+  fadeTweenType: 4
+--- !u!114 &897259734
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 897259449}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 282
+  indentLevel: 0
+  display: 1
+  stage: {fileID: 0}
+  character: {fileID: 1577704251}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 52101e56b8b898043af1c0395cbee394, type: 3}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 36879469}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 0
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
+--- !u!114 &897259735
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 897259449}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 285
+  indentLevel: 0
+  display: 2
+  stage: {fileID: 0}
+  character: {fileID: 1577704251}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: 0}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 0}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 0
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
+--- !u!114 &897259736
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 897259449}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2f6487d21a03404cb21b245f0242e79, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentBlock: {fileID: 897259451}
+  suppressBlockAutoSelect: 0
+  waitForFrames: 1
+--- !u!114 &897259737
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 897259449}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea4da378c47144a86979765ac5e9690c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 287
+  indentLevel: 0
+  key: a
+--- !u!114 &897259738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 897259449}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae9ac2fcbd1d542619ab0bc7549fb264, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 286
+  indentLevel: 0
+  _targetLabel:
+    stringRef: {fileID: 0}
+    stringVal: a
+  targetLabelOLD: {fileID: 0}
+--- !u!114 &897259739
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 897259449}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 288
+  indentLevel: 0
+  storyText: '{i}I motion at the display cases I cleaned.{/i}'
+  description: 
+  character: {fileID: 602770193}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 295800908}
+--- !u!114 &897259740
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 897259449}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 289
+  indentLevel: 0
+  storyText: I used to wear a ring, but you always have to take those off when you
+    wear gloves, and...
+  description: 
+  character: {fileID: 602770193}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 1505918710}
 --- !u!1 &905689937
 GameObject:
   m_ObjectHideFlags: 1
@@ -7886,7 +8067,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 1066.8, y: -683.87}
+  m_AnchoredPosition: {x: 1066.8, y: -687.52}
   m_SizeDelta: {x: 347.427, y: 71}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1350372338

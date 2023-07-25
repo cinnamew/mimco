@@ -2753,7 +2753,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 1066.8, y: -683.87}
+  m_AnchoredPosition: {x: 1066.8, y: -687.52}
   m_SizeDelta: {x: 347.427, y: 71}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &500080237
@@ -4937,7 +4937,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 897259451}
   selectedCommands:
-  - {fileID: 897259746}
+  - {fileID: 897259703}
   variables: []
   description: 
   stepPause: 0
@@ -5296,7 +5296,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 83
   indentLevel: 0
-  storyText: "{i}Whatever \u2013 a leap of faith it is!{wc}For Miss!"
+  storyText: "{i}Whatever -- a leap of faith it is!{wc}For Miss!"
   description: 
   character: {fileID: 602770193}
   portrait: {fileID: 0}
@@ -5346,7 +5346,7 @@ MonoBehaviour:
     it\u2019s kind of scary, and I don\u2019t want to be that type of dumb horror
     movie protagonist...{wc}This wooden door in front of me is all that\u2019s blocking
     me from the indoors and out.{wc}It\u2019s actually quite pretty. The wood has
-    little cedar patterns carved into it \u2013{wi} maybe it\u2019s made of cedar
+    little cedar patterns carved into it --{wi} maybe it\u2019s made of cedar
     wood?\u2014{wc}I\u2019m jerked out of my thoughts as I hear another sound from
     inside.{wc}Should I just go inside?{wc}I really don\u2019t want to disappoint
     Miss. I know she told me to wait until exactly 2 AM, but that was months ago,
@@ -5756,7 +5756,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "Oh~, my Ellie, you\u2019re so innocent~! {wi}I loved that about you,
     you know?{wc}I love your innocence, your naive little mind, so so much. And your
-    reaction now \u2013 to think I was scared of showing you! You don\u2019t know
+    reaction now -- to think I was scared of showing you! You don\u2019t know
     how much better this makes me feel."
   description: 
   character: {fileID: 2040923802}
@@ -5813,7 +5813,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "You just noticed?{wc}Hahaha, you\u2019re so cute. There\u2019s more
     you haven\u2019t observed yet.{wc}But yes, I guess some of what we\u2019ve been
-    covering have been \u2018my\u2019 crimes \u2013 though they\u2019re ours now,
+    covering have been \u2018my\u2019 crimes -- though they\u2019re ours now,
     since you helped me cover them. Still valid crimes, if I do say so myself."
   description: 
   character: {fileID: 2040923802}
@@ -6228,9 +6228,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 116
   indentLevel: 0
-  storyText: "What... {wi}Are you okay? {wi}Did they \u2013 {wi}why are you holding
-    \u2013 {wi}did you do this?{wc}No \u2013 {wi}you can\u2019t \u2013 {wi}but \u2013
-    {w=0.2}why? What\u2013 {w=0.2}why would you do this? What did they do to you?"
+  storyText: "What... {wi}Are you okay? {wi}Did they -- {wi}why are you holding
+    -- {wi}did you do this?{wc}No -- {wi}you can\u2019t -- {wi}but --
+    {w=0.2}why? What-- {w=0.2}why would you do this? What did they do to you?"
   description: 
   character: {fileID: 602770193}
   portrait: {fileID: 0}
@@ -6569,8 +6569,8 @@ MonoBehaviour:
   itemId: 132
   indentLevel: 0
   storyText: "But he trafficked humans and laundered money (remember the jewelry
-    store?). Hundreds of people \u2013 children, teens, adults, 6 year olds and 30
-    year olds \u2013 all assaulted in unthinkable ways. And all for a perception
+    store?). Hundreds of people -- children, teens, adults, 6 year olds and 30
+    year olds -- all assaulted in unthinkable ways. And all for a perception
     of luxury."
   description: 
   character: {fileID: 2040923802}
@@ -6688,7 +6688,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 145
   indentLevel: 0
-  storyText: "The \u2013 the jewelry replacements! Those were fake, weren\u2019t
+  storyText: "The -- the jewelry replacements! Those were fake, weren\u2019t
     they? And everything you had me do, just so people wouldn\u2019t notice something
     went wrong.{wc}The \u2018feud\u2019 at the jewelry shop, that one clerk\u2019s
     assurement that the jewelry was genuine, the atrocious 2 AM worktimes, the blood
@@ -6720,7 +6720,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 142
   indentLevel: 0
-  storyText: "What\u2026 you\u2026 you\u2019re sick\u2026{wc}W\u2013 wait\u2026 what
+  storyText: "What\u2026 you\u2026 you\u2019re sick\u2026{wc}W-- wait\u2026 what
     do you mean \u201Cscared of corrupting me\u201D?{wc}If this is what I was supposed
     to clean today, then have we been cleaning up after your crimes this entire time??"
   description: 
@@ -7078,10 +7078,10 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "Sure, a single action might not define one\u2019s entire being.{wc}But
     tell me you\u2019ve never wished you could be someone else, to take their place
-    in this universe \u2013 or even just a single one of their possessions. {wi}Tell
+    in this universe -- or even just a single one of their possessions. {wi}Tell
     me you\u2019ve never dreamed of being on top of the world, of being better than
     everyone else.{wc}Tell me you\u2019ve lived your life without an inkling of selfishness
-    or immorality.{wi} Because you cannot \u2013 all of that is human nature.{wc}And
+    or immorality.{wi} Because you cannot -- all of that is human nature.{wc}And
     we\u2019re here doing this job, seeing this truth: for every mistake we clean
     up, infinitely more occur.{wc}People believe they can wash away their mistakes,
     but do you really think there\u2019s anything left to clean up in this disaster
@@ -7412,7 +7412,7 @@ MonoBehaviour:
     behind everyone else, for the future.{wc}There\u2019s a sense of peace in staying
     back behind them all, in watching like we\u2019re binging our favorite shows
     as they all take the same immoral paths and end up paying the price for it some
-    way or another \u2013 {wc}\u2013 a price that sometimes we have to be the ones
+    way or another -- {wc}-- a price that sometimes we have to be the ones
     to dole out.{wc}But not everyone is in such a huge position of power, and we\u2019re
     all different levels of immoral."
   description: 
@@ -7608,7 +7608,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 170
   indentLevel: 0
-  storyText: "I didn\u2019t know it was illegal! I thought\u2013 I thought\u2013
+  storyText: "I didn\u2019t know it was illegal! I thought-- I thought--
     it was just... being a cute girl dressing in a maid costume?{wi} That it was
     ... cool?"
   description: 
@@ -7760,7 +7760,7 @@ MonoBehaviour:
   itemId: 174
   indentLevel: 0
   storyText: "That being said, you know you can\u2019t escape, right? You\u2019re
-    a criminal. You helped cover up so many crimes\u2013"
+    a criminal. You helped cover up so many crimes--"
   description: 
   character: {fileID: 2040923802}
   portrait: {fileID: 0}
@@ -8019,7 +8019,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 182
   indentLevel: 0
-  storyText: "...It doesn\u2019t matter. I know your height, your name\u2013"
+  storyText: "...It doesn\u2019t matter. I know your height, your name--"
   description: 
   character: {fileID: 602770193}
   portrait: {fileID: 0}
@@ -8128,7 +8128,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 187
   indentLevel: 0
-  storyText: "...Your name isn't \u2013 ?{wc}Ahh \u2013 no, I don\u2019t care.{wi}I
+  storyText: "...Your name isn't -- ?{wc}Ahh -- no, I don\u2019t care.{wi}I
     don\u2019t want to have anything to do with someone as messed up as you."
   description: 
   character: {fileID: 602770193}
@@ -8416,7 +8416,7 @@ MonoBehaviour:
   storyText: "{i}...And you say something but I don\u2019t register it.{wc}Whatever
     you say can\u2019t do anything. Sorry can\u2019t fix this, even an \u201CI love
     you\u201D can\u2019t.{wc}It hurts, it hurts, it HURTS. {s=60}This pain this fear
-    this loss this blood this agony these tears \u2013"
+    this loss this blood this agony these tears --"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -8505,7 +8505,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "{i}My throat.{wc}I try to speak, to scream, but the signature smell
     and flow of blood choke up my mouth. {wi}It\u2019s painful. It\u2019s so painful.
-    I\u2019m drowning.{wc}Miss, it hurts, Miss \u2013 but oh, I guess that\u2019s
+    I\u2019m drowning.{wc}Miss, it hurts, Miss -- but oh, I guess that\u2019s
     not your real name, is it? {wi}How could you do this?{wi} What did I do? {wc}I
     can\u2019t believe I ever trusted you. I thought we had something. But now I\u2019ll
     die hating you."
@@ -8713,8 +8713,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "...{wc}...2 minutes and 13 seconds.{wc}I\u2019m so sorry, my dear,
     I tried to aim for the back.{wc}A life exchanged for another, an innocent soul
-    I tainted traded for one of a vile being. An eye for an eye \u2013 or, I guess
-    a life \u2013 and now my heart for a neck.{wc}What will happen next time? Can
+    I tainted traded for one of a vile being. An eye for an eye -- or, I guess
+    a life -- and now my heart for a neck.{wc}What will happen next time? Can
     I keep going like this? For people who don\u2019t even give me a second glance
     unless I\u2019m giving them all I have?"
   description: 
@@ -9621,7 +9621,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 242
   indentLevel: 0
-  storyText: "..No, sorry \u2013 I mean, it\u2019s okay, I\u2019ll do it. I\u2019ll
+  storyText: "..No, sorry -- I mean, it\u2019s okay, I\u2019ll do it. I\u2019ll
     help you clean."
   description: 
   character: {fileID: 602770193}
@@ -9976,8 +9976,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 267
   indentLevel: 0
-  storyText: "Noo! We went over this already! You take them. I have more at home!
-    Plus, they were buy one pound get one pound free\u2013"
+  storyText: Noo! We went over this already! You take them. I have more at home!
+    Plus, they were buy one pound get one pound free--
   description: 
   character: {fileID: 602770193}
   portrait: {fileID: 0}
@@ -10063,7 +10063,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "Mm, another day.{wc}...{wc}Miss told me to be there at 2 AM like usual,
     but I\u2019m up early\u2026{wc}I know it\u2019s 11 PM right now, but I think
-    I\u2019ll just go now \u2013 the address looked like it was way inside the forest.
+    I\u2019ll just go now -- the address looked like it was way inside the forest.
     I\u2019m bound to get lost.{wc}Ooh! Perhaps I should bring her some apples this
     time?"
   description: 

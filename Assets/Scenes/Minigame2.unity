@@ -624,9 +624,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 13
   indentLevel: 0
-  storyText: "{i}As I put the cup back in place and move away, I notice Miss covering
+  storyText: '{i}As I put the cup back in place and move away, I notice Miss covering
     it with her body.{wc}Perhaps she wanted coffee? But I see her hand slip into
-    a pocket in her dress and pull out a tiny bag with \u2013"
+    a pocket in her dress and pull out a tiny bag with --'
   description: 
   character: {fileID: 883869276}
   portrait: {fileID: 21300000, guid: 39ffe44a594703c4ebf8e02fbfa0675d, type: 3}
@@ -850,7 +850,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 4
   indentLevel: 0
-  storyText: "...No, it\u2019s more cozy like this. Wah \u2013 wait, not the crimes!
+  storyText: "...No, it\u2019s more cozy like this. Wah -- wait, not the crimes!
     I meant just having it be you and me, you know?"
   description: 
   character: {fileID: 883869276}
@@ -1002,8 +1002,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 369760164}
-  selectedCommands: []
+  - {fileID: 369760109}
+  selectedCommands:
+  - {fileID: 369760124}
   variables: []
   description: 
   stepPause: 0

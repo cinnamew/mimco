@@ -3562,7 +3562,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 897259570}
   selectedCommands:
-  - {fileID: 897259573}
+  - {fileID: 897259583}
   variables: []
   description: 
   stepPause: 0
@@ -3947,7 +3947,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "That was pretty easy! I think I\u2019m getting quite good at fixing
     the windows.{wc}Say, what are you doing afterwards? Want to get some coffee or
-    something?{wc}I actually need to go buy groceries\u2013"
+    something?{wc}I actually need to go buy groceries--"
   description: 
   character: {fileID: 602770193}
   portrait: {fileID: 0}
@@ -4722,9 +4722,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 132
   indentLevel: 0
-  storyText: "Of course. {wi}We have a hotel room to clean today \u2013 it\u2019s
-    a new experience for you, but I\u2019m sure you will do great!{wc}I\u2019m here
-    if you need any help, though I\u2019ll mainly be taking care of some other things
+  storyText: "Of course. {wi}We have a hotel room to clean today -- it\u2019s a new
+    experience for you, but I\u2019m sure you will do great!{wc}I\u2019m here if
+    you need any help, though I\u2019ll mainly be taking care of some other things
     for a bit or checking over the things you clean.{wc}Our client is pretty important,
     and we don\u2019t want him to be dissatisfied.{wc}There\u2019s a lot of things
     this time, not just broken glass!"
@@ -7789,7 +7789,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 1066.8, y: -683.87}
+  m_AnchoredPosition: {x: 1066.8, y: -687.52}
   m_SizeDelta: {x: 347.427, y: 71}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1350372338

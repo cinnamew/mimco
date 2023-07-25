@@ -2947,8 +2947,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 897259451}
-  selectedCommands: []
+  - {fileID: 897259518}
+  selectedCommands:
+  - {fileID: 897259554}
   variables: []
   description: 
   stepPause: 0
@@ -3644,7 +3645,7 @@ MonoBehaviour:
   itemId: 26
   indentLevel: 0
   storyText: "Hmmm..{wc}Miss Inconspicuous Maid Girl Cleaning Co\u2026 (That\u2019s
-    such a long name)\u2026 Now hiring for \u2013"
+    such a long name)\u2026 Now hiring for --"
   description: 
   character: {fileID: 602770193}
   portrait: {fileID: 0}
@@ -4987,8 +4988,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 99
   indentLevel: 0
-  storyText: "{i}(Ah, I forgot to tell you the second most important part of the
-    job \u2013 the first being our maid dresses, of course!)"
+  storyText: '{i}(Ah, I forgot to tell you the second most important part of the
+    job -- the first being our maid dresses, of course!)'
   description: 
   character: {fileID: 602770193}
   portrait: {fileID: 0}
@@ -5061,9 +5062,9 @@ MonoBehaviour:
   itemId: 103
   indentLevel: 0
   storyText: "Honestly, she was pretty terrible at explaining what the job actually
-    entails\u2026{wc}I know it all sounds so suspicious \u2013 I didn\u2019t even
-    believe it at first, until I cashed in my first paycheck \u2013 but I love seeing
-    the money in my bank account!!"
+    entails\u2026{wc}I know it all sounds so suspicious -- I didn\u2019t even believe
+    it at first, until I cashed in my first paycheck -- but I love seeing the money
+    in my bank account!!"
   description: 
   character: {fileID: 602770193}
   portrait: {fileID: 0}
@@ -5808,8 +5809,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "It\u2019s just tough discovering things about the job I should've been
     told about, like how atrocious the hours really are.{wc}I said something about
-    it, but Miss told me that I should\u2019ve read the contract \u2013 I know, but
-    how could anyone possibly read such a boringly long thing??"
+    it, but Miss told me that I should\u2019ve read the contract -- I know, but how
+    could anyone possibly read such a boringly long thing??"
   description: 
   character: {fileID: 602770193}
   portrait: {fileID: 0}
@@ -7125,7 +7126,7 @@ MonoBehaviour:
   itemId: 165
   indentLevel: 0
   storyText: "OH!! {w=0.5}Oh, I\u2019m so sorry! I didn\u2019t realize! I got distracted
-    by\u2013 uh, my dress, like\u2026"
+    by-- uh, my dress, like\u2026"
   description: 
   character: {fileID: 602770193}
   portrait: {fileID: 0}
@@ -9571,7 +9572,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 1066.8, y: -683.87}
+  m_AnchoredPosition: {x: 1066.8, y: -687.52}
   m_SizeDelta: {x: 347.427, y: 71}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1273676701
