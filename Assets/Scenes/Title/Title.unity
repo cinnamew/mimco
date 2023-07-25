@@ -226,8 +226,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -0.000016860897}
-  m_SizeDelta: {x: 800, y: 449.93}
+  m_AnchoredPosition: {x: 1.3578, y: 8.242807}
+  m_SizeDelta: {x: 935.7905, y: 676.3289}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &134546813
 MonoBehaviour:
@@ -303,7 +303,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 13.329987, y: 12.539993}
+  m_AnchoredPosition: {x: 13.329956, y: 12.539978}
   m_SizeDelta: {x: 26.654785, y: 25.015106}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &172075453
@@ -2405,8 +2405,8 @@ MonoBehaviour:
     effixs, pocketnii, spiderface721
 
 
-    - TW!: mentions of crime, human/sex trafficking,
-    rape/assault, child trafficking, murder'
+    - TW!: mentions murder, blood, light horror,
+    violent crimes, and sexual assault'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a6f27af2775b630489f9cfd4c8387f68, type: 2}
   m_sharedMaterial: {fileID: 6308839291456559617, guid: a6f27af2775b630489f9cfd4c8387f68, type: 2}
@@ -2522,7 +2522,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.000030517578, y: -0.0011444092}
+  m_AnchoredPosition: {x: 0, y: -0.001159668}
   m_SizeDelta: {x: 0, y: -0.070007324}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &2049429894

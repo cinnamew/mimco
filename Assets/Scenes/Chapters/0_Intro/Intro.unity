@@ -1799,7 +1799,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameText: Ellie
-  nameColor: {r: 0.5660378, g: 0.22214313, b: 0.31074592, a: 1}
+  nameColor: {r: 0.5647059, g: 0.22352941, b: 0.30980393, a: 1}
   soundEffect: {fileID: 0}
   portraits:
   - {fileID: 21300000, guid: 5d5b7818ff4f7db40bf6c326bc89dec2, type: 3}
@@ -2875,7 +2875,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -31
     y: 30
-    width: 75.2
+    width: 74.88086
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2934,11 +2934,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 194.4, y: 138.5}
+  scrollPos: {x: 195.13356, y: 139.60524}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 1
+  zoom: 0.99675024
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -2946,9 +2946,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 897259654}
+  - {fileID: 897259451}
   selectedCommands:
-  - {fileID: 897259663}
+  - {fileID: 897259565}
   variables: []
   description: 
   stepPause: 0
@@ -3321,7 +3321,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 122
     y: 230
-    width: 104
+    width: 102.16954
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3734,7 +3734,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 63.600006
     y: 99.5
-    width: 88.8
+    width: 87.32129
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3772,7 +3772,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 87.600006
     y: -18.5
-    width: 72.8
+    width: 71.26912
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3829,7 +3829,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 271.6
     y: 93.5
-    width: 97.6
+    width: 94.544754
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4060,7 +4060,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 25.600006
     y: 180.5
-    width: 92.8
+    width: 91.33433
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4193,7 +4193,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -144.4
     y: -88.5
-    width: 112.4
+    width: 109.79431
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5256,8 +5256,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 115
   indentLevel: 0
-  storyText: "$1,500 per day on the job?{wi} IN THIS ECONOMY!? And a day on the job
-    meaning \u2026 an HOUR?"
+  storyText: $1,500 per day on the job?{wi} IN THIS ECONOMY!? And a day on the job
+    meaning ... an HOUR?
   description: 
   character: {fileID: 602770193}
   portrait: {fileID: 0}
@@ -5314,7 +5314,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 113
   indentLevel: 0
-  storyText: " \u2013 HUH?"
+  storyText: ' -- HUH?'
   description: 
   character: {fileID: 602770193}
   portrait: {fileID: 0}
@@ -7333,7 +7333,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 137.6
     y: 141.5
-    width: 110
+    width: 108.1891
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7487,7 +7487,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 215.6
     y: -9.5
-    width: 118.4
+    width: 115.81388
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9469,7 +9469,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 5e622e690c2a27846baacff1a9bf62ff, type: 3}
+    m_Font: {fileID: 12800000, guid: bb145366ce7024469a5758b08d31802c, type: 3}
     m_FontSize: 60
     m_FontStyle: 0
     m_BestFit: 0

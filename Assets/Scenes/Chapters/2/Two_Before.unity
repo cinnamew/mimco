@@ -3483,9 +3483,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 897259611}
+  - {fileID: 897259451}
   selectedCommands:
-  - {fileID: 897259636}
+  - {fileID: 897259566}
   variables: []
   description: 
   stepPause: 0
@@ -3538,7 +3538,7 @@ MonoBehaviour:
   waitForClick: 1
   stopVoiceover: 1
   waitForVO: 0
-  setSayDialog: {fileID: 0}
+  setSayDialog: {fileID: 1505918710}
 --- !u!114 &897259458
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -7655,7 +7655,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 5e622e690c2a27846baacff1a9bf62ff, type: 3}
+    m_Font: {fileID: 12800000, guid: bb145366ce7024469a5758b08d31802c, type: 3}
     m_FontSize: 60
     m_FontStyle: 0
     m_BestFit: 0

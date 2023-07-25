@@ -7624,7 +7624,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 5e622e690c2a27846baacff1a9bf62ff, type: 3}
+    m_Font: {fileID: 12800000, guid: bb145366ce7024469a5758b08d31802c, type: 3}
     m_FontSize: 60
     m_FontStyle: 0
     m_BestFit: 0
@@ -8271,7 +8271,9 @@ MonoBehaviour:
   nameText: Store Clerk
   nameColor: {r: 0.5660378, g: 0.5660378, b: 0.5660378, a: 1}
   soundEffect: {fileID: 0}
-  portraits: []
+  portraits:
+  - {fileID: 21300000, guid: 52101e56b8b898043af1c0395cbee394, type: 3}
+  - {fileID: 21300000, guid: 52c51414a57a3fb43a02d0943f470cde, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 

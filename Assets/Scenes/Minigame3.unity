@@ -672,8 +672,10 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 369760119}
+  selectedCommands:
+  - {fileID: 369760165}
   variables: []
   description: 
   stepPause: 0
@@ -1076,8 +1078,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "{i}(She\u2019s so nice... are all employers like this?)"
   description: 
-  character: {fileID: 1150689104}
-  portrait: {fileID: 21300000, guid: 6025799d81f10e640a53894c4c1440bd, type: 3}
+  character: {fileID: 883869276}
+  portrait: {fileID: 21300000, guid: 39ffe44a594703c4ebf8e02fbfa0675d, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1

@@ -447,8 +447,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 198135238}
-  selectedCommands: []
+  - {fileID: 198135223}
+  selectedCommands:
+  - {fileID: 198135245}
   variables: []
   description: 
   stepPause: 0
@@ -742,7 +743,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 163.20001
     y: 274.5
-    width: 169.2
+    width: 185.2
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -936,7 +937,8 @@ MonoBehaviour:
   itemId: 19
   indentLevel: 0
   storyText: '{i}Try dragging the screen around, then clicking on things to clean
-    them up.{wc}Find all the places to clean up to fill the bar at the top!{/i}'
+    them up.{wc}You can use the scroll wheel to zoom in and out.{wc}Find all the
+    places to clean up to fill the bar at the top!{/i}'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
