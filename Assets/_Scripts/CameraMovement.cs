@@ -51,11 +51,7 @@ public class CameraMovement : MonoBehaviour
     private void ZoomManagment()
     {
         float addedSize = -Input.mouseScrollDelta.y * zoomRate;
-        if (camera.orthographicSize + addedSize > minmaxZoom.x && camera.orthographicSize + addedSize < minmaxZoom.y)
-        {
-            camera.orthographicSize += addedSize;
-        }
-    
+        ZoomInOut(addedSize);
     }
 
     private void DragMovementManagment()
@@ -80,5 +76,13 @@ public class CameraMovement : MonoBehaviour
       Mathf.Clamp(camera.transform.position.x, minmaxMapWithLimit.x, minmaxMapWithLimit.y),
         Mathf.Clamp(camera.transform.position.y, minmaxMapHeightLimit.x, minmaxMapHeightLimit.y), transform.position.z);
         }
+    }
+
+    public void ZoomInOut(float zoom) 
+    {
+        if (camera.orthographicSize + zoom > minmaxZoom.x && camera.orthographicSize + zoom < minmaxZoom.y)
+            {
+                camera.orthographicSize += zoom;
+            }
     }
 }
