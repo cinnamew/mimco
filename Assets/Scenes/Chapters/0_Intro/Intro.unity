@@ -2948,8 +2948,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 897259649}
-  selectedCommands: []
+  - {fileID: 897259451}
+  selectedCommands:
+  - {fileID: 897259480}
   variables: []
   description: 
   stepPause: 0
@@ -3706,7 +3707,7 @@ MonoBehaviour:
   portrait: {fileID: 21300000, guid: e55a84f3bdceeda419908e4300d3a90b, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
-  toPosition: {fileID: 0}
+  toPosition: {fileID: 1411629783}
   facing: 0
   useDefaultSettings: 1
   fadeDuration: 0.5
