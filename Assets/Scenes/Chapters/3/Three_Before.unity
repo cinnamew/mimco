@@ -3093,6 +3093,15 @@ GameObject:
   - component: {fileID: 897259720}
   - component: {fileID: 897259721}
   - component: {fileID: 897259722}
+  - component: {fileID: 897259725}
+  - component: {fileID: 897259724}
+  - component: {fileID: 897259723}
+  - component: {fileID: 897259728}
+  - component: {fileID: 897259727}
+  - component: {fileID: 897259726}
+  - component: {fileID: 897259729}
+  - component: {fileID: 897259730}
+  - component: {fileID: 897259731}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -3116,7 +3125,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -24
     y: 44
-    width: 75.2
+    width: 75
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3207,9 +3216,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 897259653}
+  - {fileID: 897259680}
   selectedCommands:
-  - {fileID: 897259672}
+  - {fileID: 897259731}
   variables: []
   description: 
   stepPause: 0
@@ -3638,7 +3647,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 897259449}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 207aecf668a0345388087ccf522f9957, type: 3}
   m_Name: 
@@ -3905,7 +3914,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 897259449}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
   m_Name: 
@@ -4465,7 +4474,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 57.600006
     y: 155.5
-    width: 78.4
+    width: 78
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4474,12 +4483,19 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
+  - {fileID: 897259725}
   - {fileID: 897259664}
   - {fileID: 897259666}
   - {fileID: 897259667}
   - {fileID: 897259668}
   - {fileID: 897259669}
+  - {fileID: 897259724}
+  - {fileID: 897259723}
+  - {fileID: 897259728}
   - {fileID: 897259670}
+  - {fileID: 897259726}
+  - {fileID: 897259727}
+  - {fileID: 897259729}
   - {fileID: 897259678}
   - {fileID: 897259677}
   - {fileID: 897259676}
@@ -4978,10 +4994,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 218
   indentLevel: 0
-  storyText: "Um\u2026 hmm, I\u2019m not sure what you\u2019re talking about exactly\u2026{wc}...{wc}{i}She
-    seems to pale a little bit as her eyes widen.{/i}{wc}Ah, were you part of the
-    gang\u2013 {wc}I mean, sorry, no, we\u2019re perfectly fine. Don\u2019t worry,
-    your jewelry is genuine."
+  storyText: "Um\u2026 hmm, I\u2019m not sure what you\u2019re talking about exactly\u2026{wc}...{wc}"
   description: 
   character: {fileID: 1577704251}
   portrait: {fileID: 0}
@@ -5008,13 +5021,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 219
   indentLevel: 0
-  storyText: "{i}She\u2019s so awkward I can\u2019t help trying to end things on
-    a lighter note. And what does she mean, gang? I thought it was just a simple
-    single-person robbery!{/i}{wc}Oh, don\u2019t worry about it! You know, I\u2019m
-    buying this necklace because I\u2019m a cleaner! I used to wear a ring, but you
-    always have to take those off when you wear gloves, and...{wc}{i}The store clerk\u2019s
-    mood noticeably shifts at the mention that I\u2019m a cleaner. She looks back
-    at the purchase screen."
+  storyText: "Oh, don\u2019t worry about it! You know, I\u2019m buying this necklace
+    because I\u2019m a cleaner! I used to wear a ring, but you always have to take
+    those off when you wear gloves, and...{wc}{i}The store clerk\u2019s mood noticeably
+    shifts at the mention that I\u2019m a cleaner. She looks back at the purchase
+    screen."
   description: 
   character: {fileID: 602770193}
   portrait: {fileID: 0}
@@ -5026,7 +5037,7 @@ MonoBehaviour:
   waitForClick: 1
   stopVoiceover: 1
   waitForVO: 0
-  setSayDialog: {fileID: 0}
+  setSayDialog: {fileID: 1505918710}
 --- !u!114 &897259671
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -5385,9 +5396,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 178.6
-    y: 105.5
-    width: 76.4
+    x: 177.6
+    y: 104.5
+    width: 76
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5404,6 +5415,7 @@ MonoBehaviour:
   - {fileID: 897259682}
   - {fileID: 897259693}
   - {fileID: 897259692}
+  - {fileID: 897259731}
   - {fileID: 897259691}
   - {fileID: 897259690}
   - {fileID: 897259689}
@@ -5430,6 +5442,7 @@ MonoBehaviour:
   - {fileID: 897259711}
   - {fileID: 897259712}
   - {fileID: 897259714}
+  - {fileID: 897259730}
   - {fileID: 897259713}
   - {fileID: 897259722}
   suppressAllAutoSelections: 0
@@ -5620,9 +5633,9 @@ MonoBehaviour:
   staticEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: FadeToBlack, Assembly-CSharp
-        m_MethodName: antiFade
+      - m_Target: {fileID: 1318511552}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6416,14 +6429,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 264
   indentLevel: 0
-  display: 1
+  display: 2
   stage: {fileID: 0}
-  character: {fileID: 2040923802}
+  character: {fileID: 602770193}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: dbaa34f86073be0469c50eaf0ff8fab4, type: 3}
+  portrait: {fileID: 0}
   offset: 0
   fromPosition: {fileID: 0}
-  toPosition: {fileID: 36879469}
+  toPosition: {fileID: 0}
   facing: 0
   useDefaultSettings: 1
   fadeDuration: 0.5
@@ -6665,6 +6678,279 @@ MonoBehaviour:
     stringVal: Minigame3
   loadingImage: {fileID: 0}
   sceneNameOLD: 
+--- !u!114 &897259723
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 897259449}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 275
+  indentLevel: 0
+  storyText: "Ah, were you part of the gang\u2013 {wc}I mean, sorry, no, we\u2019re
+    perfectly fine. Don\u2019t worry, your jewelry is genuine."
+  description: 
+  character: {fileID: 1577704251}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 1505918710}
+--- !u!114 &897259724
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 897259449}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 274
+  indentLevel: 0
+  storyText: '{i}She seems to pale a little bit as her eyes widen.{/i}'
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 295800908}
+--- !u!114 &897259725
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 897259449}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 273
+  indentLevel: 0
+  display: 1
+  stage: {fileID: 0}
+  character: {fileID: 1577704251}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 52101e56b8b898043af1c0395cbee394, type: 3}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 36879469}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 0
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
+--- !u!114 &897259726
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 897259449}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 278
+  indentLevel: 0
+  display: 1
+  stage: {fileID: 0}
+  character: {fileID: 1577704251}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 52c51414a57a3fb43a02d0943f470cde, type: 3}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 36879469}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 0
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
+--- !u!114 &897259727
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 897259449}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 277
+  indentLevel: 0
+  storyText: "{i}The store clerk\u2019s mood noticeably shifts at the mention that
+    I\u2019m a cleaner. She looks back at the purchase screen."
+  description: 
+  character: {fileID: 602770193}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 295800908}
+--- !u!114 &897259728
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 897259449}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 276
+  indentLevel: 0
+  storyText: "{i}She\u2019s so awkward I can\u2019t help trying to end things on
+    a lighter note. And what does she mean, gang? I thought it was just a simple
+    single-person robbery!{/i}"
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 295800908}
+--- !u!114 &897259729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 897259449}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d65d551a201c94bc79950076ff3eaf2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 279
+  indentLevel: 0
+  sayDialog: {fileID: 1505918710}
+--- !u!114 &897259730
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 897259449}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 280
+  indentLevel: 0
+  display: 1
+  stage: {fileID: 0}
+  character: {fileID: 2040923802}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: 21300000, guid: dbaa34f86073be0469c50eaf0ff8fab4, type: 3}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 241823151}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 1
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
+--- !u!114 &897259731
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 897259449}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95d9ff288f3904c05ada7ac9c9a075bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 281
+  indentLevel: 0
+  description: 
+  delay: 0
+  invokeType: 0
+  staticEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1318511552}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Pause
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  booleanParameter:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  booleanEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  integerParameter:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  integerEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  floatParameter:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  floatEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  stringParameter:
+    stringRef: {fileID: 0}
+    stringVal: 
+  stringEvent:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &905689937
 GameObject:
   m_ObjectHideFlags: 1
@@ -9074,9 +9360,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "I can\u2019t disclose much, but today\u2019s gonna be a hard one. I know
-    we can do it, though. I trust you to take care of the visible things; I will
-    handle the less prominent elements."
+  m_Text: "Oh, don\u2019t worry about it! You know, I\u2019m buying this necklace
+    because I\u2019m a cleaner! I used to wear a ring, but you always have to take
+    those off when you wear gloves, and..."
 --- !u!222 &1942865617
 CanvasRenderer:
   m_ObjectHideFlags: 0
