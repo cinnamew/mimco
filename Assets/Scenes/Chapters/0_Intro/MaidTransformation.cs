@@ -37,6 +37,6 @@ public class MaidTransformation : MonoBehaviour
             return;
         }
         nextImage.SetActive(true);
-        GetComponent<FadeToBlack>().antiFade();
+        //GetComponent<FadeToBlack>().antiFade();
     }
 }

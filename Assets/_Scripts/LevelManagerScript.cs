@@ -29,7 +29,7 @@ public class LevelManagerScript : MonoBehaviour
     {
         if (thingsFound >= thingsToFind)
         {
-            Debug.Log("COMPLETED LEVEL");
+            //Debug.Log("COMPLETED LEVEL");
             
             
             if (!isTiming)

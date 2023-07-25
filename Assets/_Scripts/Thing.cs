@@ -75,8 +75,8 @@ public class Thing : MonoBehaviour
         levelManagerScript.ThingFound();
         isFound = true;
         spriteRenderer.sprite = foundSprite;
-        if (summonedDialog > 0)
-        {
+        //if (summonedDialog > 0)
+        //{
             switch(summonedDialog)
             {
                 case 1:
@@ -142,10 +142,17 @@ public class Thing : MonoBehaviour
                 case 21:
                     flowchart.ExecuteBlock("bloodstain");
                     break;
+                case 22:
+                    flowchart.ExecuteBlock("fan");
+                    break;
+                default:    //hi borys! i added these lines so that all the ones w/o dialogue would still pass to the next scene :)
+                    flowchart.ExecuteBlock("next scene");
+                    //print("no dialogue");
+                    break;
 
                     
             }
             
-        }
+        //}
     }
 }
