@@ -3471,6 +3471,7 @@ GameObject:
   - component: {fileID: 897259635}
   - component: {fileID: 897259636}
   - component: {fileID: 897259637}
+  - component: {fileID: 897259638}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -3529,6 +3530,7 @@ MonoBehaviour:
   - {fileID: 897259632}
   - {fileID: 897259567}
   - {fileID: 897259568}
+  - {fileID: 897259638}
   - {fileID: 897259627}
   - {fileID: 897259630}
   - {fileID: 897259629}
@@ -3562,7 +3564,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 897259570}
   selectedCommands:
-  - {fileID: 897259583}
+  - {fileID: 897259614}
   variables: []
   description: 
   stepPause: 0
@@ -4236,7 +4238,7 @@ MonoBehaviour:
   portrait: {fileID: 21300000, guid: 74829ca7a48d56946b7537f00987a2cd, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
-  toPosition: {fileID: 241823151}
+  toPosition: {fileID: 179855546}
   facing: 0
   useDefaultSettings: 1
   fadeDuration: 0.5
@@ -5567,7 +5569,7 @@ MonoBehaviour:
   portrait: {fileID: 21300000, guid: 82ff1f57628b46b4e99a79191c6f27fe, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
-  toPosition: {fileID: 241823151}
+  toPosition: {fileID: 0}
   facing: 0
   useDefaultSettings: 1
   fadeDuration: 0.5
@@ -6051,6 +6053,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   booleanParameter:
     booleanRef: {fileID: 0}
     booleanVal: 0
@@ -6188,6 +6202,62 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
+        m_CallState: 2
+  booleanParameter:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
+  booleanEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  integerParameter:
+    integerRef: {fileID: 0}
+    integerVal: 0
+  integerEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  floatParameter:
+    floatRef: {fileID: 0}
+    floatVal: 0
+  floatEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  stringParameter:
+    stringRef: {fileID: 0}
+    stringVal: 
+  stringEvent:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &897259638
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 897259449}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95d9ff288f3904c05ada7ac9c9a075bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 185
+  indentLevel: 0
+  description: black
+  delay: 0
+  invokeType: 0
+  staticEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1543850218}
+        m_TargetAssemblyTypeName: FadeToBlack, Assembly-CSharp
+        m_MethodName: antiFade
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
         m_CallState: 2
   booleanParameter:
     booleanRef: {fileID: 0}
