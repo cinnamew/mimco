@@ -2876,7 +2876,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -31
     y: 30
-    width: 75
+    width: 75.2
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2947,9 +2947,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 897259518}
+  - {fileID: 897259451}
   selectedCommands:
-  - {fileID: 897259554}
+  - {fileID: 897259457}
   variables: []
   description: 
   stepPause: 0
@@ -3074,9 +3074,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 5
   indentLevel: 0
-  storyText: "Hmm\u2026 there\u2019s not really much else to say, I\u2019m just a
-    normal girl with normal hobbies and a normal-ish job\u2026{wc}Um, wanna know
-    my favorite color? It's #c70a0a, a nice shade between red and red velvet!"
+  storyText: "Hmm... there\u2019s not really much else to say, I\u2019m just a normal
+    girl with normal hobbies and a normal-ish job...{wc}Um, wanna know my favorite
+    color? It's #c70a0a, a nice shade between red and red velvet!"
   description: 
   character: {fileID: 602770193}
   portrait: {fileID: 0}
@@ -3322,7 +3322,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 122
     y: 230
-    width: 103
+    width: 104
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3644,8 +3644,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 26
   indentLevel: 0
-  storyText: "Hmmm..{wc}Miss Inconspicuous Maid Girl Cleaning Co\u2026 (That\u2019s
-    such a long name)\u2026 Now hiring for --"
+  storyText: "Hmmm..{wc}Miss Inconspicuous Maid Girl Cleaning Co... (That\u2019s
+    such a long name)... Now hiring for --"
   description: 
   character: {fileID: 602770193}
   portrait: {fileID: 0}
@@ -3759,7 +3759,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 63.600006
     y: 99.5
-    width: 88
+    width: 88.8
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3797,7 +3797,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 87.600006
     y: -18.5
-    width: 72
+    width: 72.8
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3854,7 +3854,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 271.6
     y: 93.5
-    width: 96
+    width: 97.6
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3959,7 +3959,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 40
   indentLevel: 0
-  storyText: "Woah\u2026 wait.. hold on, what\u2019s going on?!?!"
+  storyText: "Woah... wait.. hold on, what\u2019s going on?!?!"
   description: 
   character: {fileID: 602770193}
   portrait: {fileID: 0}
@@ -4085,7 +4085,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 24.600006
     y: 180.5
-    width: 92
+    width: 92.8
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4220,7 +4220,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -144.4
     y: -88.5
-    width: 111
+    width: 112.4
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5062,7 +5062,7 @@ MonoBehaviour:
   itemId: 103
   indentLevel: 0
   storyText: "Honestly, she was pretty terrible at explaining what the job actually
-    entails\u2026{wc}I know it all sounds so suspicious -- I didn\u2019t even believe
+    entails...{wc}I know it all sounds so suspicious -- I didn\u2019t even believe
     it at first, until I cashed in my first paycheck -- but I love seeing the money
     in my bank account!!"
   description: 
@@ -5545,8 +5545,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 118
   indentLevel: 0
-  storyText: "Oh, it seems the company\u2019s building is supposed to be\u2026 the
-    one in front of me?"
+  storyText: "Oh, it seems the company\u2019s building is supposed to be... the one
+    in front of me?"
   description: 
   character: {fileID: 602770193}
   portrait: {fileID: 0}
@@ -5926,8 +5926,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 142
   indentLevel: 0
-  storyText: "Well, I mean\u2026 the maid costume is cute! It\u2019s my favorite
-    part of this work. So yeah, I guess I do like it!"
+  storyText: "Well, I mean... the maid costume is cute! It\u2019s my favorite part
+    of this work. So yeah, I guess I do like it!"
   description: 
   character: {fileID: 602770193}
   portrait: {fileID: 0}
@@ -6545,8 +6545,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 185
   indentLevel: 0
-  storyText: "\u2026OK, Miss! I\u2019ve made my decision! Hand over that contract,
-    please!"
+  storyText: "...OK, Miss! I\u2019ve made my decision! Hand over that contract, please!"
   description: 
   character: {fileID: 602770193}
   portrait: {fileID: 0}
@@ -6657,7 +6656,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 181
   indentLevel: 0
-  storyText: "Mmmm\u2026 I think I\u2019m pretty good at cleaning, and I don\u2019t
+  storyText: "Mmmm... I think I\u2019m pretty good at cleaning, and I don\u2019t
     mind the privacy thing.."
   description: 
   character: {fileID: 602770193}
@@ -6896,7 +6895,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 173
   indentLevel: 0
-  storyText: "{i}(She doesn\u2019t believe me\u2026){/i}"
+  storyText: "{i}(She doesn\u2019t believe me...){/i}"
   description: 
   character: {fileID: 602770193}
   portrait: {fileID: 0}
@@ -6951,7 +6950,7 @@ MonoBehaviour:
   itemId: 171
   indentLevel: 0
   storyText: "Truthfully, I came in here to ask about that, but I have no idea how
-    I got in this dress, I swear it was some magical girl type of thing\u2026 {wc}I
+    I got in this dress, I swear it was some magical girl type of thing... {wc}I
     don\u2019t know, I probably sound really crazy right now, but I seriously am
     so confused!"
   description: 
@@ -7126,7 +7125,7 @@ MonoBehaviour:
   itemId: 165
   indentLevel: 0
   storyText: "OH!! {w=0.5}Oh, I\u2019m so sorry! I didn\u2019t realize! I got distracted
-    by-- uh, my dress, like\u2026"
+    by-- uh, my dress, like..."
   description: 
   character: {fileID: 602770193}
   portrait: {fileID: 0}
@@ -7240,7 +7239,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 161
   indentLevel: 0
-  storyText: "WAAAH!{wc}What the melon?? {wi}\u2026Who are you?"
+  storyText: WAAAH!{wc}What the melon?? {wi}...Who are you?
   description: 
   character: {fileID: 602770193}
   portrait: {fileID: 0}
@@ -7354,8 +7353,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 157
   indentLevel: 0
-  storyText: "What \u2013 what am I wearing??{wc}Wow\u2026 I actually look really
-    cute in this costume.{wc}Who knew wearing so many ruffles could fit me so well?"
+  storyText: "What -- what am I wearing??{wc}Wow... I actually look really cute
+    in this costume.{wc}Who knew wearing so many ruffles could fit me so well?"
   description: 
   character: {fileID: 602770193}
   portrait: {fileID: 0}
@@ -7384,7 +7383,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 137.6
     y: 141.5
-    width: 109
+    width: 110
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7538,7 +7537,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 215.6
     y: -9.5
-    width: 117
+    width: 118.4
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0

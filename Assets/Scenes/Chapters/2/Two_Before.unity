@@ -4670,7 +4670,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 119
   indentLevel: 0
-  storyText: "Yet another work day\u2026!"
+  storyText: "Yet another work day...!"
   description: 
   character: {fileID: 602770193}
   portrait: {fileID: 0}

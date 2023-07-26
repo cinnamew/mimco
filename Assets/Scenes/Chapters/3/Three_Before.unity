@@ -4921,7 +4921,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 215
   indentLevel: 0
-  storyText: "Ah, thank you!{wc}...{wc}Um\u2026 can I ask, though, just out of curiosity,
+  storyText: "Ah, thank you!{wc}...{wc}Um... can I ask, though, just out of curiosity,
     was everything fine after the occasion?"
   description: 
   character: {fileID: 602770193}
@@ -5003,7 +5003,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 218
   indentLevel: 0
-  storyText: "Um\u2026 hmm, I\u2019m not sure what you\u2019re talking about exactly\u2026{wc}...{wc}"
+  storyText: "Um... hmm, I\u2019m not sure what you\u2019re talking about exactly...{wc}...{wc}"
   description: 
   character: {fileID: 1577704251}
   portrait: {fileID: 0}
@@ -5945,7 +5945,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 247
   indentLevel: 0
-  storyText: "Oh\u2026!! Oh? For me?"
+  storyText: "Oh...!! Oh? For me?"
   description: 
   character: {fileID: 2040923802}
   portrait: {fileID: 0}
@@ -6083,7 +6083,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 254
   indentLevel: 0
-  storyText: "{i}(I got them on sale, they were buy one pound get one pound free\u2026)"
+  storyText: "{i}(I got them on sale, they were buy one pound get one pound free...)"
   description: 
   character: {fileID: 602770193}
   portrait: {fileID: 0}

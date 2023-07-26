@@ -1045,7 +1045,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 23
   indentLevel: 0
-  storyText: "{i}(I downright love working with Miss\u2026 she\u2019s so nice and
+  storyText: "{i}(I downright love working with Miss... she\u2019s so nice and
     supportive.)"
   description: 
   character: {fileID: 883869276}
@@ -1681,7 +1681,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 44
   indentLevel: 0
-  storyText: "Um\u2026 is this... you know?"
+  storyText: "Um... is this... you know?"
   description: 
   character: {fileID: 883869276}
   portrait: {fileID: 21300000, guid: 0221c9b778f5ec645afcead93f3b88af, type: 3}
@@ -1735,8 +1735,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 42
   indentLevel: 0
-  storyText: "{i}(...!? Is this blood? \u2026No, it can\u2019t be, right? Should
-    I ask? \u2026Maybe, yeah, otherwise I wouldn\u2019t know how to clean it.)"
+  storyText: "{i}(...!? Is this blood? ...No, it can\u2019t be, right? Should
+    I ask? ...Maybe, yeah, otherwise I wouldn\u2019t know how to clean it.)"
   description: 
   character: {fileID: 883869276}
   portrait: {fileID: 21300000, guid: 0221c9b778f5ec645afcead93f3b88af, type: 3}

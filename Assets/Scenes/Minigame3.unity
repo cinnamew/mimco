@@ -290,10 +290,6 @@ GameObject:
   - component: {fileID: 369760189}
   - component: {fileID: 369760188}
   - component: {fileID: 369760186}
-  - component: {fileID: 369760185}
-  - component: {fileID: 369760184}
-  - component: {fileID: 369760183}
-  - component: {fileID: 369760182}
   - component: {fileID: 369760181}
   - component: {fileID: 369760193}
   - component: {fileID: 369760192}
@@ -333,7 +329,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 18
   indentLevel: 0
-  storyText: "{i}(Oh. Wow.. uh\u2026 this may be hard.)"
+  storyText: '{i}(Oh. Wow.. uh... this may be hard.)'
   description: 
   character: {fileID: 883869276}
   portrait: {fileID: 21300000, guid: 0221c9b778f5ec645afcead93f3b88af, type: 3}
@@ -390,7 +386,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 338.2
     y: 267.5
-    width: 128
+    width: 130.4
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -446,7 +442,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 163.20001
     y: 274.5
-    width: 122
+    width: 124.4
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -474,7 +470,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "{i}(These pillows are really stiff. I can\u2019t imagine someone sleeping
     with these, it must be so uncomfortable.){wc}(My neck hurts just thinking about
-    it\u2026)"
+    it...)"
   description: 
   character: {fileID: 883869276}
   portrait: {fileID: 21300000, guid: 39ffe44a594703c4ebf8e02fbfa0675d, type: 3}
@@ -503,7 +499,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 89.400024
     y: 216.5
-    width: 135
+    width: 137.6
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -583,7 +579,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 2
   indentLevel: 0
-  storyText: "{i}(Cobweb, cobweb, go away\u2026\u2013)"
+  storyText: "{i}(Cobweb, cobweb, go away...--)"
   description: 
   character: {fileID: 883869276}
   portrait: {fileID: 21300000, guid: 39ffe44a594703c4ebf8e02fbfa0675d, type: 3}
@@ -612,7 +608,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 184
     y: 168
-    width: 95
+    width: 96
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -649,7 +645,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 67
     y: 70
-    width: 75
+    width: 75.2
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -690,9 +686,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 369760191}
+  - {fileID: 369760119}
   selectedCommands:
-  - {fileID: 369760192}
+  - {fileID: 369760118}
   variables: []
   description: 
   stepPause: 0
@@ -791,7 +787,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -18.747375
     y: 264.3421
-    width: 131
+    width: 132.8
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1148,7 +1144,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 69
   indentLevel: 0
-  storyText: "{i}(Ah\u2026 Miss is so nice!)"
+  storyText: '{i}(Ah... Miss is so nice!)'
   description: 
   character: {fileID: 883869276}
   portrait: {fileID: 21300000, guid: 39ffe44a594703c4ebf8e02fbfa0675d, type: 3}
@@ -1205,7 +1201,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 241.29227
     y: 215.66003
-    width: 108
+    width: 109.6
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1652,7 +1648,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 4.9922485
     y: 326.91003
-    width: 96
+    width: 97.2
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1736,7 +1732,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 236.49225
     y: 357.66003
-    width: 111
+    width: 112.4
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1803,114 +1799,6 @@ MonoBehaviour:
   stringEvent:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &369760182
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 369760099}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 95
-  indentLevel: 0
-  storyText: "{i}(She\u2019s so nice... are all employers like this?)"
-  description: 
-  character: {fileID: 883869276}
-  portrait: {fileID: 21300000, guid: 39ffe44a594703c4ebf8e02fbfa0675d, type: 3}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &369760183
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 369760099}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 94
-  indentLevel: 0
-  storyText: "Oh, nonsense, everyone\u2019s bound to be scared of something."
-  description: 
-  character: {fileID: 1150689104}
-  portrait: {fileID: 21300000, guid: 573cf1d09e866f742ad19a328595bf27, type: 3}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &369760184
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 369760099}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 93
-  indentLevel: 0
-  storyText: "Waahh.. yes... maybe I shouldn\u2019t be a maid."
-  description: 
-  character: {fileID: 883869276}
-  portrait: {fileID: 21300000, guid: 39ffe44a594703c4ebf8e02fbfa0675d, type: 3}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &369760185
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 369760099}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 92
-  indentLevel: 0
-  storyText: There, better?
-  description: 
-  character: {fileID: 1150689104}
-  portrait: {fileID: 21300000, guid: 573cf1d09e866f742ad19a328595bf27, type: 3}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
 --- !u!114 &369760186
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2037,7 +1925,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 80.49225
     y: 395.66003
-    width: 68
+    width: 68.4
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2052,10 +1940,6 @@ MonoBehaviour:
   - {fileID: 369760193}
   - {fileID: 369760186}
   - {fileID: 369760192}
-  - {fileID: 369760185}
-  - {fileID: 369760184}
-  - {fileID: 369760183}
-  - {fileID: 369760182}
   - {fileID: 369760181}
   suppressAllAutoSelections: 0
 --- !u!114 &369760192

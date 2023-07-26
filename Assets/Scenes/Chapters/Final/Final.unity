@@ -4823,6 +4823,7 @@ GameObject:
   - component: {fileID: 897259746}
   - component: {fileID: 897259745}
   - component: {fileID: 897259748}
+  - component: {fileID: 897259749}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -4935,9 +4936,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 897259451}
+  - {fileID: 897259671}
   selectedCommands:
-  - {fileID: 897259703}
+  - {fileID: 897259681}
   variables: []
   description: 
   stepPause: 0
@@ -6690,8 +6691,7 @@ MonoBehaviour:
     And everything you had me do, just so people wouldn\u2019t notice something went
     wrong.{wc}The \u2018feud\u2019 at the jewelry shop, that one clerk\u2019s assurement
     that the jewelry was genuine, the atrocious 2 AM worktimes, the blood you convinced
-    me wasn\u2019t blood.{wc}It was all a lie\u2026? {wi}These were all your own
-    crimes?"
+    me wasn\u2019t blood.{wc}It was all a lie...? {wi}These were all your own crimes?"
   description: 
   character: {fileID: 602770193}
   portrait: {fileID: 0}
@@ -6718,9 +6718,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 142
   indentLevel: 0
-  storyText: "What\u2026 you\u2026 you\u2019re sick\u2026{wc}W-- wait\u2026 what
-    do you mean \u201Cscared of corrupting me\u201D?{wc}If this is what I was supposed
-    to clean today, then have we been cleaning up after your crimes this entire time??"
+  storyText: "What... you... you\u2019re sick...{wc}W-- wait... what do you mean
+    \u201Cscared of corrupting me\u201D?{wc}If this is what I was supposed to clean
+    today, then have we been cleaning up after your crimes this entire time??"
   description: 
   character: {fileID: 602770193}
   portrait: {fileID: 0}
@@ -7411,8 +7411,8 @@ MonoBehaviour:
     back behind them all, in watching like we\u2019re binging our favorite shows
     as they all take the same immoral paths and end up paying the price for it some
     way or another -- {wc}-- a price that sometimes we have to be the ones to dole
-    out.{wc}But not everyone is in such a huge position of power, and we\u2019re
-    all different levels of immoral."
+    out.{wc}But not everyone is in such a huge position of power, and some of us
+    make better choices than others."
   description: 
   character: {fileID: 2040923802}
   portrait: {fileID: 0}
@@ -7530,6 +7530,7 @@ MonoBehaviour:
   - {fileID: 897259741}
   - {fileID: 897259742}
   - {fileID: 897259633}
+  - {fileID: 897259749}
   - {fileID: 897259636}
   - {fileID: 897259637}
   - {fileID: 897259638}
@@ -7814,7 +7815,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 176
   indentLevel: 0
-  storyText: "Humanity isn\u2019t all that bad. And you\u2019re\u2026 kind of creeping
+  storyText: "Humanity isn\u2019t all that bad. And you\u2019re... kind of creeping
     me out, Miss..."
   description: 
   character: {fileID: 602770193}
@@ -9089,8 +9090,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 359.2
-    y: 172
+    x: 382.2
+    y: 156
     width: 90.8
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -9131,7 +9132,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 224
   indentLevel: 0
-  storyText: "No, no, like\u2026 like killing..."
+  storyText: No, no, like... like killing...
   description: 
   character: {fileID: 602770193}
   portrait: {fileID: 0}
@@ -9185,10 +9186,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 229
   indentLevel: 0
-  storyText: "..Really? That\u2019s the first time\u2026{wc}You understand then,
-    right? The demise when one is sentenced for the murder of a murderer, the dread
-    when the rape of a child equals a month of community service simply because of
-    the type of lawyer money can bring."
+  storyText: "..Really? That\u2019s the first time...{wc}You understand then, right?
+    The demise when one is sentenced for the murder of a murderer, the dread when
+    the rape of a child equals a month of community service simply because of the
+    type of lawyer money can bring."
   description: 
   character: {fileID: 2040923802}
   portrait: {fileID: 0}
@@ -9389,7 +9390,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 234
   indentLevel: 0
-  storyText: "...{wc}...It\u2019s okay, I want to help."
+  storyText: "...{wc}...It\u2019s okay, I want to help.{wi} I want to stay with you."
   description: 
   character: {fileID: 602770193}
   portrait: {fileID: 0}
@@ -11128,7 +11129,7 @@ MonoBehaviour:
       m_Calls: []
 --- !u!114 &897259741
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -11157,7 +11158,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &897259742
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -11184,7 +11185,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &897259743
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -11214,7 +11215,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &897259744
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -11243,7 +11244,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 1868900508}
 --- !u!114 &897259745
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -11271,7 +11272,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &897259746
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -11301,7 +11302,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &897259747
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -11328,7 +11329,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 1277694563}
 --- !u!114 &897259748
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -11345,6 +11346,36 @@ MonoBehaviour:
   character: {fileID: 2040923802}
   replacedCharacter: {fileID: 0}
   portrait: {fileID: 21300000, guid: 52e33d50f5e05be4da98e8dd25b22fd1, type: 3}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 0}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 0
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
+--- !u!114 &897259749
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 897259449}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 304
+  indentLevel: 0
+  display: 1
+  stage: {fileID: 0}
+  character: {fileID: 2040923802}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 6984752ddf001cb47acbde547f6c3420, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
