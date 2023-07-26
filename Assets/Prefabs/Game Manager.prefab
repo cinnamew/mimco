@@ -46,3 +46,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   thingsToFind: 5
   thingsFound: 0
+  text: {fileID: 0}
+  delayAfterFinish: 1
+  level: 0

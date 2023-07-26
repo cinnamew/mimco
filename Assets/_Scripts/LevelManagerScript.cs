@@ -12,6 +12,8 @@ public class LevelManagerScript : MonoBehaviour
     [SerializeField] TextMeshProUGUI text;
     private bool canContinue = false;
 
+    [SerializeField] float delayAfterFinish;
+
     public int level;
 
     bool isTiming = false;
@@ -37,7 +39,7 @@ public class LevelManagerScript : MonoBehaviour
                 timeStamp = Time.time;
                 isTiming = true;
             }
-            if (Time.time > timeStamp + 1.75f && canContinue)
+            if (Time.time > timeStamp + delayAfterFinish && canContinue)
             {
                 switch(level)
                 {
