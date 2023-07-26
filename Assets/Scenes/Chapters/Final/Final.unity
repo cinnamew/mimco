@@ -4846,7 +4846,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -57
     y: -12
-    width: 75
+    width: 75.2
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5198,7 +5198,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 122
     y: 230
-    width: 103
+    width: 104
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5296,7 +5296,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 83
   indentLevel: 0
-  storyText: "{i}Whatever -- a leap of faith it is!{wc}For Miss!"
+  storyText: '{i}Whatever -- a leap of faith it is!{wc}For Miss!'
   description: 
   character: {fileID: 602770193}
   portrait: {fileID: 0}
@@ -5346,15 +5346,14 @@ MonoBehaviour:
     it\u2019s kind of scary, and I don\u2019t want to be that type of dumb horror
     movie protagonist...{wc}This wooden door in front of me is all that\u2019s blocking
     me from the indoors and out.{wc}It\u2019s actually quite pretty. The wood has
-    little cedar patterns carved into it --{wi} maybe it\u2019s made of cedar
-    wood?\u2014{wc}I\u2019m jerked out of my thoughts as I hear another sound from
-    inside.{wc}Should I just go inside?{wc}I really don\u2019t want to disappoint
-    Miss. I know she told me to wait until exactly 2 AM, but that was months ago,
-    and aren\u2019t we closer now?{wc}What if the scene gets ruined because I didn\u2019t
-    do anything about it?{wc}I could clean up the entire thing now and tell her I
-    did it! I think she would be happy!{wc}My hands don\u2019t reflect my thoughts,
-    however, and they sweat so badly my basket feels like it just became a tug-of-war
-    rope."
+    little cedar patterns carved into it --{wi} maybe it\u2019s made of cedar wood?\u2014{wc}I\u2019m
+    jerked out of my thoughts as I hear another sound from inside.{wc}Should I just
+    go inside?{wc}I really don\u2019t want to disappoint Miss. I know she told me
+    to wait until exactly 2 AM, but that was months ago, and aren\u2019t we closer
+    now?{wc}What if the scene gets ruined because I didn\u2019t do anything about
+    it?{wc}I could clean up the entire thing now and tell her I did it! I think she
+    would be happy!{wc}My hands don\u2019t reflect my thoughts, however, and they
+    sweat so badly my basket feels like it just became a tug-of-war rope."
   description: 
   character: {fileID: 602770193}
   portrait: {fileID: 0}
@@ -5508,7 +5507,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 33.600006
     y: 67.5
-    width: 142
+    width: 144.4
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5756,8 +5755,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "Oh~, my Ellie, you\u2019re so innocent~! {wi}I loved that about you,
     you know?{wc}I love your innocence, your naive little mind, so so much. And your
-    reaction now -- to think I was scared of showing you! You don\u2019t know
-    how much better this makes me feel."
+    reaction now -- to think I was scared of showing you! You don\u2019t know how
+    much better this makes me feel."
   description: 
   character: {fileID: 2040923802}
   portrait: {fileID: 0}
@@ -5813,8 +5812,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "You just noticed?{wc}Hahaha, you\u2019re so cute. There\u2019s more
     you haven\u2019t observed yet.{wc}But yes, I guess some of what we\u2019ve been
-    covering have been \u2018my\u2019 crimes -- though they\u2019re ours now,
-    since you helped me cover them. Still valid crimes, if I do say so myself."
+    covering have been \u2018my\u2019 crimes -- though they\u2019re ours now, since
+    you helped me cover them. Still valid crimes, if I do say so myself."
   description: 
   character: {fileID: 2040923802}
   portrait: {fileID: 0}
@@ -6142,7 +6141,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 222.59998
     y: 105.5
-    width: 143
+    width: 145.6
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6228,9 +6227,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 116
   indentLevel: 0
-  storyText: "What... {wi}Are you okay? {wi}Did they -- {wi}why are you holding
-    -- {wi}did you do this?{wc}No -- {wi}you can\u2019t -- {wi}but --
-    {w=0.2}why? What-- {w=0.2}why would you do this? What did they do to you?"
+  storyText: "What... {wi}Are you okay? {wi}Did they -- {wi}why are you holding --
+    {wi}did you do this?{wc}No -- {wi}you can\u2019t -- {wi}but -- {w=0.2}why? What--
+    {w=0.2}why would you do this? What did they do to you?"
   description: 
   character: {fileID: 602770193}
   portrait: {fileID: 0}
@@ -6309,7 +6308,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -287.4
     y: 108.5
-    width: 145
+    width: 146.8
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6568,10 +6567,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 132
   indentLevel: 0
-  storyText: "But he trafficked humans and laundered money (remember the jewelry
-    store?). Hundreds of people -- children, teens, adults, 6 year olds and 30
-    year olds -- all assaulted in unthinkable ways. And all for a perception
-    of luxury."
+  storyText: But he trafficked humans and laundered money (remember the jewelry store?).
+    Hundreds of people -- children, teens, adults, 6 year olds and 30 year olds --
+    all assaulted in unthinkable ways. And all for a perception of luxury.
   description: 
   character: {fileID: 2040923802}
   portrait: {fileID: 0}
@@ -6688,12 +6686,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 145
   indentLevel: 0
-  storyText: "The -- the jewelry replacements! Those were fake, weren\u2019t
-    they? And everything you had me do, just so people wouldn\u2019t notice something
-    went wrong.{wc}The \u2018feud\u2019 at the jewelry shop, that one clerk\u2019s
-    assurement that the jewelry was genuine, the atrocious 2 AM worktimes, the blood
-    you convinced me wasn\u2019t blood.{wc}It was all a lie\u2026? {wi}These were
-    all your own crimes?"
+  storyText: "The -- the jewelry replacements! Those were fake, weren\u2019t they?
+    And everything you had me do, just so people wouldn\u2019t notice something went
+    wrong.{wc}The \u2018feud\u2019 at the jewelry shop, that one clerk\u2019s assurement
+    that the jewelry was genuine, the atrocious 2 AM worktimes, the blood you convinced
+    me wasn\u2019t blood.{wc}It was all a lie\u2026? {wi}These were all your own
+    crimes?"
   description: 
   character: {fileID: 602770193}
   portrait: {fileID: 0}
@@ -7412,8 +7410,8 @@ MonoBehaviour:
     behind everyone else, for the future.{wc}There\u2019s a sense of peace in staying
     back behind them all, in watching like we\u2019re binging our favorite shows
     as they all take the same immoral paths and end up paying the price for it some
-    way or another -- {wc}-- a price that sometimes we have to be the ones
-    to dole out.{wc}But not everyone is in such a huge position of power, and we\u2019re
+    way or another -- {wc}-- a price that sometimes we have to be the ones to dole
+    out.{wc}But not everyone is in such a huge position of power, and we\u2019re
     all different levels of immoral."
   description: 
   character: {fileID: 2040923802}
@@ -7501,7 +7499,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 379.2
     y: 0
-    width: 71
+    width: 71.6
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7608,9 +7606,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 170
   indentLevel: 0
-  storyText: "I didn\u2019t know it was illegal! I thought-- I thought--
-    it was just... being a cute girl dressing in a maid costume?{wi} That it was
-    ... cool?"
+  storyText: "I didn\u2019t know it was illegal! I thought-- I thought-- it was just...
+    being a cute girl dressing in a maid costume?{wi} That it was ... cool?"
   description: 
   character: {fileID: 602770193}
   portrait: {fileID: 0}
@@ -8128,8 +8125,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 187
   indentLevel: 0
-  storyText: "...Your name isn't -- ?{wc}Ahh -- no, I don\u2019t care.{wi}I
-    don\u2019t want to have anything to do with someone as messed up as you."
+  storyText: "...Your name isn't -- ?{wc}Ahh -- no, I don\u2019t care.{wi}I don\u2019t
+    want to have anything to do with someone as messed up as you."
   description: 
   character: {fileID: 602770193}
   portrait: {fileID: 0}
@@ -8505,10 +8502,10 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "{i}My throat.{wc}I try to speak, to scream, but the signature smell
     and flow of blood choke up my mouth. {wi}It\u2019s painful. It\u2019s so painful.
-    I\u2019m drowning.{wc}Miss, it hurts, Miss -- but oh, I guess that\u2019s
-    not your real name, is it? {wi}How could you do this?{wi} What did I do? {wc}I
-    can\u2019t believe I ever trusted you. I thought we had something. But now I\u2019ll
-    die hating you."
+    I\u2019m drowning.{wc}Miss, it hurts, Miss -- but oh, I guess that\u2019s not
+    your real name, is it? {wi}How could you do this?{wi} What did I do? {wc}I can\u2019t
+    believe I ever trusted you. I thought we had something. But now I\u2019ll die
+    hating you."
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -8713,10 +8710,10 @@ MonoBehaviour:
   indentLevel: 0
   storyText: "...{wc}...2 minutes and 13 seconds.{wc}I\u2019m so sorry, my dear,
     I tried to aim for the back.{wc}A life exchanged for another, an innocent soul
-    I tainted traded for one of a vile being. An eye for an eye -- or, I guess
-    a life -- and now my heart for a neck.{wc}What will happen next time? Can
-    I keep going like this? For people who don\u2019t even give me a second glance
-    unless I\u2019m giving them all I have?"
+    I tainted traded for one of a vile being. An eye for an eye -- or, I guess a
+    life -- and now my heart for a neck.{wc}What will happen next time? Can I keep
+    going like this? For people who don\u2019t even give me a second glance unless
+    I\u2019m giving them all I have?"
   description: 
   character: {fileID: 2040923802}
   portrait: {fileID: 0}
@@ -9094,7 +9091,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 359.2
     y: 172
-    width: 90
+    width: 90.8
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9501,7 +9498,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 280.2
     y: 207
-    width: 74
+    width: 74.4
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9621,8 +9618,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 242
   indentLevel: 0
-  storyText: "..No, sorry -- I mean, it\u2019s okay, I\u2019ll do it. I\u2019ll
-    help you clean."
+  storyText: "..No, sorry -- I mean, it\u2019s okay, I\u2019ll do it. I\u2019ll help
+    you clean."
   description: 
   character: {fileID: 602770193}
   portrait: {fileID: 0}
@@ -9865,7 +9862,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 564.19995
     y: 207.74173
-    width: 71
+    width: 71.6
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -11394,7 +11391,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 1066.8, y: -766}
+  m_AnchoredPosition: {x: 1066.8, y: -773.6}
   m_SizeDelta: {x: 347.427, y: 71}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &903196327

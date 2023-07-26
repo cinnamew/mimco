@@ -3131,7 +3131,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -24
     y: 44
-    width: 75
+    width: 75.2
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3225,9 +3225,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 897259653}
+  - {fileID: 897259680}
   selectedCommands:
-  - {fileID: 897259728}
+  - {fileID: 897259679}
   variables: []
   description: 
   stepPause: 0
@@ -4468,7 +4468,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 58.600006
     y: 154.5
-    width: 78
+    width: 78.4
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5371,7 +5371,7 @@ MonoBehaviour:
   portrait: {fileID: 21300000, guid: 5d5b7818ff4f7db40bf6c326bc89dec2, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
-  toPosition: {fileID: 0}
+  toPosition: {fileID: 179855546}
   facing: 0
   useDefaultSettings: 1
   fadeDuration: 0.5
@@ -5396,7 +5396,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 177.6
     y: 104.5
-    width: 76
+    width: 76.4
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5492,7 +5492,7 @@ MonoBehaviour:
     guess I\u2019ll settle for some cherries I got from JEFB Grocery? They\u2019re
     pretty good!"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 602770193}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -5551,7 +5551,7 @@ MonoBehaviour:
     to give Miss a little gift. She\u2019s been doing so much for me, I should give
     her something back!"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 602770193}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -5579,7 +5579,7 @@ MonoBehaviour:
   storyText: "But yeah, it was really weird. I mean, I know I\u2019m not supposed
     to talk about the crimes publicly, but isn\u2019t it just a little strange?"
   description: 
-  character: {fileID: 0}
+  character: {fileID: 602770193}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -5589,7 +5589,7 @@ MonoBehaviour:
   waitForClick: 1
   stopVoiceover: 1
   waitForVO: 0
-  setSayDialog: {fileID: 0}
+  setSayDialog: {fileID: 1505918710}
 --- !u!114 &897259686
 MonoBehaviour:
   m_ObjectHideFlags: 2
