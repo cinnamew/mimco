@@ -937,8 +937,8 @@ MonoBehaviour:
   itemId: 19
   indentLevel: 0
   storyText: '{i}Try dragging the screen around, then clicking on things to clean
-    them up.{wc}You can use the scroll wheel to zoom in and out.{wc}Find all the
-    places to clean up to fill the bar at the top!{/i}'
+    them up.{wc}You can use the buttons in the top right or the scroll wheel to zoom
+    in and out.{wc}Find all the places to clean up to fill the bar at the top!{/i}'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -2384,7 +2384,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clickMode: 1
   nextClickDelay: 0
-  cancelEnabled: 1
+  cancelEnabled: 0
   ignoreMenuClicks: 1
 --- !u!114 &785183830
 MonoBehaviour:
@@ -2766,7 +2766,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clickMode: 1
   nextClickDelay: 0
-  cancelEnabled: 1
+  cancelEnabled: 0
   ignoreMenuClicks: 1
 --- !u!114 &932455902
 MonoBehaviour:

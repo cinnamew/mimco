@@ -7353,8 +7353,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 157
   indentLevel: 0
-  storyText: "What -- what am I wearing??{wc}Wow... I actually look really cute
-    in this costume.{wc}Who knew wearing so many ruffles could fit me so well?"
+  storyText: What -- what am I wearing??{wc}Wow... I actually look really cute in
+    this costume.{wc}Who knew wearing so many ruffles could fit me so well?
   description: 
   character: {fileID: 602770193}
   portrait: {fileID: 0}
@@ -8488,7 +8488,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clickMode: 1
   nextClickDelay: 0
-  cancelEnabled: 1
+  cancelEnabled: 0
   ignoreMenuClicks: 1
 --- !u!114 &980097474
 MonoBehaviour:
@@ -12557,7 +12557,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clickMode: 1
   nextClickDelay: 0
-  cancelEnabled: 1
+  cancelEnabled: 0
   ignoreMenuClicks: 1
 --- !u!114 &2119571300
 MonoBehaviour:
