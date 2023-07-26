@@ -1377,7 +1377,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clickMode: 1
   nextClickDelay: 0
-  cancelEnabled: 1
+  cancelEnabled: 0
   ignoreMenuClicks: 1
 --- !u!114 &295800906
 MonoBehaviour:
@@ -4921,8 +4921,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 215
   indentLevel: 0
-  storyText: "Ah, thank you!{wc}...{wc}Um... can I ask, though, just out of curiosity,
-    was everything fine after the occasion?"
+  storyText: Ah, thank you!{wc}...{wc}Um... can I ask, though, just out of curiosity,
+    was everything fine after the occasion?
   description: 
   character: {fileID: 602770193}
   portrait: {fileID: 0}
@@ -5945,7 +5945,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 247
   indentLevel: 0
-  storyText: "Oh...!! Oh? For me?"
+  storyText: Oh...!! Oh? For me?
   description: 
   character: {fileID: 2040923802}
   portrait: {fileID: 0}
@@ -6083,7 +6083,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 254
   indentLevel: 0
-  storyText: "{i}(I got them on sale, they were buy one pound get one pound free...)"
+  storyText: '{i}(I got them on sale, they were buy one pound get one pound free...)'
   description: 
   character: {fileID: 602770193}
   portrait: {fileID: 0}
@@ -8360,7 +8360,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clickMode: 1
   nextClickDelay: 0
-  cancelEnabled: 1
+  cancelEnabled: 0
   ignoreMenuClicks: 1
 --- !u!114 &1505918708
 MonoBehaviour:
