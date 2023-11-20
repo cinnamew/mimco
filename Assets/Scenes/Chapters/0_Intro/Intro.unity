@@ -134,6 +134,7 @@ GameObject:
   - component: {fileID: 36083266}
   - component: {fileID: 36083268}
   - component: {fileID: 36083267}
+  - component: {fileID: 36083269}
   m_Layer: 5
   m_Name: 7 hrs text
   m_TagString: Untagged
@@ -258,6 +259,34 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 36083265}
   m_CullTransparentMesh: 1
+--- !u!114 &36083269
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 36083265}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56eb0353ae6e5124bb35b17aff880f16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_StringReference:
+    m_TableReference:
+      m_TableCollectionName: GUID:43a7446c5bc03eb468d39cf562a0d1ca
+    m_TableEntryReference:
+      m_KeyId: 181127586242560
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  m_FormatArguments: []
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls: []
+  references:
+    version: 2
+    RefIds: []
 --- !u!1 &112378613
 GameObject:
   m_ObjectHideFlags: 0
@@ -2186,6 +2215,7 @@ GameObject:
   - component: {fileID: 696522720}
   - component: {fileID: 696522722}
   - component: {fileID: 696522721}
+  - component: {fileID: 696522723}
   m_Layer: 5
   m_Name: present text
   m_TagString: Untagged
@@ -2310,6 +2340,34 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 696522719}
   m_CullTransparentMesh: 1
+--- !u!114 &696522723
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 696522719}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56eb0353ae6e5124bb35b17aff880f16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_StringReference:
+    m_TableReference:
+      m_TableCollectionName: GUID:43a7446c5bc03eb468d39cf562a0d1ca
+    m_TableEntryReference:
+      m_KeyId: 180901131575296
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  m_FormatArguments: []
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls: []
+  references:
+    version: 2
+    RefIds: []
 --- !u!1 &708623851
 GameObject:
   m_ObjectHideFlags: 0
@@ -2735,7 +2793,6 @@ GameObject:
   - component: {fileID: 897259532}
   - component: {fileID: 897259531}
   - component: {fileID: 897259528}
-  - component: {fileID: 897259527}
   - component: {fileID: 897259534}
   - component: {fileID: 897259538}
   - component: {fileID: 897259537}
@@ -2876,7 +2933,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -31
     y: 30
-    width: 75.2
+    width: 75
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2935,7 +2992,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 193.25887, y: 138.94829}
+  scrollPos: {x: 183.25887, y: 113.94829}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
@@ -2946,17 +3003,15 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 897259451}
-  selectedCommands:
-  - {fileID: 897259457}
+  selectedBlocks: []
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
   colorCommands: 1
   hideComponents: 1
   saveSelection: 1
-  localizationId: 
+  localizationId: ENIntro
   showLineNumbers: 0
   hideCommands: []
   luaEnvironment: {fileID: 0}
@@ -3322,7 +3377,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 122
     y: 230
-    width: 104
+    width: 103
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3759,7 +3814,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 63.600006
     y: 99.5
-    width: 88.8
+    width: 88
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3797,7 +3852,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 87.600006
     y: -18.5
-    width: 72.8
+    width: 72
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3854,7 +3909,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 271.6
     y: 93.5
-    width: 97.6
+    width: 96
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4085,7 +4140,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 24.600006
     y: 180.5
-    width: 92.8
+    width: 92
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4204,32 +4259,6 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
---- !u!114 &897259527
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 897259449}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nodeRect:
-    serializedVersion: 2
-    x: -144.4
-    y: -88.5
-    width: 112.4
-    height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
-  itemId: 78
-  blockName: New Block
-  description: 
-  eventHandler: {fileID: 0}
-  commandList: []
-  suppressAllAutoSelections: 0
 --- !u!114 &897259528
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -7383,7 +7412,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 137.6
     y: 141.5
-    width: 110
+    width: 109
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7535,9 +7564,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 215.6
+    x: 216.6
     y: -9.5
-    width: 118.4
+    width: 117
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9282,6 +9311,52 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1129380333}
   m_CullTransparentMesh: 1
+--- !u!1 &1158056281
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1158056283}
+  - component: {fileID: 1158056282}
+  m_Layer: 0
+  m_Name: Localization
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1158056282
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1158056281}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5724422a635e425bae0af9ffe2615d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activeLanguage: PTBR
+  localizationFile: {fileID: 4900000, guid: aad83b5130a174b2fb8003a4862465d2, type: 3}
+--- !u!4 &1158056283
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1158056281}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 19
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1190191359
 GameObject:
   m_ObjectHideFlags: 0
@@ -9380,6 +9455,7 @@ GameObject:
   - component: {fileID: 1201364489}
   - component: {fileID: 1201364491}
   - component: {fileID: 1201364490}
+  - component: {fileID: 1201364492}
   m_Layer: 5
   m_Name: 3 weeks text
   m_TagString: Untagged
@@ -9504,6 +9580,34 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1201364488}
   m_CullTransparentMesh: 1
+--- !u!114 &1201364492
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1201364488}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56eb0353ae6e5124bb35b17aff880f16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_StringReference:
+    m_TableReference:
+      m_TableCollectionName: GUID:43a7446c5bc03eb468d39cf562a0d1ca
+    m_TableEntryReference:
+      m_KeyId: 180424633475072
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  m_FormatArguments: []
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls: []
+  references:
+    version: 2
+    RefIds: []
 --- !u!1 &1209199647
 GameObject:
   m_ObjectHideFlags: 0
@@ -10134,7 +10238,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 28.9516, y: -15.446411}
+  m_AnchoredPosition: {x: 28.95166, y: -15.446411}
   m_SizeDelta: {x: 218.42358, y: 153.39648}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1382201441

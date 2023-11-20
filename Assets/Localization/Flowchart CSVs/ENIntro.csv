@@ -1,0 +1,67 @@
+Key,Description,Standard
+SAY.ENIntro.1.Ellie,,...Hello! My name is Ellie!
+SAY.ENIntro.4.Ellie,,...
+SAY.ENIntro.5.Ellie,,"Hmm... there’s not really much else to say, I’m just a normal girl with normal hobbies and a normal-ish job...{wc}Um, wanna know my favorite color? It's #c70a0a, a nice shade between red and red velvet!"
+SAY.ENIntro.105.Ellie,,"I don’t know, I’m just rambling on now..."
+SAY.ENIntro.7.Ellie,,"Oh! Today marks the 3 week anniversary of my first ever job. It doesn’t have any set hours, but it pays $1,500 every time I go! Can you believe it?"
+SAY.ENIntro.6.Ellie,,"Ah, but you must be wondering ‘where are you?’ and ‘what are you wearing?’ and ‘why does your hair look so gorgeous?’.{wi} Fear not, for I am here to answer all your questions!"
+SAY.ENIntro.23.Ellie,,My first college semester is finally over!! All my pain and suffering can end!!!
+SAY.ENIntro.109.Ellie,,"Temporarily, but still..."
+SAY.ENIntro.25.Ellie,,"Woah, what is this? A poster? It’s so cute!"
+SAY.ENIntro.26.Ellie,,Hmmm..{wc}Miss Inconspicuous Maid Girl Cleaning Co... (That’s such a long name)... Now hiring for --
+SAY.ENIntro.113.Ellie,, -- HUH?
+SAY.ENIntro.115.Ellie,,"$1,500 per day on the job?{wi} IN THIS ECONOMY!? And a day on the job meaning ... an HOUR?"
+SAY.ENIntro.102.Ellie,,"Oh my gosh, should I just join?"
+MENU.ENIntro.35,,Money!!?? Count me in!
+MENU.ENIntro.36,,I think I'll pass.
+SAY.ENIntro.30.,,Are you sure?
+MENU.ENIntro.202,,Yes (why...)
+MENU.ENIntro.203,,No (good choice)
+SAY.ENIntro.37.Ellie,,"Alright, I’m in!"
+SAY.ENIntro.118.Ellie,,"Oh, it seems the company’s building is supposed to be... the one in front of me?"
+SAY.ENIntro.120.Ellie,,Let’s go!
+SAY.ENIntro.40.Ellie,,"Woah... wait.. hold on, what’s going on?!?!"
+SAY.ENIntro.205.,,"Okay, if you insist..."
+SAY.ENIntro.33.,,"And thus Ellie the normal girl with normal hobbies continued on with her normal day in her normal life in this normal, non-corrupted, world."
+SAY.ENIntro.70.Ellie,,Today is my 3-week job anniversary with Miss!
+SAY.ENIntro.103.Ellie,,"Honestly, she was pretty terrible at explaining what the job actually entails...{wc}I know it all sounds so suspicious -- I didn’t even believe it at first, until I cashed in my first paycheck -- but I love seeing the money in my bank account!!"
+SAY.ENIntro.134.Ellie,,"It’s just tough discovering things about the job I should've been told about, like how atrocious the hours really are.{wc}I said something about it, but Miss told me that I should’ve read the contract -- I know, but how could anyone possibly read such a boringly long thing??"
+SAY.ENIntro.136.Ellie,,"Anyways, the only shift starts at 2 AM, and I get notice a day or two beforehand if I'm lucky. If I'm not, I get the notice the day of!{wc}Sometimes my shifts are even canceled just hours before. "
+SAY.ENIntro.138.Ellie,,"R.I.P my sleep schedule, but anything for the money, I guess...!{"
+SAY.ENIntro.141.Ellie,,"It's currently 5 PM. I've got 9 more hours before my job today starts.{wc}Gaaaah, this day is going to be soooo long."
+SAY.ENIntro.83.Ellie,,"Alright, it’s 12 AM and Miss just confirmed that we have work today! Time to get ready!{wc}Huh? Do I like my job?"
+SAY.ENIntro.142.Ellie,,"Well, I mean... the maid costume is cute! It’s my favorite part of this work. So yeah, I guess I do like it!"
+SAY.ENIntro.145.Ellie,,"It just seems a little dangerous sometimes, but Miss takes care of me really well. She’s so mature even though she’s my age. I’m really grateful for her!"
+SAY.ENIntro.88.Ellie,,"{i}I walk into Pocket Jewelry Shop.{wc}Unlike what the name might suggest, it’s actually a very high-end brand that apparently only sells the most high-quality jewelry.{wc}I'd like to buy some one day.{wc}Pocket Jewelry, definitely not meant to be carried in your pocket or paid with pocket money.{/i}"
+SAY.ENIntro.92.Miss,,"Hey there, Ellie! How are you?"
+SAY.ENIntro.95.Ellie,,I’m doing great! How about you?
+SAY.ENIntro.146.Miss,,"Good to hear, I’m well too!{wc}As you can probably tell, we’re cleaning up after a jewelry shop robbery today."
+SAY.ENIntro.97.Miss,,Someone broke the windows and all the cases; I’ll be fixing a few small things around the area and you can cover the more prominent issues.
+SAY.ENIntro.149.Miss,,Let’s make it a good one!
+SAY.ENIntro.99.Ellie,,"{i}(Ah, I forgot to tell you the second most important part of the job -- the first being our maid dresses, of course!)"
+SAY.ENIntro.151.Ellie,,"{i}(We’re actually cleaning up top secret crime scenes!){wc}(I know, it shocked me at first, too!!!)"
+SAY.ENIntro.153.Ellie,,"{i}(Well, I say we clean up “crime scenes,” but I’ve only done robberies that involve broken glass so far. I guess Miss is only confident in my glass repairing skills.)"
+SAY.ENIntro.157.Ellie,,What -- what am I wearing??{wc}Wow... I actually look really cute in this costume.{wc}Who knew wearing so many ruffles could fit me so well?
+SAY.ENIntro.159.???,,"Hello, dear!"
+SAY.ENIntro.161.Ellie,,WAAAH!{wc}What the melon?? {wi}...Who are you?
+SAY.ENIntro.163.???,,..? {wi}You walked into my company and you’re asking who I am?
+SAY.ENIntro.165.Ellie,,"OH!! {w=0.5}Oh, I’m so sorry! I didn’t realize! I got distracted by-- uh, my dress, like..."
+SAY.ENIntro.167.???,,"Hahaha, you’re an adorable one.{wc}Did you come here because you were interested in our job listing?"
+SAY.ENIntro.169.Ellie,,Ummmm... I guess??
+SAY.ENIntro.171.Ellie,,"Truthfully, I came in here to ask about that, but I have no idea how I got in this dress, I swear it was some magical girl type of thing... {wc}I don’t know, I probably sound really crazy right now, but I seriously am so confused!"
+SAY.ENIntro.172.???,,"Haha, that sounds like a weird occurrence."
+SAY.ENIntro.173.Ellie,,{i}(She doesn’t believe me...){/i}
+SAY.ENIntro.174.???,,"Here, as you might have known already, we are currently hiring at the moment and we start at $1,500 per job.{wc}Jobs usually takes an hour, though our working hours aren’t the most stable or convenient.{wc}Tell you what, I’ve taken a liking to you. All you need to do is fill out this contract and you’re all set to go!"
+SAY.ENIntro.176.Ellie,,"Ahhh, $1,500 an hour sounds like a godsend!! It’s too good to be true! I guess the unstable hours are the tradeoff."
+SAY.ENIntro.178.Ellie,,"But waitwaitwait, I don’t even know much about this job!{wc}As far as I’m aware, we work as maids, but that doesn’t tell me anything! What do we even do?"
+SAY.ENIntro.179.???,,"Oh, we just clean up some messes people have made, and we are to usually work in different places, though you’ll probably be working with me.{wc}It is actually quite a simple job. You will only need to work on the easier tasks at first, such as picking up broken material and sweeping floors.{wc}Just make sure you don’t tell anyone about this job or what you do and know that I can’t answer all your questions. Our clients are pretty serious about staying private!"
+SAY.ENIntro.181.Ellie,,"Mmmm... I think I’m pretty good at cleaning, and I don’t mind the privacy thing.."
+SAY.ENIntro.183.Ellie,,"Ah! Wait! {wi}Before I sign, may I know your name?"
+SAY.ENIntro.184.???,,"Hahah, you can call me Miss."
+SAY.ENIntro.185.Ellie,,"...OK, Miss! I’ve made my decision! Hand over that contract, please!"
+SAY.ENIntro.199.,,Are you really really sure?
+MENU.ENIntro.207,,Yes (ends the game)
+MENU.ENIntro.208,,No (good choice)
+CHARACTER.Ellie,,Ellie
+CHARACTER.???,,???
+CHARACTER.Miss,,Miss
