@@ -1,0 +1,68 @@
+Key,Description,Standard,pt-br
+SAY.ENIntro.1.Ellie,,...Hello! My name is Ellie!,...Olá! Meu nome é Ellie!
+SAY.ENIntro.4.Ellie,,...,...
+SAY.ENIntro.5.Ellie,,"Hmm... there’s not really much else to say, I’m just a normal girl with normal hobbies and a normal-ish job...{wc}Um, wanna know my favorite color? It's #c70a0a, a nice shade between red and red velvet!","Hmm... não há muito mais a se dizer, eu sou apenas uma garota normal com passatempos normais e um trabalho normal…{wc}Hum, quer saber qual a minha cor favorita? É a #c70a0a, um belo tom entre vermelho e carmesim!"
+SAY.ENIntro.105.Ellie,,"I don’t know, I’m just rambling on now...","Eu não sei, agora estou apenas divagando…"
+SAY.ENIntro.7.Ellie,,"Oh! Today marks the 3 week anniversary of my first ever job. It doesn’t have any set hours, but it pays $1,500 every time I go! Can you believe it?","Oh! Hoje faz exatos 3 meses que comecei no primeiro trabalho da minha vida. Não é um trabalho com horário fixo, mas paga 7 mil reais toda vez que vou! Você acredita nisso?"
+SAY.ENIntro.6.Ellie,,"Ah, but you must be wondering ‘where are you?’ and ‘what are you wearing?’ and ‘why does your hair look so gorgeous?’.{wi} Fear not, for I am here to answer all your questions!","Ah, mas você deve estar se perguntando ‘onde você está?’ e ‘o que você está vestindo?’ e ‘por que seu cabelo está tão lindo?’. Não tema, pois eu estou aqui para responder todas as suas perguntas!"""
+SAY.ENIntro.23.Ellie,,My first college semester is finally over!! All my pain and suffering can end!!!,Meu primeiro semestre da faculdade finalmente acabou!! Toda a minha dor e sofrimento terminaram!!!
+SAY.ENIntro.109.Ellie,,"Temporarily, but still...","Temporariamente, mas ainda..."
+SAY.ENIntro.25.Ellie,,"Woah, what is this? A poster? It’s so cute!","Uau, o que é isso? Um cartaz? É tão fofo!"
+SAY.ENIntro.26.Ellie,,Hmmm..{wc}Miss Inconspicuous Maid Girl Cleaning Co... (That’s such a long name)... Now hiring for --,Hmmm..{wc}Serviços de Limpeza Dona Discreta... (Que nome longo)... Contratando agora por –
+SAY.ENIntro.113.Ellie,, -- HUH?,– HUH?
+SAY.ENIntro.115.Ellie,,"$1,500 per day on the job?{wi} IN THIS ECONOMY!? And a day on the job meaning ... an HOUR?",7 mil reais por cada dia de trabalho? NESTA ECONOMIA!? E um dia de trabalho significando... só uma HORA?
+SAY.ENIntro.102.Ellie,,"Oh my gosh, should I just join?","Oh meu Deus, será que devo tentar?"
+MENU.ENIntro.35,,Money!!?? Count me in!,Dinheiro!!?? Conte comigo!
+MENU.ENIntro.36,,I think I'll pass.,Acho que não.
+SAY.ENIntro.30.,,Are you sure?,Tem certeza?
+MENU.ENIntro.202,,Yes (why...),Sim (por que...)
+MENU.ENIntro.203,,No (good choice),Não (boa escolha)
+SAY.ENIntro.37.Ellie,,"Alright, I’m in!","Certo, tô dentro!"
+SAY.ENIntro.118.Ellie,,"Oh, it seems the company’s building is supposed to be... the one in front of me?","Ah, parece que o prédio da empresa é... este bem na minha frente?"
+SAY.ENIntro.120.Ellie,,Let’s go!,Vamos lá!
+SAY.ENIntro.40.Ellie,,"Woah... wait.. hold on, what’s going on?!?!","Uau... espera... espera aí, o que tá acontecendo?!?!"
+SAY.ENIntro.205.,,"Okay, if you insist...","Então tá, se você insiste…"
+SAY.ENIntro.33.,,"And thus Ellie the normal girl with normal hobbies continued on with her normal day in her normal life in this normal, non-corrupted, world.","E então Ellie, a garota normal com passatempos normais, seguiu seu dia normal na sua vida normal neste mundo normal e não corrompido."
+SAY.ENIntro.70.Ellie,,Today is my 3-week job anniversary with Miss!,Hoje faz 3 semanas que trabalho com a Dona!
+SAY.ENIntro.103.Ellie,,"Honestly, she was pretty terrible at explaining what the job actually entails...{wc}I know it all sounds so suspicious -- I didn’t even believe it at first, until I cashed in my first paycheck -- but I love seeing the money in my bank account!!","Sinceramente, ela explicou muito mal o que nosso trabalho realmente envolve…{wc}Eu sei que tudo parece suspeito – eu não acreditei no começo, até que recebi meu primeiro pagamento – mas eu amo ver o dinheiro na minha conta!!"
+SAY.ENIntro.134.Ellie,,"It’s just tough discovering things about the job I should've been told about, like how atrocious the hours really are.{wc}I said something about it, but Miss told me that I should’ve read the contract -- I know, but how could anyone possibly read such a boringly long thing??","Só é difícil descobrir coisas sobre esse trabalho que eu deveria ter sido informada, como, por exemplo, os turnos terríveis.{wc}Eu comentei isso, mas Dona me disse que eu deveria ter lido o contrato – Eu sei, mas como alguém poderia ler uma coisa tão comprida e chata??"
+SAY.ENIntro.136.Ellie,,"Anyways, the only shift starts at 2 AM, and I get notice a day or two beforehand if I'm lucky. If I'm not, I get the notice the day of!{wc}Sometimes my shifts are even canceled just hours before. ","De qualquer forma, o turno começa às 2 da manhã e eu só sou avisada com um ou dois dias de antecedência, se eu tiver sorte. Se eu não tiver, sou avisada no dia!{wc}Algumas vezes meu turno é cancelado apenas horas antes do trabalho."
+SAY.ENIntro.138.Ellie,,"R.I.P my sleep schedule, but anything for the money, I guess...!{","Minha rotina de sono já era, mas tudo pelo dinheiro."
+SAY.ENIntro.141.Ellie,,"It's currently 5 PM. I've got 9 more hours before my job today starts.{wc}Gaaaah, this day is going to be soooo long.","Já são 5 da tarde. Tenho mais 9 horas até o início do trabalho de hoje.{wc}Gaaaah, esse será um dia muuuito longo."
+SAY.ENIntro.83.Ellie,,"Alright, it’s 12 AM and Miss just confirmed that we have work today! Time to get ready!{wc}Huh? Do I like my job?","Certo, é meia-noite e a Dona acabou de confirmar que temos trabalho hoje! Hora de me arrumar!{wc}Hã? Se eu gosto do meu trabalho?"
+SAY.ENIntro.142.Ellie,,"Well, I mean... the maid costume is cute! It’s my favorite part of this work. So yeah, I guess I do like it!","Bem, quero dizer... o traje de faxineira é fofo! É minha parte favorita desse trabalho. Então sim, acho que gosto!"
+SAY.ENIntro.145.Ellie,,"It just seems a little dangerous sometimes, but Miss takes care of me really well. She’s so mature even though she’s my age. I’m really grateful for her!","Só parece ser um pouco perigoso às vezes, mas Dona toma conta de mim muito bem. Ela é tão madura, mesmo tendo a minha idade. Sou realmente grata a ela!"
+SAY.ENIntro.88.Ellie,,"{i}I walk into Pocket Jewelry Shop.{wc}Unlike what the name might suggest, it’s actually a very high-end brand that apparently only sells the most high-quality jewelry.{wc}I'd like to buy some one day.{wc}Pocket Jewelry, definitely not meant to be carried in your pocket or paid with pocket money.{/i}","{i}Eu entro na loja Joias de Bolso.{wc}Ao contrário do que o nome pode sugerir, essa marca, na verdade, é de alto padrão e aparentemente só vende jóias de alta qualidade.{wc}Eu gostaria de comprar alguma um dia.{wc}Joias de Bolso, definitivamente não foram feitas para serem carregadas no seu bolso ou pagas com dinheiro que cabe no bolso.{/i}"
+SAY.ENIntro.92.Miss,,"Hey there, Ellie! How are you?","E aí, Ellie! Como você está?"
+SAY.ENIntro.95.Ellie,,I’m doing great! How about you?,Estou ótima! E você?
+SAY.ENIntro.146.Miss,,"Good to hear, I’m well too!{wc}As you can probably tell, we’re cleaning up after a jewelry shop robbery today.","Bom saber, eu também estou bem!{wc}Como você pode ver, iremos arrumar tudo depois de um roubo que aconteceu hoje nesta loja de joias."
+SAY.ENIntro.97.Miss,,Someone broke the windows and all the cases; I’ll be fixing a few small things around the area and you can cover the more prominent issues., eu arrumarei umas coisinhas pela região e você pode se ocupar com as coisas mais relevantes.
+SAY.ENIntro.149.Miss,,Let’s make it a good one!,Vamos fazer um bom trabalho!
+SAY.ENIntro.99.Ellie,,"{i}(Ah, I forgot to tell you the second most important part of the job -- the first being our maid dresses, of course!)","{i}(Ah, eu esqueci de lhe contar a segunda parte mais importante do trabalho – a primeira sendo nossos trajes de faxineira, claro!)"
+SAY.ENIntro.151.Ellie,,"{i}(We’re actually cleaning up top secret crime scenes!){wc}(I know, it shocked me at first, too!!!)","{i}(Nós, na verdade, estamos limpando cenas de crime ultra secretas!){wc}(Eu sei, a princípio também fiquei chocada!!!)"
+SAY.ENIntro.153.Ellie,,"{i}(Well, I say we clean up “crime scenes,” but I’ve only done robberies that involve broken glass so far. I guess Miss is only confident in my glass repairing skills.)","{i}(Bom, eu digo que limpamos ""cenas de crime"", mas, até agora, só limpei cenas de roubo que envolviam vidro quebrado. Eu acho que a Dona só confia nas minhas habilidades de reparo de vidro.)"
+SAY.ENIntro.157.Ellie,,What -- what am I wearing??{wc}Wow... I actually look really cute in this costume.{wc}Who knew wearing so many ruffles could fit me so well?,"O que – o que estou vestindo??{wc}Uau… na verdade, eu fiquei bem fofa com esse traje.{wc}Quem diria que usar tantos babados combinaria tanto comigo?"
+SAY.ENIntro.159.???,,"Hello, dear!","Olá, querida!"
+SAY.ENIntro.161.Ellie,,WAAAH!{wc}What the melon?? {wi}...Who are you?,AHHHH!{wc}O que diabos?? {wi}…Quem é você?
+SAY.ENIntro.163.???,,..? {wi}You walked into my company and you’re asking who I am?,..?{wi} Você entrou na minha empresa e está perguntando quem sou eu?
+SAY.ENIntro.165.Ellie,,"OH!! {w=0.5}Oh, I’m so sorry! I didn’t realize! I got distracted by-- uh, my dress, like...","AH!! {w=0.5}Ah, me desculpe! Eu não percebi! Eu me distraí com– é, meu traje, tipo…"
+SAY.ENIntro.167.???,,"Hahaha, you’re an adorable one.{wc}Did you come here because you were interested in our job listing?","Hahaha, você é adorável.{wc}Você veio aqui porque está interessada em trabalhar conosco?"
+SAY.ENIntro.169.Ellie,,Ummmm... I guess??,"Hummm... Sim, talvez??"
+SAY.ENIntro.171.Ellie,,"Truthfully, I came in here to ask about that, but I have no idea how I got in this dress, I swear it was some magical girl type of thing... {wc}I don’t know, I probably sound really crazy right now, but I seriously am so confused!","Sinceramente, eu vim aqui para perguntar sobre isso, mas eu não tenho ideia de como acabei com esse traje, eu juro que foi algum tipo de mágica… {wc}Eu não sei, devo estar parecendo ser louca, mas estou realmente confusa!"
+SAY.ENIntro.172.???,,"Haha, that sounds like a weird occurrence.","Haha, isso parece ser um acontecimento estranho."
+SAY.ENIntro.173.Ellie,,{i}(She doesn’t believe me...){/i},(Ela não acredita em mim...)
+SAY.ENIntro.174.???,,"Here, as you might have known already, we are currently hiring at the moment and we start at $1,500 per job.{wc}Jobs usually takes an hour, though our working hours aren’t the most stable or convenient.{wc}Tell you what, I’ve taken a liking to you. All you need to do is fill out this contract and you’re all set to go!","Então, como você já deve saber, nós estamos contratando no momento e começamos com 7 mil reais por trabalho.{wc}Cada trabalho leva cerca de uma hora, embora nossas horas de trabalho não sejam as mais estáveis ou convenientes.{wc}Sabe de uma coisa, gostei de você. Tudo que você precisa fazer é preencher este contrato e você estará pronta!"
+SAY.ENIntro.176.Ellie,,"Ahhh, $1,500 an hour sounds like a godsend!! It’s too good to be true! I guess the unstable hours are the tradeoff.","Ahhh, 7 mil reais por hora parece um presente dos céus!! É bom demais para ser verdade! Imagino que as horas instáveis sejam o lado ruim."
+SAY.ENIntro.178.Ellie,,"But waitwaitwait, I don’t even know much about this job!{wc}As far as I’m aware, we work as maids, but that doesn’t tell me anything! What do we even do?","Mas peraperapera, eu nem sei muito sobre esse trabalho!{wc}Pelo que eu sei, nós trabalhamos como faxineiras, mas isso não me diz nada! O que nós fazemos, de fato?"
+SAY.ENIntro.179.???,,"Oh, we just clean up some messes people have made, and we are to usually work in different places, though you’ll probably be working with me.{wc}It is actually quite a simple job. You will only need to work on the easier tasks at first, such as picking up broken material and sweeping floors.{wc}Just make sure you don’t tell anyone about this job or what you do and know that I can’t answer all your questions. Our clients are pretty serious about staying private!","Ah, nós só limpamos a bagunça de algumas pessoas e, geralmente, trabalhamos em lugares diferentes, embora você provavelmente vá trabalhar comigo.{wc}Na verdade, é um trabalho bem simples. A princípio, você só terá que realizar as tarefas mais simples, como juntar coisas quebradas e varrer o chão.{wc}Só se certifique de não contar para ninguém sobre esse trabalho ou sobre o que você faz e saiba que eu não consigo responder a todas as suas perguntas. Nossos clientes levam a privacidade realmente a sério!"
+SAY.ENIntro.181.Ellie,,"Mmmm... I think I’m pretty good at cleaning, and I don’t mind the privacy thing..",Humm... Eu me considero muito boa em limpeza e eu não me importo sobre a questão da privacidade..
+SAY.ENIntro.183.Ellie,,"Ah! Wait! {wi}Before I sign, may I know your name?","Ah! Espere! {wi}Antes de assinar, posso saber seu nome?"
+SAY.ENIntro.184.???,,"Hahah, you can call me Miss.","Hahah, você pode me chamar de Dona."
+SAY.ENIntro.185.Ellie,,"...OK, Miss! I’ve made my decision! Hand over that contract, please!","…Tá certo, Dona! Tomei minha decisão! Me dê o contrato, por favor!"
+SAY.ENIntro.199.,,Are you really really sure?,Você tem certeza mesmo?
+MENU.ENIntro.207,,Yes (ends the game),Sim (fim de jogo)
+MENU.ENIntro.208,,No (good choice),Não (boa escolha)
+CHARACTER.Ellie,,Ellie,Ellie
+CHARACTER.???,,???,???
+CHARACTER.Miss,,Miss,Dona
+,,,

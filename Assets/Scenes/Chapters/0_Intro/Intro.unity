@@ -283,7 +283,19 @@ MonoBehaviour:
   m_FormatArguments: []
   m_UpdateString:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 36083267}
+        m_TargetAssemblyTypeName: TMPro.TMP_Text, Unity.TextMeshPro
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   references:
     version: 2
     RefIds: []
@@ -2364,7 +2376,19 @@ MonoBehaviour:
   m_FormatArguments: []
   m_UpdateString:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 696522721}
+        m_TargetAssemblyTypeName: TMPro.TMP_Text, Unity.TextMeshPro
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   references:
     version: 2
     RefIds: []
@@ -2911,6 +2935,7 @@ GameObject:
   - component: {fileID: 897259664}
   - component: {fileID: 897259665}
   - component: {fileID: 897259666}
+  - component: {fileID: 897259667}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -2934,7 +2959,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -31
     y: 30
-    width: 75
+    width: 75.2
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2943,7 +2968,6 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 897259651}
   commandList:
-  - {fileID: 897259666}
   - {fileID: 897259460}
   - {fileID: 897259459}
   - {fileID: 897259469}
@@ -3006,8 +3030,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 897259451}
-  selectedCommands: []
+  - {fileID: 897259518}
+  selectedCommands:
+  - {fileID: 897259534}
   variables: []
   description: 
   stepPause: 0
@@ -3380,7 +3405,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 122
     y: 230
-    width: 103
+    width: 104
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3817,7 +3842,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 63.600006
     y: 99.5
-    width: 88
+    width: 88.8
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3855,7 +3880,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 87.600006
     y: -18.5
-    width: 72
+    width: 72.8
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3912,7 +3937,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 271.6
     y: 93.5
-    width: 96
+    width: 97.6
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4143,7 +4168,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 24.600006
     y: 180.5
-    width: 92
+    width: 92.8
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4352,6 +4377,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 1382201439}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
   booleanParameter:
     booleanRef: {fileID: 0}
     booleanVal: 0
@@ -4397,6 +4434,18 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 36083265}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1382201439}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -7415,7 +7464,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 137.6
     y: 141.5
-    width: 109
+    width: 110
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7569,7 +7618,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 216.6
     y: -9.5
-    width: 117
+    width: 118.4
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7893,14 +7942,41 @@ MonoBehaviour:
   m_GameObject: {fileID: 897259449}
   m_Enabled: 1
   m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: -120.827576
+    y: 87.38222
+    width: 72.4
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 212
+  blockName: ptbr
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 897259667}
+  suppressAllAutoSelections: 0
+--- !u!114 &897259667
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 897259449}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3fc625e237d6048bf86f34835d8266d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 212
+  itemId: 213
   indentLevel: 0
   _languageCode:
     stringRef: {fileID: 0}
-    stringVal: PT
+    stringVal: pt-br
   languageCodeOLD: 
 --- !u!1 &905689937
 GameObject:
@@ -8538,7 +8614,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clickMode: 1
   nextClickDelay: 0
-  cancelEnabled: 0
+  cancelEnabled: 1
   ignoreMenuClicks: 1
 --- !u!114 &980097474
 MonoBehaviour:
@@ -9342,6 +9418,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1158056283}
   - component: {fileID: 1158056282}
+  - component: {fileID: 1158056284}
   m_Layer: 0
   m_Name: Localization
   m_TagString: Untagged
@@ -9361,8 +9438,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e5724422a635e425bae0af9ffe2615d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  activeLanguage: PT
-  localizationFile: {fileID: 4900000, guid: aad83b5130a174b2fb8003a4862465d2, type: 3}
+  activeLanguage: 
+  localizationFile: {fileID: 4900000, guid: 496a7312b19063241ba2433a39836b75, type: 3}
 --- !u!4 &1158056283
 Transform:
   m_ObjectHideFlags: 0
@@ -9378,6 +9455,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1158056284
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1158056281}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22aab986c9e683e4292f5821c9609c88, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currLocaleID: 1
+  f: {fileID: 897259452}
 --- !u!1 &1190191359
 GameObject:
   m_ObjectHideFlags: 0
@@ -9625,7 +9716,19 @@ MonoBehaviour:
   m_FormatArguments: []
   m_UpdateString:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1201364490}
+        m_TargetAssemblyTypeName: TMPro.TMP_Text, Unity.TextMeshPro
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   references:
     version: 2
     RefIds: []
@@ -12682,7 +12785,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clickMode: 1
   nextClickDelay: 0
-  cancelEnabled: 0
+  cancelEnabled: 1
   ignoreMenuClicks: 1
 --- !u!114 &2119571300
 MonoBehaviour:

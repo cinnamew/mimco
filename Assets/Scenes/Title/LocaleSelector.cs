@@ -2,16 +2,23 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Localization.Settings;
+using Fungus;
 
 public class LocaleSelector : MonoBehaviour
 {
     [SerializeField] int currLocaleID = 0;
+    [SerializeField] Flowchart f;
     private bool active = false;
     
     // Start is called before the first frame update
     void Start()
     {
-        
+        //currLocaleID = PlayerPrefs.GetInt("LocaleKey", 0);
+        ChangeLocale(0);
+
+        if(f != null) {
+            if(currLocaleID == 1) f.ExecuteBlock("ptbr");
+        }
     }
 
     public void ChangeLocale(int add) {
@@ -27,6 +34,7 @@ public class LocaleSelector : MonoBehaviour
         active = true;
         yield return LocalizationSettings.InitializationOperation;
         LocalizationSettings.SelectedLocale = LocalizationSettings.AvailableLocales.Locales[localeID];
+        PlayerPrefs.SetInt("LocaleKey", currLocaleID);
         active = false;
     }
 }
