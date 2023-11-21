@@ -2910,6 +2910,7 @@ GameObject:
   - component: {fileID: 897259663}
   - component: {fileID: 897259664}
   - component: {fileID: 897259665}
+  - component: {fileID: 897259666}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -2942,6 +2943,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 897259651}
   commandList:
+  - {fileID: 897259666}
   - {fileID: 897259460}
   - {fileID: 897259459}
   - {fileID: 897259469}
@@ -2992,7 +2994,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 183.25887, y: 113.94829}
+  scrollPos: {x: 338.82758, y: 158.61778}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
@@ -3003,7 +3005,8 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
+  selectedBlocks:
+  - {fileID: 897259451}
   selectedCommands: []
   variables: []
   description: 
@@ -7881,6 +7884,24 @@ MonoBehaviour:
   stringEvent:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &897259666
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 897259449}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fc625e237d6048bf86f34835d8266d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 212
+  indentLevel: 0
+  _languageCode:
+    stringRef: {fileID: 0}
+    stringVal: PT
+  languageCodeOLD: 
 --- !u!1 &905689937
 GameObject:
   m_ObjectHideFlags: 1
@@ -9340,7 +9361,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e5724422a635e425bae0af9ffe2615d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  activeLanguage: PTBR
+  activeLanguage: PT
   localizationFile: {fileID: 4900000, guid: aad83b5130a174b2fb8003a4862465d2, type: 3}
 --- !u!4 &1158056283
 Transform:
