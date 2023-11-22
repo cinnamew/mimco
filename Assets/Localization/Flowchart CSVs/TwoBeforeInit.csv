@@ -1,0 +1,37 @@
+Key,Description,Standard
+SAY.Flowchart.1.Miss,,Done with another day!
+SAY.Flowchart.4.Ellie,,"Yesyesyes, whew!! :D"
+SAY.Flowchart.106.Miss,,How did you feel about today?
+SAY.Flowchart.107.Ellie,,"That was pretty easy! I think I’m getting quite good at fixing the windows.{wc}Say, what are you doing afterwards? Want to get some coffee or something?{wc}I actually need to go buy groceries--"
+SAY.Flowchart.108.Miss,,Ellie! It’s 3 AM!
+SAY.Flowchart.109.Ellie,,"Hehe, I’m just kidding!{wc}We should hang out sometime outside of work though, when it’s actually bright outside."
+SAY.Flowchart.110.Miss,,"Oh yes, that would be nice."
+SAY.Flowchart.112.Ellie,,{i}(We never did end up meeting up outside of work.){wc}(And I totally forgot to celebrate my 3 week anniversary.)
+SAY.Flowchart.119.Ellie,,Yet another work day...!
+SAY.Flowchart.120.Ellie,,"I’ve been at this job for how long now?{wc}I’m not sure, but sometimes it seems a little boring. Other times, I guess it’s quite intriguing. "
+SAY.Flowchart.121.Ellie,,"Like, how are these crimes committed so quietly? There’s literally no news about it!{wc}And where is my paycheck coming from?"
+SAY.Flowchart.162.Ellie,,"But I don’t really care too much, as long as I get the money!"
+SAY.Flowchart.122.Ellie,,"{i}I walk into Cinnamon Hotel through its back door.{wc}I’ve never heard of this hotel before; it looks a bit run-down and shabby on the outside, just perfectly blending into the surrounding buildings.{wc}But the inside’s design is pretty modern, though rather empty.{wc}I slightly hope there’s something cinnamon-related while climbing the emergency stairs to the room Miss told me to meet at."
+SAY.Flowchart.130.Miss,,Hey Ellie! How’s it going?
+SAY.Flowchart.131.Ellie,,"Ahh, doing good! Just another day, you know?"
+SAY.Flowchart.132.Miss,,"Of course. {wi}We have a hotel room to clean today -- it’s a new experience for you, but I’m sure you will do great!{wc}I’m here if you need any help, though I’ll mainly be taking care of some other things for a bit or checking over the things you clean.{wc}Our client is pretty important, and we don’t want him to be dissatisfied.{wc}There’s a lot of things this time, not just broken glass!"
+SAY.Flowchart.133.Ellie,,OH MELON! {wi}Something new? {wi}Apart from fixing broken glass?
+SAY.Flowchart.134.Miss,,"Haha, yeah~! I know you’ll pick it up in a heartbeat, though.{wc}Do you have any questions?"
+SAY.Flowchart.137.Miss,,"Mmm.. it’s hard to tell. All I can really say is that this is a bigger incident than anything we’ve done before.{wc}...My gut tells me that it is related to a smuggling issue, but I’m afraid I can’t confirm anything, dear."
+SAY.Flowchart.139.Ellie,,...!!{wc}WAA a smuggling issue? What kind? That sounds super dangerous..
+SAY.Flowchart.140.Miss,,"Haha~, I wish I could answer your questions, sweetheart.{wc}Unfortunately, there’s nothing else I can say about the situation except that you’ll be safe."
+SAY.Flowchart.141.Ellie,,"Ahh, but how do you know I’ll be safe? What about you?{wc}Can you pleasee, pretty please let me in on some ~trade secrets~?"
+SAY.Flowchart.142.Miss,,"Oh Ellie, you’re so cute~"
+SAY.Flowchart.168.Miss,,"I’m sorry though, no questions, remember?"
+SAY.Flowchart.143.Ellie,,"Awww hmph, okay."
+MENU.Flowchart.146,,What's today's crime?
+MENU.Flowchart.148,,Will today be hard?
+MENU.Flowchart.164,,I'm ready to go!
+SAY.Flowchart.150.Miss,,"Let’s just say that there is a lot more work to do. But don’t worry, I’ll give you a raise."
+SAY.Flowchart.151.Ellie,,!!!! $$???!?$>/?
+SAY.Flowchart.152.Ellie,,"{i}(Aaahh! If I get paid $1,500 normally, I can only imagine how much a raise will be!!){wc}(I’m gonna be RICHH $$$!)"
+SAY.Flowchart.153.Ellie,,"Hehe, I bet this work will be nothing that we can’t do together!"
+SAY.Flowchart.154.Miss,,That’s a given.
+SAY.Flowchart.159.Miss,,Alright! Let’s make it a good one!
+CHARACTER.Ellie,,Ellie
+CHARACTER.Miss,,Miss
