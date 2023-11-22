@@ -145,6 +145,9 @@ public class Thing : MonoBehaviour
                 case 22:
                     flowchart.ExecuteBlock("fan");
                     break;
+                case 23:
+                    flowchart.ExecuteBlock("train toy");
+                    break;
                 default:    //hi borys! i added these lines so that all the ones w/o dialogue would still pass to the next scene :)
                     flowchart.ExecuteBlock("next scene");
                     //print("no dialogue");
