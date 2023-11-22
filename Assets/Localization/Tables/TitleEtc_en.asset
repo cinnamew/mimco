@@ -35,7 +35,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 10603148304384
-    m_Localized: Back!
+    m_Localized: Back to the present...
     m_Metadata:
       m_Items: []
   - m_Id: 10743129006080
@@ -68,6 +68,10 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 699418809458688
     m_Localized: Weeks later...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 740985686679552
+    m_Localized: At the store...
     m_Metadata:
       m_Items: []
   references:

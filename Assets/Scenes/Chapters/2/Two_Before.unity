@@ -831,7 +831,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 7.8111, y: 2.9292}
+  m_AnchoredPosition: {x: 7.811157, y: 2.9291992}
   m_SizeDelta: {x: 127.9743, y: 132.3341}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &164186834
@@ -3554,6 +3554,8 @@ GameObject:
   - component: {fileID: 897259636}
   - component: {fileID: 897259637}
   - component: {fileID: 897259638}
+  - component: {fileID: 897259640}
+  - component: {fileID: 897259639}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -3577,7 +3579,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -24
     y: 44
-    width: 75
+    width: 75.2
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3644,9 +3646,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 897259451}
-  selectedCommands:
-  - {fileID: 897259458}
+  - {fileID: 897259640}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -4345,7 +4346,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 17.600006
     y: 125.5
-    width: 126
+    width: 128.4
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4952,7 +4953,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 233.6
     y: 115.5
-    width: 122
+    width: 124
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5214,7 +5215,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 162.6
     y: 173.5
-    width: 104
+    width: 105.2
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5285,7 +5286,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 309.6
     y: 204.5
-    width: 133
+    width: 135.2
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5562,7 +5563,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 199.6
     y: 256.5
-    width: 71
+    width: 71.6
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6255,7 +6256,7 @@ MonoBehaviour:
   sceneNameOLD: 
 --- !u!114 &897259637
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -6311,7 +6312,7 @@ MonoBehaviour:
       m_Calls: []
 --- !u!114 &897259638
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -6365,6 +6366,51 @@ MonoBehaviour:
   stringEvent:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &897259639
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 897259449}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fc625e237d6048bf86f34835d8266d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 187
+  indentLevel: 0
+  _languageCode:
+    stringRef: {fileID: 0}
+    stringVal: pt-br
+  languageCodeOLD: 
+--- !u!114 &897259640
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 897259449}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: -120.827576
+    y: 87.38222
+    width: 72.4
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 212
+  blockName: ptbr
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 897259639}
+  suppressAllAutoSelections: 0
 --- !u!1 &905689937
 GameObject:
   m_ObjectHideFlags: 1
@@ -6722,6 +6768,7 @@ GameObject:
   m_Component:
   - component: {fileID: 927881208}
   - component: {fileID: 927881207}
+  - component: {fileID: 927881209}
   m_Layer: 0
   m_Name: Localization
   m_TagString: Untagged
@@ -6742,7 +6789,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   activeLanguage: 
-  localizationFile: {fileID: 0}
+  localizationFile: {fileID: 4900000, guid: b53be20c52575d140986e3881221d8f1, type: 3}
 --- !u!4 &927881208
 Transform:
   m_ObjectHideFlags: 0
@@ -6758,6 +6805,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &927881209
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 927881206}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22aab986c9e683e4292f5821c9609c88, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currLocaleID: 1
+  f: {fileID: 897259452}
 --- !u!1 &982107930
 GameObject:
   m_ObjectHideFlags: 0

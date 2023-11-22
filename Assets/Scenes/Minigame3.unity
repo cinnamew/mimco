@@ -324,6 +324,8 @@ GameObject:
   - component: {fileID: 369760181}
   - component: {fileID: 369760193}
   - component: {fileID: 369760192}
+  - component: {fileID: 369760195}
+  - component: {fileID: 369760194}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Flowchart
@@ -717,9 +719,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 369760119}
-  selectedCommands:
-  - {fileID: 369760118}
+  - {fileID: 369760195}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -1776,7 +1777,7 @@ MonoBehaviour:
   suppressAllAutoSelections: 0
 --- !u!114 &369760181
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1832,7 +1833,7 @@ MonoBehaviour:
       m_Calls: []
 --- !u!114 &369760186
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1859,7 +1860,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &369760188
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1886,7 +1887,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &369760189
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1914,7 +1915,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &369760190
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1942,7 +1943,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &369760191
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -1975,7 +1976,7 @@ MonoBehaviour:
   suppressAllAutoSelections: 0
 --- !u!114 &369760192
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2002,7 +2003,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &369760193
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2029,6 +2030,51 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
+--- !u!114 &369760194
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 369760099}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fc625e237d6048bf86f34835d8266d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 100
+  indentLevel: 0
+  _languageCode:
+    stringRef: {fileID: 0}
+    stringVal: pt-br
+  languageCodeOLD: 
+--- !u!114 &369760195
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 369760099}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: -55.827576
+    y: 153.38222
+    width: 72.4
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 212
+  blockName: ptbr
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 369760194}
+  suppressAllAutoSelections: 0
 --- !u!1001 &396265449
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4959,6 +5005,10 @@ PrefabInstance:
     - target: {fileID: 2754236487193574136, guid: 296e4be70c6fcc34d9c98d1f22767e1e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3574987263381693581, guid: 296e4be70c6fcc34d9c98d1f22767e1e, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -19.400024
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
