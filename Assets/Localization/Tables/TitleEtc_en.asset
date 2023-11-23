@@ -74,6 +74,42 @@ MonoBehaviour:
     m_Localized: At the store...
     m_Metadata:
       m_Items: []
+  - m_Id: 983884324102144
+    m_Localized: thank you for playing!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 984483895664640
+    m_Localized: 'made by...
+
+      > cinnamew: code/dialogue/story
+
+      > effixs:
+      minigame art
+
+      > pocketnii: UI/other art/story
+
+      > spiderface721:
+      minigame code
+
+      (music not by us!)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 986048287170560
+    m_Localized: Back to Title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 997841499807744
+    m_Localized: en
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1044770027954176
+    m_Localized: '*Please check TWs before playing!*'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1045539603046400
+    m_Localized: '*Play with music on for the best experience!*'
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

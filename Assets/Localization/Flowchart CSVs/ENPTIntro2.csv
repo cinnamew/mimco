@@ -1,7 +1,7 @@
 Key,Description,Standard,pt-br
 SAY.ENIntro.1.Ellie,,...Hello! My name is Ellie!,...Olá! Meu nome é Ellie!
 SAY.ENIntro.4.Ellie,,...,...
-SAY.ENIntro.5.Ellie,,"Hmm... there’s not really much else to say, I’m just a normal girl with normal hobbies and a normal-ish job...{wc}Um, wanna know my favorite color? It's #c70a0a, a nice shade between red and red velvet!","Hmm... não há muito mais a se dizer, eu sou apenas uma garota normal com passatempos normais e um trabalho normal…{wc}Hum, quer saber qual a minha cor favorita? É a #c70a0a, um belo tom entre vermelho e carmesim!"
+SAY.ENIntro.5.Ellie,,"Hmm... there’s not really much else to say, I’m just a normal girl with normal hobbies and a normal-ish job...{wc}Um, wanna know my favorite color? It's #8e1717, a nice shade between red and red velvet!","Hmm... não há muito mais a se dizer, eu sou apenas uma garota normal com passatempos normais e um trabalho normal…{wc}Hum, quer saber qual a minha cor favorita? É a #8e1717, um belo tom entre vermelho e carmesim!"
 SAY.ENIntro.105.Ellie,,"I don’t know, I’m just rambling on now...","Eu não sei, agora estou apenas divagando…"
 SAY.ENIntro.7.Ellie,,"Oh! Today marks the 3 week anniversary of my first ever job. It doesn’t have any set hours, but it pays $1,500 every time I go! Can you believe it?","Oh! Hoje faz exatos 3 meses que comecei no primeiro trabalho da minha vida. Não é um trabalho com horário fixo, mas paga 7 mil reais toda vez que vou! Você acredita nisso?"
 SAY.ENIntro.6.Ellie,,"Ah, but you must be wondering ‘where are you?’ and ‘what are you wearing?’ and ‘why does your hair look so gorgeous?’.{wi} Fear not, for I am here to answer all your questions!","Ah, mas você deve estar se perguntando ‘onde você está?’ e ‘o que você está vestindo?’ e ‘por que seu cabelo está tão lindo?’. Não tema, pois eu estou aqui para responder todas as suas perguntas!"""
@@ -36,7 +36,7 @@ SAY.ENIntro.88.Ellie,,"{i}I walk into Pocket Jewelry Shop.{wc}Unlike what the na
 SAY.ENIntro.92.Miss,,"Hey there, Ellie! How are you?","E aí, Ellie! Como você está?"
 SAY.ENIntro.95.Ellie,,I’m doing great! How about you?,Estou ótima! E você?
 SAY.ENIntro.146.Miss,,"Good to hear, I’m well too!{wc}As you can probably tell, we’re cleaning up after a jewelry shop robbery today.","Bom saber, eu também estou bem!{wc}Como você pode ver, iremos arrumar tudo depois de um roubo que aconteceu hoje nesta loja de joias."
-SAY.ENIntro.97.Miss,,Someone broke the windows and all the cases; I’ll be fixing a few small things around the area and you can cover the more prominent issues., eu arrumarei umas coisinhas pela região e você pode se ocupar com as coisas mais relevantes.
+SAY.ENIntro.97.Miss,,Someone broke the windows and all the cases; I’ll be fixing a few small things around the area and you can cover the more prominent issues.,Alguém quebrou as janelas e todas as caixinhas; eu arrumarei umas coisinhas pela região e você pode se ocupar com as coisas mais relevantes.
 SAY.ENIntro.149.Miss,,Let’s make it a good one!,Vamos fazer um bom trabalho!
 SAY.ENIntro.99.Ellie,,"{i}(Ah, I forgot to tell you the second most important part of the job -- the first being our maid dresses, of course!)","{i}(Ah, eu esqueci de lhe contar a segunda parte mais importante do trabalho – a primeira sendo nossos trajes de faxineira, claro!)"
 SAY.ENIntro.151.Ellie,,"{i}(We’re actually cleaning up top secret crime scenes!){wc}(I know, it shocked me at first, too!!!)","{i}(Nós, na verdade, estamos limpando cenas de crime ultra secretas!){wc}(Eu sei, a princípio também fiquei chocada!!!)"
