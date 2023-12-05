@@ -70,7 +70,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 983884324102144
-    m_Localized: obrigado por jogar!
+    m_Localized: agradecemos por jogar!
     m_Metadata:
       m_Items: []
   - m_Id: 984483895664640
@@ -94,6 +94,10 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 1045539603046400
     m_Localized: "*Jogue com a m\xFAsica ligada para a melhor experi\xEAncia!*"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2116517649145856
+    m_Localized: Voltar!
     m_Metadata:
       m_Items: []
   references:

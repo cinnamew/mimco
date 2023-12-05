@@ -184,7 +184,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: 7 hours later...
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 3115fcac29e89ad48ade20745dcb093b, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: d4575b43d263e554d9449f06feb058b3, type: 2}
   m_sharedMaterial: {fileID: 3351544816406060042, guid: 3115fcac29e89ad48ade20745dcb093b, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -248,7 +248,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &36083268
@@ -2277,7 +2277,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: Back to the present (3 weeks later)...
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 3115fcac29e89ad48ade20745dcb093b, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: d4575b43d263e554d9449f06feb058b3, type: 2}
   m_sharedMaterial: {fileID: 3351544816406060042, guid: 3115fcac29e89ad48ade20745dcb093b, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -2341,7 +2341,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &696522722
@@ -9439,7 +9439,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   activeLanguage: 
-  localizationFile: {fileID: 4900000, guid: 496a7312b19063241ba2433a39836b75, type: 3}
+  localizationFile: {fileID: 4900000, guid: 366ca27535287d643ae671af25e1b843, type: 3}
 --- !u!4 &1158056283
 Transform:
   m_ObjectHideFlags: 0
@@ -9592,8 +9592,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000013351, y: 0.0000044107}
-  m_SizeDelta: {x: 247.5836, y: 46.7184}
+  m_AnchoredPosition: {x: 0.000091553, y: 1.1655}
+  m_SizeDelta: {x: 247.5836, y: 37.591}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1201364490
 MonoBehaviour:
@@ -9615,10 +9615,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 3 weeks ago...
+  m_text: "3 semanas atr\xE1s\u2026"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 3115fcac29e89ad48ade20745dcb093b, type: 2}
-  m_sharedMaterial: {fileID: 3351544816406060042, guid: 3115fcac29e89ad48ade20745dcb093b, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: d4575b43d263e554d9449f06feb058b3, type: 2}
+  m_sharedMaterial: {fileID: 2473524833943559444, guid: d4575b43d263e554d9449f06feb058b3, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []

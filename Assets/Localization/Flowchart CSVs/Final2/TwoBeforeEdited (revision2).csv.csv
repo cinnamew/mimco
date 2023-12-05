@@ -1,0 +1,37 @@
+Key,Description,Standard,pt-br
+SAY.Flowchart.1.Miss,,Done with another day!,Acabamos mais um dia!
+SAY.Flowchart.4.Ellie,,"Yesyesyes, whew!! :D","Simsimsim, ufa!!  :D"
+SAY.Flowchart.106.Miss,,How did you feel about today?,Como você se sente sobre hoje?
+SAY.Flowchart.107.Ellie,,"That was pretty easy! I think I’m getting quite good at fixing the windows.{wc}Say, what are you doing afterwards? Want to get some coffee or something?{wc}I actually need to go buy groceries--","Isso foi bem fácil! Acho que estou ficando boa em reparar janelas.{wc}Me diga, o que você vai fazer depois? Quer tomar um café ou algo?{wc}Na verdade, eu tenho que fazer umas compras..."
+SAY.Flowchart.108.Miss,,Ellie! It’s 3 AM!,Ellie! São 3 da manhã!
+SAY.Flowchart.109.Ellie,,"Hehe, I’m just kidding!{wc}We should hang out sometime outside of work though, when it’s actually bright outside.","Hehe, estou só brincando!{wc}Nós deveríamos sair juntas algum dia sem ser no trabalho, quando ainda estiver claro lá fora."
+SAY.Flowchart.110.Miss,,"Oh yes, that would be nice.","Ah sim, isso seria ótimo."
+SAY.Flowchart.112.Ellie,,{i}(We never did end up meeting up outside of work.){wc}(And I totally forgot to celebrate my 3 week anniversary.),{i}(Nós acabamos nunca nos encontrando fora do trabalho.){wc}(E eu acabei esquecendo completamente de comemorar o marco de 3 semanas no emprego.)
+SAY.Flowchart.119.Ellie,,Yet another work day...!,Mais um dia de trabalho...!
+SAY.Flowchart.120.Ellie,,"I’ve been at this job for how long now?{wc}I’m not sure, but sometimes it seems a little boring. Other times, I guess it’s quite intriguing. ","Já estou nesse trabalho a quanto tempo?{wc}Não tenho certeza, mas às vezes parece um pouco entediante. Já em outras vezes, eu acho que é bem intrigante."
+SAY.Flowchart.121.Ellie,,"Like, how are these crimes committed so quietly? There’s literally no news about it!{wc}And where is my paycheck coming from?","Tipo, como esses crimes são cometidos tão silenciosamente? Não tem literalmente nenhuma notícia sobre eles!{wc}E de onde meu pagamento está vindo?"
+SAY.Flowchart.162.Ellie,,"But I don’t really care too much, as long as I get the money!","Mas eu não me importo tanto assim, desde que eu seja paga!"
+SAY.Flowchart.122.Ellie,,"{i}I walk into Cinnamon Hotel through its back door.{wc}I’ve never heard of this hotel before; it looks a bit run-down and shabby on the outside, just perfectly blending into the surrounding buildings.{wc}But the inside’s design is pretty modern, though rather empty.{wc}I slightly hope there’s something cinnamon-related while climbing the emergency stairs to the room Miss told me to meet at.","{i}Eu entro pela porta dos fundos do Hotel Canela.{wc}Eu nunca tinha ouvido falar desse hotel; por fora ele parece um pouco desgastado e decadente, harmonizando perfeitamente com os prédios ao redor dele.{wc}Mas por dentro tem um design moderno, embora esteja meio vazio.{wc}Eu tenho uma pequena esperança de que tenha algo relacionado à canela enquanto subo as escadas de emergência até a sala na qual Dona me disse para encontrá-la."
+SAY.Flowchart.130.Miss,,Hey Ellie! How’s it going?,"E aí, Ellie! Como você está?"
+SAY.Flowchart.131.Ellie,,"Ahh, doing good! Just another day, you know?","Ahh, estou bem! Apenas mais um dia, sabe?"
+SAY.Flowchart.132.Miss,,"Of course. {wi}We have a hotel room to clean today -- it’s a new experience for you, but I’m sure you will do great!{wc}I’m here if you need any help, though I’ll mainly be taking care of some other things for a bit or checking over the things you clean.{wc}Our client is pretty important, and we don’t want him to be dissatisfied.{wc}There’s a lot of things this time, not just broken glass!","Claro.{wi} Nós temos um quarto de hotel para arrumar hoje... é uma nova experiência para você, mas eu tenho certeza que você se sairá bem!{wc}Estou aqui se precisar de ajuda, embora eu esteja principalmente cuidando de outras coisas e, também, checando as coisas que você arrumar.{wc}Nosso cliente é muito importante, e não queremos que ele fique insatisfeito.{wc}Temos muitas coisas para arrumar dessa vez, não apenas vidro quebrado!"
+SAY.Flowchart.133.Ellie,,OH MELON! {wi}Something new? {wi}Apart from fixing broken glass?,AH CÉUS! {wi}Algo novo? {wi}Além de reparar vidro quebrado?
+SAY.Flowchart.134.Miss,,"Haha, yeah~! I know you’ll pick it up in a heartbeat, though.{wc}Do you have any questions?","Haha, sim~! Entretanto, eu sei que você pegará o jeito rapidamente.{wc}Alguma pergunta?"
+SAY.Flowchart.137.Miss,,"Mmm.. it’s hard to tell. All I can really say is that this is a bigger incident than anything we’ve done before.{wc}...My gut tells me that it is related to a smuggling issue, but I’m afraid I can’t confirm anything, dear.","Hum... é difícil dizer. O que eu posso dizer é que este é um incidente maior do que qualquer outro que já arrumamos.{wc}...Algo me diz que está relacionado com contrabando, embora eu não possa confirmar nada, querida."
+SAY.Flowchart.139.Ellie,,...!!{wc}WAA a smuggling issue? What kind? That sounds super dangerous..,"…!!{wc}QUÊE, contrabando? De que tipo? Isso parece muito perigoso..."
+SAY.Flowchart.140.Miss,,"Haha~, I wish I could answer your questions, sweetheart.{wc}Unfortunately, there’s nothing else I can say about the situation except that you’ll be safe.","Haha~, eu queria poder responder a todas as suas perguntas, meu bem.{wc}Infelizmente, não há nada mais que eu possa dizer a não ser, é claro, que você estará segura."
+SAY.Flowchart.141.Ellie,,"Ahh, but how do you know I’ll be safe? What about you?{wc}Can you pleasee, pretty please let me in on some ~trade secrets~?","Ahh, mas como você sabe que estarei segura? E quanto a você?{wc}Você poderia, por favorzinho, me contar alguns ~segredos do ofício~?"
+SAY.Flowchart.142.Miss,,"Oh Ellie, you’re so cute~","Ah, Ellie, você é tão fofa~"
+SAY.Flowchart.168.Miss,,"I’m sorry though, no questions, remember?","Mas me desculpe, sem perguntas, lembra?"
+SAY.Flowchart.143.Ellie,,"Awww hmph, okay.","Awww humpf, tá bom."
+MENU.Flowchart.146,,What's today's crime?,Qual o crime de hoje?
+MENU.Flowchart.148,,Will today be hard?,Hoje vai ser difícil?
+MENU.Flowchart.164,,I'm ready to go!,Estou pronta para começar!
+SAY.Flowchart.150.Miss,,"Let’s just say that there is a lot more work to do. But don’t worry, I’ll give you a raise.","Vamos apenas dizer que tem muito mais trabalho para fazermos. Mas não se preocupe, vou te dar um aumento."
+SAY.Flowchart.151.Ellie,,!!!! $$???!?$>/?,!!!! $$???!?$>\?
+SAY.Flowchart.152.Ellie,,"{i}(Aaahh! If I get paid $1,500 normally, I can only imagine how much a raise will be!!){wc}(I’m gonna be RICHH $$$!)","{i}(Aaahh! Se recebo 7 mil reais normalmente, imagino quanto ganharei com um aumento!!){wc}(Serei RICA $$$!)"
+SAY.Flowchart.153.Ellie,,"Hehe, I bet this work will be nothing that we can’t do together!","Hehe, Aposto que este trabalho não será nada que não possamos fazer juntas!"
+SAY.Flowchart.154.Miss,,That’s a given.,Isso é certo.
+SAY.Flowchart.159.Miss,,Alright! Let’s make it a good one!,Tá bem! Vamos fazer um bom trabalho!
+CHARACTER.Ellie,,Ellie,Ellie
+CHARACTER.Miss,,Miss,Dona

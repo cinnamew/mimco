@@ -154,7 +154,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   activeLanguage: 
-  localizationFile: {fileID: 4900000, guid: 5f3ed0c485ef247c6996481de0d304ce, type: 3}
+  localizationFile: {fileID: 4900000, guid: a38d23035bd90ce4c9fb349060cee346, type: 3}
 --- !u!4 &12458917
 Transform:
   m_ObjectHideFlags: 0
@@ -4473,7 +4473,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: 600}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 2134, y: 1200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1960777495
@@ -4983,6 +4983,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1344538968712313614, guid: 296e4be70c6fcc34d9c98d1f22767e1e, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1395725160842531947, guid: 296e4be70c6fcc34d9c98d1f22767e1e, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -38
+      objectReference: {fileID: 0}
+    - target: {fileID: 1395725160842531947, guid: 296e4be70c6fcc34d9c98d1f22767e1e, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2269788477593466519, guid: 296e4be70c6fcc34d9c98d1f22767e1e, type: 3}
       propertyPath: m_Name
       value: Canvas
@@ -5069,6 +5081,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2754236487193574136, guid: 296e4be70c6fcc34d9c98d1f22767e1e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5673879600065109500, guid: 296e4be70c6fcc34d9c98d1f22767e1e, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868828722824560377, guid: 296e4be70c6fcc34d9c98d1f22767e1e, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -38
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868828722824560377, guid: 296e4be70c6fcc34d9c98d1f22767e1e, type: 3}
+      propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []

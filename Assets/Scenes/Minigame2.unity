@@ -2744,7 +2744,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   activeLanguage: 
-  localizationFile: {fileID: 4900000, guid: edecd92eb936dfe438dd00163518315c, type: 3}
+  localizationFile: {fileID: 4900000, guid: cc171844921bc5e458d53373d86452a9, type: 3}
 --- !u!4 &471821812
 Transform:
   m_ObjectHideFlags: 0
@@ -5129,6 +5129,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1395725160842531947, guid: 296e4be70c6fcc34d9c98d1f22767e1e, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -37.69995
+      objectReference: {fileID: 0}
     - target: {fileID: 2269788477593466519, guid: 296e4be70c6fcc34d9c98d1f22767e1e, type: 3}
       propertyPath: m_Name
       value: Canvas
@@ -5220,6 +5224,14 @@ PrefabInstance:
     - target: {fileID: 3574987263381693581, guid: 296e4be70c6fcc34d9c98d1f22767e1e, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -19.400024
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868828722824560377, guid: 296e4be70c6fcc34d9c98d1f22767e1e, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -37.69995
+      objectReference: {fileID: 0}
+    - target: {fileID: 7868828722824560377, guid: 296e4be70c6fcc34d9c98d1f22767e1e, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -46.099976
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

@@ -12468,7 +12468,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   activeLanguage: 
-  localizationFile: {fileID: 4900000, guid: 925f5c49c590d4f79900b160044624c3, type: 3}
+  localizationFile: {fileID: 4900000, guid: c66cfd38ea9add140b9310db3c1c6142, type: 3}
 --- !u!4 &1155351170
 Transform:
   m_ObjectHideFlags: 0

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.SceneManagement;
+using UnityEngine.Localization.Settings;
 
 public class LevelManagerScript : MonoBehaviour
 {
@@ -23,7 +24,13 @@ public class LevelManagerScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        text.text = (thingsToFind - thingsFound).ToString();
+        //print(LocalizationSettings.SelectedLocale + ", " + LocalizationSettings.AvailableLocales.Locales[0]);
+        
+        if(LocalizationSettings.SelectedLocale == LocalizationSettings.AvailableLocales.Locales[0]) {
+            text.text = (thingsToFind - thingsFound).ToString() + " things to fix";
+        }else {
+            text.text = "Restam " + (thingsToFind - thingsFound).ToString() + " itens";
+        }
     }
 
     // Update is called once per frame
@@ -56,16 +63,27 @@ public class LevelManagerScript : MonoBehaviour
                 }
             }
         }
+
+        if(LocalizationSettings.SelectedLocale == LocalizationSettings.AvailableLocales.Locales[0]) {
+            text.text = (thingsToFind - thingsFound).ToString() + " things to fix";
+        }else {
+            text.text = "Restam " + (thingsToFind - thingsFound).ToString() + " itens";
+        }
     }
     
     public void ThingFound()
     {
         thingsFound++;
-        text.text = (thingsToFind - thingsFound).ToString();
+        if(LocalizationSettings.SelectedLocale == LocalizationSettings.AvailableLocales.Locales[0]) {
+            text.text = (thingsToFind - thingsFound).ToString() + " things to fix";
+        }else {
+            text.text = "Restam " + (thingsToFind - thingsFound).ToString() + " itens";
+        }
         canContinue = false;
     }
 
     public void okToContinue() {    //the flowchart calls this so that the last dialogue isn't cut off
+    //ew lol why did i java the function name
         canContinue = true;
     }
 }

@@ -1,0 +1,33 @@
+Key,Description,Standard,pt-br
+SAY.Flowchart.18.Ellie,,{i}(Oh. Wow.. uh... this may be hard.),{i}(Ah. Uau.. é.. isso talvez seja difícil.)
+SAY.Flowchart.57.Ellie,,"Miss, do you perhaps.. want to share the cherries together? It might help my nerves.","Dona, talvez você.. gostaria de dividir as cerejas comigo? Comê-las talvez ajude a me acalmar."
+SAY.Flowchart.58.Miss,,"Oh, of course! You were the one who bought them anyway.","Ah, claro! De qualquer forma, foi você quem as comprou."
+SAY.Flowchart.59.Ellie,,But I gave them to you though! So they’re yours now!,"Mas eu dei elas pra você! Então elas são suas, agora!"
+SAY.Flowchart.60.Miss,,"Hahah, okay, okay! Let’s share them then.","Hahah, tá bom, tá bom! Vamos dividi-las, então."
+SAY.Flowchart.61.Ellie,,"{i}(...On second thought, being in this environment makes me feel a little sick. I don’t think I can even talk much, there’s just this unsettling vibe.){wc}(Oh well, I guess I’ll just get this done as soon as possible and get back home!)","{i}(...Pensando bem, estar nesse ambiente faz eu me sentir um pouco doente. Eu não acho que consiga nem falar muito, só sinto essa energia perturbadora.){wc}(Enfim, acho que vou só fazer meu trabalho o mais rápido possível e voltar pra casa!)"
+SAY.Flowchart.2.Ellie,,"{i}(Cobweb, cobweb, go away...--)","{i}(Teiazinha, teiazinha, vá embora…)"
+SAY.Flowchart.62.Ellie,,WAAAAUGH!,AAAAAHHH!
+SAY.Flowchart.3.Miss,,Ellie!? What’s wrong??,Ellie!? O que foi??
+SAY.Flowchart.63.Ellie,,"SPIDER, SPIDER, SPIDERRHGHEIKGVFSFNJ!!!","ARANHA, ARANHA, ARANHARHGHEIKGVFSFNJ!!!"
+SAY.Flowchart.5.Miss,,"Oh, I can get that for you.","Ah, eu posso pegá-la pra você."
+SAY.Flowchart.23.Ellie,,{i}(Miss picks up the spider with her hands and moves it outside the doorway.),{i}(Dona pega a aranha com as mãos e a leva para fora.)
+SAY.Flowchart.66.Miss,,"There, better?","Pronto, melhor?"
+SAY.Flowchart.65.Ellie,,Waahh.. yes... maybe I shouldn’t be a maid.,Aaahh.. sim.. talvez eu não devesse ser uma faxineira.
+SAY.Flowchart.64.Miss,,"Oh, nonsense, everyone’s bound to be scared of something.","Ah, bobagem, todos estão fadados a terem medo de algo."
+SAY.Flowchart.67.Ellie,,{i}(She’s so nice... are all employers like this?),{i}(Ela é tão legal... todos os patrões são assim?)
+SAY.Flowchart.7.Ellie,,"{i}(These pillows are really stiff. I can’t imagine someone sleeping with these, it must be so uncomfortable.){wc}(My neck hurts just thinking about it...)","{i}(Esses travesseiros são muito duros. Mal posso imaginar alguém dormindo com eles, deve ser muito desconfortável.){wc}(Meu pescoço dói só de imaginar…)"
+SAY.Flowchart.11.Ellie,,"{i}(Oh... did someone... no, it doesn’t seem like it...){wc}(I wanna get out of here...)","{i}(Ah... será que alguém... não, não parece ser…){wc}(Eu tenho que sair daqui…)"
+SAY.Flowchart.13.Ellie,,"{i}(Some of the clothes are so small. Like something I’d wear when I was eight or something. Oh, why does time pass so fast..)","{i}(Algumas peças de roupa são muito pequenas, como algo que eu usaria quando tinha oito anos ou algo assim. Ah, por que o tempo passa tão rápido…)"
+SAY.Flowchart.29.Ellie,,I feel like I’m cleaning a lot of beds recently.{wc}Maybe I’ll be the bed cleaning expert instead of the glass cleaning expert.,Eu sinto que estou arrumando muitas camas recentemente.{wc}Talvez eu me torne especialista em arrumar camas ao invés de especialista em reparar vidros.
+SAY.Flowchart.68.Miss,,"You have the skills to clean any mess, there’s no need for you to limit yourself to just one type.","Você possui habilidade para limpar qualquer bagunça, não há necessidade de limitar-se apenas a um tipo."
+SAY.Flowchart.69.Ellie,,{i}(Ah... Miss is so nice!),{i}(Ah... a Dona é tão legal!)
+SAY.Flowchart.71.Ellie,,"{i}(Urk... is this blood? I feel a little queasy..){wc}(No, no, I’m sure it’s not blood, I’m just overthinking again. It’s okay.)","{i}(Eca... isso é sangue? Me sinto um pouco enjoada..){wc}(Não, não, estou certa de que não é sangue, só estou me preocupando demais. Tá tudo bem.)"
+SAY.Flowchart.81.Ellie,,{i}(This reminds me of my childhood.),{i}(Isso me lembra minha infância.)
+SAY.Flowchart.87.Ellie,,"I kinda wanna use this fan... it’s a little hot... Miss, do you mind if I turn it on?","Eu meio que quero usar esse ventilador... tá um pouco calor... Dona, você se importa se eu ligá-lo?"
+SAY.Flowchart.88.Miss,,"Huh? Oh, the fan?{wc}I don’t think it works very well, it seems like it’d be quite loud. But turn it on if you wish.","Hã? Ah, o ventilador?{wc}Eu não acho que ele funcione bem, parece que seria um pouco barulhento. Mas ligue-o, se desejar."
+SAY.Flowchart.89.Ellie,,{i}I turn on the fan.,{i}Eu ligo o ventilador.
+SAY.Flowchart.97.Ellie,,"{i}In a second, the room is filled with clanking and screeching of metal and plastic. It feels like a few screws would fall off if I left it on for a second longer.{wc}I hurriedly turn it back off.","{i}Em um instante, a sala é infestada com o barulho de metal e plástico rangendo e batendo. Parece que alguns parafusos sairiam voando se eu o deixasse ligado por mais um segundo.{wc}Eu me apressei para desligá-lo."
+SAY.Flowchart.91.Ellie,,{i}(Miss was right... I should just listen to her next time.),{i}(Dona estava certa... eu devo dar ouvidos a ela na próxima vez.)
+SAY.Flowchart.98.Ellie,,"{i}(No wind for today, I guess... how is it so hot and humid at 2 AM?)","{i}(Sem vento hoje, eu acho... como está tão quente e húmido às 2 da manhã?)"
+CHARACTER.Ellie,,Ellie,Ellie
+CHARACTER.Miss,,Miss,Dona
