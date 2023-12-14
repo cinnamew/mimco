@@ -475,6 +475,7 @@ GameObject:
   - component: {fileID: 369760163}
   - component: {fileID: 369760166}
   - component: {fileID: 369760165}
+  - component: {fileID: 369760167}
   m_Layer: 0
   m_Name: flowchart
   m_TagString: Flowchart
@@ -1005,7 +1006,8 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 369760166}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 369760167}
   variables: []
   description: 
   stepPause: 0
@@ -2527,7 +2529,26 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 369760165}
+  - {fileID: 369760167}
   suppressAllAutoSelections: 0
+--- !u!114 &369760167
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 369760099}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fab8abf0343545abbfebd9a7b7b34bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 213
+  indentLevel: 0
+  logType: 0
+  logMessage:
+    stringRef: {fileID: 0}
+    stringVal: ptbr caleld
 --- !u!1001 &390232357
 PrefabInstance:
   m_ObjectHideFlags: 0

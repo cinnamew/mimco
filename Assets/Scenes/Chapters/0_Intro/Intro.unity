@@ -2936,6 +2936,7 @@ GameObject:
   - component: {fileID: 897259665}
   - component: {fileID: 897259666}
   - component: {fileID: 897259667}
+  - component: {fileID: 897259668}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -3030,9 +3031,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 897259518}
+  - {fileID: 897259649}
   selectedCommands:
-  - {fileID: 897259534}
+  - {fileID: 897259647}
   variables: []
   description: 
   stepPause: 0
@@ -7406,12 +7407,12 @@ MonoBehaviour:
   indentLevel: 0
   display: 1
   stage: {fileID: 0}
-  character: {fileID: 1592425649}
+  character: {fileID: 602770193}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: fabc44a13e2b7e742995b863c2c22589, type: 3}
+  portrait: {fileID: 21300000, guid: 2d49ab5daa82b1f4b9288ffdf06ab80e, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
-  toPosition: {fileID: 1346886071}
+  toPosition: {fileID: 1411629783}
   facing: 0
   useDefaultSettings: 1
   fadeDuration: 0.5
@@ -7473,8 +7474,9 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 897259648}
   - {fileID: 897259647}
+  - {fileID: 897259648}
+  - {fileID: 897259668}
   - {fileID: 897259646}
   - {fileID: 897259645}
   - {fileID: 897259644}
@@ -7978,6 +7980,36 @@ MonoBehaviour:
     stringRef: {fileID: 0}
     stringVal: pt-br
   languageCodeOLD: 
+--- !u!114 &897259668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 897259449}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 214
+  indentLevel: 0
+  display: 1
+  stage: {fileID: 0}
+  character: {fileID: 1592425649}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: 21300000, guid: fabc44a13e2b7e742995b863c2c22589, type: 3}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 1346886071}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 0
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
 --- !u!1 &905689937
 GameObject:
   m_ObjectHideFlags: 1
