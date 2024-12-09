@@ -63,6 +63,10 @@ MonoBehaviour:
     m_Key: atstore
     m_Metadata:
       m_Items: []
+  - m_Id: 741397579915264
+    m_Key: New Entry
+    m_Metadata:
+      m_Items: []
   - m_Id: 983884324102144
     m_Key: thanks
     m_Metadata:

@@ -15,13 +15,14 @@ MonoBehaviour:
   m_GroupName: Localization-String-Tables-Portuguese (Brazil) (pt-BR)
   m_Data:
     m_SerializedData: []
-  m_GUID: 227d9640987814844b0dbcc61fea229d
+  m_GUID: 8196d26f4b0524e498bb2929e5d4046f
   m_SerializeEntries:
   - m_GUID: 9248cc62eaf1c47479de5c94da97e5de
     m_Address: TitleEtc_pt-BR
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-pt-BR
+    - Preload
     FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 4f2b6e5a5502eed4e9460bb175350968, type: 2}

@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1bb1838fe8befb0429646b938e757ff3, type: 3}
-  m_Name: Chinese (Mandarin) (zh)
+  m_Name: Portuguese (Brazil) (pt-BR)
   m_EditorClassIdentifier: 
   m_Identifier:
-    m_Code: zh
+    m_Code: pt-BR
   m_Metadata:
     m_Items: []
-  m_LocaleName: Chinese (Mandarin) (zh)
+  m_LocaleName: Portuguese (Brazil) (pt-BR)
   m_CustomFormatCultureCode: 
   m_UseCustomFormatter: 0
   m_SortOrder: 10000
