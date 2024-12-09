@@ -33,7 +33,7 @@ public class LocaleSelector : MonoBehaviour
 
     IEnumerator SetLocale(int localeID)
     {
-        //ids: en 0, pt-br 1
+        //ids: en 0, pt-br 1, zh 2
         active = true;
         yield return LocalizationSettings.InitializationOperation;
         LocalizationSettings.SelectedLocale = LocalizationSettings.AvailableLocales.Locales[localeID];
