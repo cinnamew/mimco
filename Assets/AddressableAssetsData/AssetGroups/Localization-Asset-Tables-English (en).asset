@@ -25,7 +25,7 @@ MonoBehaviour:
     - Preload
     FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 1
-  m_Settings: {fileID: 11400000, guid: 4f2b6e5a5502eed4e9460bb175350968, type: 2}
+  m_Settings: {fileID: 0}
   m_SchemaSet:
     m_Schemas:
     - {fileID: 11400000, guid: 56b6bdff569dd3744bf3da5fcc001d42, type: 2}

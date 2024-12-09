@@ -9,27 +9,30 @@ public class LocaleSelector : MonoBehaviour
     [SerializeField] int currLocaleID = 0;
     [SerializeField] Flowchart f;
     private bool active = false;
-    
+
     // Start is called before the first frame update
     void Start()
     {
         currLocaleID = PlayerPrefs.GetInt("LocaleKey", 0);
         ChangeLocale(0);
 
-        if(f != null) {
-            if(currLocaleID == 1) f.ExecuteBlock("ptbr");
+        if (f != null)
+        {
+            if (currLocaleID == 1) f.ExecuteBlock("ptbr");
         }
     }
 
-    public void ChangeLocale(int add) {
-        if(active) return;
+    public void ChangeLocale(int add)
+    {
+        if (active) return;
         currLocaleID += add;
-        if(currLocaleID < 0) currLocaleID = 1;
-        if(currLocaleID > 1) currLocaleID = 0;
+        if (currLocaleID < 0) currLocaleID = 2;
+        if (currLocaleID > 2) currLocaleID = 0;
         StartCoroutine(SetLocale(currLocaleID));
     }
 
-    IEnumerator SetLocale(int localeID) {
+    IEnumerator SetLocale(int localeID)
+    {
         //ids: en 0, pt-br 1
         active = true;
         yield return LocalizationSettings.InitializationOperation;

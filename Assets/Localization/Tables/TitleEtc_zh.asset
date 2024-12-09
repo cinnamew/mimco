@@ -10,94 +10,84 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
-  m_Name: TitleEtc_pt-BR
+  m_Name: TitleEtc_zh
   m_EditorClassIdentifier: 
   m_LocaleId:
-    m_Code: pt-BR
+    m_Code: zh
   m_SharedData: {fileID: 11400000, guid: 43a7446c5bc03eb468d39cf562a0d1ca, type: 2}
   m_Metadata:
     m_Items: []
   m_TableData:
   - m_Id: 2143811756032
-    m_Localized: Jogar!
+    m_Localized: "\u5F00\u59CB\uFF01"
     m_Metadata:
       m_Items: []
   - m_Id: 9044041621504
-    m_Localized: Sobre!
+    m_Localized: "\u5173\u4E8E\uFF01"
     m_Metadata:
       m_Items: []
   - m_Id: 9282248728576
-    m_Localized: Sair!
+    m_Localized: "\u9000\u51FA\uFF01"
     m_Metadata:
       m_Items: []
   - m_Id: 9900904374272
-    m_Localized: "SOBRE~!\r"
+    m_Localized: "\u5173\u4E8E\u6E38\u620F\uFF5E\uFF01"
     m_Metadata:
       m_Items: []
   - m_Id: 10603148304384
-    m_Localized: De volta ao presente...
+    m_Localized: 
     m_Metadata:
       m_Items: []
   - m_Id: 10743129006080
-    m_Localized: "- Criado em 72 horas para a MelonJam 4 (tema: corrup\xE7\xE3o)\r\n-
-      Criado por cinnamew, effixs, pocketnii, spiderface721\r\n- Traduzido por Natthan
-      Coelho\n\r\n- AG!: Men\xE7\xF5es a assassinato, sangue, terror leve, crimes
-      violentos e viola\xE7\xE3o sexual"
+    m_Localized: 
     m_Metadata:
       m_Items: []
   - m_Id: 180424633475072
-    m_Localized: "3 semanas atr\xE1s\u2026"
+    m_Localized: 
     m_Metadata:
       m_Items: []
   - m_Id: 180901131575296
-    m_Localized: De volta ao presente (3 semanas depois...)
+    m_Localized: 
     m_Metadata:
       m_Items: []
   - m_Id: 181127586242560
-    m_Localized: 7 horas depois...
+    m_Localized: 
     m_Metadata:
       m_Items: []
   - m_Id: 649697533353984
-    m_Localized: coisas para arrumar
+    m_Localized: 
     m_Metadata:
       m_Items: []
   - m_Id: 699418809458688
-    m_Localized: Semanas depois...
+    m_Localized: 
     m_Metadata:
       m_Items: []
   - m_Id: 740985686679552
-    m_Localized: Na loja...
+    m_Localized: 
     m_Metadata:
       m_Items: []
   - m_Id: 983884324102144
-    m_Localized: agradecemos por jogar!
+    m_Localized: 
     m_Metadata:
       m_Items: []
   - m_Id: 984483895664640
-    m_Localized: "cr\xE9ditos:\n> cinnamew: programa\xE7\xE3o, di\xE1logos, hist\xF3ria\n>
-      effixs: arte dos minijogos\n> pocketnii: IU, outras artes, hist\xF3ria\n> spiderface721:
-      programa\xE7\xE3o dos minijogos\n> Natthan Coelho: tradu\xE7\xE3o PTBR\n(as
-      m\xFAsicas n\xE3o s\xE3o nossas!)"
+    m_Localized: 
     m_Metadata:
       m_Items: []
   - m_Id: 986048287170560
-    m_Localized: "Voltar ao In\xEDcio"
+    m_Localized: 
     m_Metadata:
       m_Items: []
   - m_Id: 997841499807744
-    m_Localized: pt-BR
+    m_Localized: zh
     m_Metadata:
       m_Items: []
   - m_Id: 1044770027954176
-    m_Localized: "*Por favor, cheque a se\xE7\xE3o AG antes de jogar!*"
+    m_Localized: 
     m_Metadata:
       m_Items: []
   - m_Id: 1045539603046400
-    m_Localized: "*Jogue com a m\xFAsica ligada para a melhor experi\xEAncia!*"
-    m_Metadata:
-      m_Items: []
-  - m_Id: 2116517649145856
-    m_Localized: Voltar!
+    m_Localized: 
     m_Metadata:
       m_Items: []
   references:
