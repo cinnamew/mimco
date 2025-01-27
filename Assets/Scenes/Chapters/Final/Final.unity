@@ -4905,6 +4905,8 @@ GameObject:
   - component: {fileID: 897259749}
   - component: {fileID: 897259751}
   - component: {fileID: 897259750}
+  - component: {fileID: 897259752}
+  - component: {fileID: 897259753}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -5016,7 +5018,8 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
+  selectedBlocks:
+  - {fileID: 897259752}
   selectedCommands: []
   variables: []
   description: 
@@ -11433,6 +11436,51 @@ MonoBehaviour:
   commandList:
   - {fileID: 897259750}
   suppressAllAutoSelections: 0
+--- !u!114 &897259752
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 897259449}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: -130.32758
+    y: 213.88222
+    width: 64
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 212
+  blockName: uk
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 897259753}
+  suppressAllAutoSelections: 0
+--- !u!114 &897259753
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 897259449}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fc625e237d6048bf86f34835d8266d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 309
+  indentLevel: 0
+  _languageCode:
+    stringRef: {fileID: 0}
+    stringVal: uk
+  languageCodeOLD: 
 --- !u!1 &903196325
 GameObject:
   m_ObjectHideFlags: 0
@@ -12468,7 +12516,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   activeLanguage: 
-  localizationFile: {fileID: 4900000, guid: c66cfd38ea9add140b9310db3c1c6142, type: 3}
+  localizationFile: {fileID: 4900000, guid: de9f4be72746a4d3b8566a6a79bab901, type: 3}
 --- !u!4 &1155351170
 Transform:
   m_ObjectHideFlags: 0

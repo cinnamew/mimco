@@ -19,6 +19,8 @@ public class LocaleSelector : MonoBehaviour
         if (f != null)
         {
             if (currLocaleID == 1) f.ExecuteBlock("ptbr");
+            else if (currLocaleID == 2) f.ExecuteBlock("uk");
+            //else if (currLocaleID == 3) f.ExecuteBlock("zh-TW");
         }
     }
 
@@ -26,14 +28,14 @@ public class LocaleSelector : MonoBehaviour
     {
         if (active) return;
         currLocaleID += add;
-        if (currLocaleID < 0) currLocaleID = 2;
-        if (currLocaleID > 2) currLocaleID = 0;
+        if (currLocaleID < 0) currLocaleID = 3;
+        if (currLocaleID > 3) currLocaleID = 0;
         StartCoroutine(SetLocale(currLocaleID));
     }
 
     IEnumerator SetLocale(int localeID)
     {
-        //ids: en 0, pt-br 1, zh 2
+        //ids: en 0, pt-br 1, uk 2, zh-TW 3
         active = true;
         yield return LocalizationSettings.InitializationOperation;
         LocalizationSettings.SelectedLocale = LocalizationSettings.AvailableLocales.Locales[localeID];
