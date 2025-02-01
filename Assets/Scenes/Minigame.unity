@@ -512,8 +512,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 198135256}
-  selectedCommands: []
+  - {fileID: 198135223}
+  selectedCommands:
+  - {fileID: 198135246}
   variables: []
   description: 
   stepPause: 0
@@ -1418,7 +1419,7 @@ MonoBehaviour:
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 212
+  itemId: 215
   blockName: uk
   description: 
   eventHandler: {fileID: 0}
@@ -2635,6 +2636,7 @@ MonoBehaviour:
   dialogCanvas: {fileID: 785183836}
   nameText: {fileID: 2090990452}
   nameTextGO: {fileID: 0}
+  nameBox: {fileID: 0}
   storyText: {fileID: 68310830}
   storyTextGO: {fileID: 0}
   characterImage: {fileID: 738705897}
@@ -3017,6 +3019,7 @@ MonoBehaviour:
   dialogCanvas: {fileID: 932455908}
   nameText: {fileID: 80456020}
   nameTextGO: {fileID: 0}
+  nameBox: {fileID: 0}
   storyText: {fileID: 1830818171}
   storyTextGO: {fileID: 0}
   characterImage: {fileID: 0}
