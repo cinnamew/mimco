@@ -1007,9 +1007,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 369760168}
+  - {fileID: 369760166}
   selectedCommands:
-  - {fileID: 369760169}
+  - {fileID: 369760167}
   variables: []
   description: 
   stepPause: 0
@@ -2540,7 +2540,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 369760099}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2fab8abf0343545abbfebd9a7b7b34bd, type: 3}
   m_Name: 
@@ -2571,7 +2571,7 @@ MonoBehaviour:
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 212
+  itemId: 216
   blockName: uk
   description: 
   eventHandler: {fileID: 0}
@@ -2812,7 +2812,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   activeLanguage: 
-  localizationFile: {fileID: 4900000, guid: adcd86aacf3c54e7da37df959b131efa, type: 3}
+  localizationFile: {fileID: 4900000, guid: a25aa70d50ae84c108bffdb9f2ebe28e, type: 3}
 --- !u!4 &471821812
 Transform:
   m_ObjectHideFlags: 0
@@ -2840,7 +2840,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 22aab986c9e683e4292f5821c9609c88, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currLocaleID: 1
+  currLocaleID: 0
   f: {fileID: 369760121}
 --- !u!1 &638107376
 GameObject:
@@ -3144,6 +3144,7 @@ MonoBehaviour:
   dialogCanvas: {fileID: 729937290}
   nameText: {fileID: 457480618}
   nameTextGO: {fileID: 0}
+  nameBox: {fileID: 0}
   storyText: {fileID: 638107379}
   storyTextGO: {fileID: 0}
   characterImage: {fileID: 1489766379}

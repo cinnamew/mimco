@@ -13,16 +13,16 @@ public class LocaleSelector : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        currLocaleID = PlayerPrefs.GetInt("LocaleKey", 0);
-        ChangeLocale(0);
-        //StartCoroutine(SetLocale(0));
+        //currLocaleID = PlayerPrefs.GetInt("LocaleKey", 0);
+        //ChangeLocale(0);
+        //StartCoroutine(SetLocale(1));
 
-        if (f != null)
-        {
-            if (currLocaleID == 1) f.ExecuteBlock("ptbr");
-            else if (currLocaleID == 2) f.ExecuteBlock("uk");
-            //else if (currLocaleID == 3) f.ExecuteBlock("zh-TW");
-        }
+        //if (f != null)
+        //{
+        //    if (currLocaleID == 1) f.ExecuteBlock("ptbr");
+        //    else if (currLocaleID == 2) f.ExecuteBlock("uk");
+        //    //else if (currLocaleID == 3) f.ExecuteBlock("zh-TW");
+        //}
     }
 
     public void ChangeLocale(int add)
