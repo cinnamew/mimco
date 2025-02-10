@@ -691,7 +691,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameText: Ellie
+  nameText: ok char
   nameColor: {r: 0.5647059, g: 0.22352941, b: 0.30980393, a: 1}
   soundEffect: {fileID: 0}
   portraits:
@@ -1678,7 +1678,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 897259451}
   selectedCommands:
-  - {fileID: 897259672}
+  - {fileID: 897259480}
   variables: []
   description: 
   stepPause: 0
@@ -6628,7 +6628,7 @@ MonoBehaviour:
   languageCodeOLD: 
 --- !u!114 &897259668
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -6658,7 +6658,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &897259669
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -6676,7 +6676,7 @@ MonoBehaviour:
   languageCodeOLD: 
 --- !u!114 &897259670
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -6703,7 +6703,7 @@ MonoBehaviour:
   suppressAllAutoSelections: 0
 --- !u!114 &897259671
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -6721,7 +6721,7 @@ MonoBehaviour:
   targetLabelOLD: {fileID: 0}
 --- !u!114 &897259672
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -6736,7 +6736,7 @@ MonoBehaviour:
   key: choice
 --- !u!114 &897259673
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -6869,7 +6869,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 22aab986c9e683e4292f5821c9609c88, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currLocaleID: 1
+  currLocaleID: 2
   f: {fileID: 897259452}
 --- !u!1 &1201364488
 GameObject:
@@ -8738,6 +8738,10 @@ PrefabInstance:
     - target: {fileID: 5835075832672851715, guid: d8d1bfff5a13e4a28a1181447aa36a47, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6570843919129835908, guid: d8d1bfff5a13e4a28a1181447aa36a47, type: 3}
+      propertyPath: m_text
+      value: it's not funny
       objectReference: {fileID: 0}
     - target: {fileID: 8274581280841978804, guid: d8d1bfff5a13e4a28a1181447aa36a47, type: 3}
       propertyPath: m_Name

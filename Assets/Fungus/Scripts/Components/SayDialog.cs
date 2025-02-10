@@ -180,7 +180,7 @@ namespace Fungus
             if (NameText == "")
             {
                 SetCharacterName("", Color.white);
-                nameBox.SetActive(false);
+                if (nameBox != null) nameBox.SetActive(false);
             }
             if (currentCharacterImage == null)
             {
@@ -339,7 +339,7 @@ namespace Fungus
                 if (NameText != null)
                 {
                     NameText = "";
-                    nameBox.SetActive(false);
+                    if (nameBox != null) nameBox.SetActive(false);
                 }
                 speakingCharacter = null;
             }
@@ -348,7 +348,7 @@ namespace Fungus
                 var prevSpeakingCharacter = speakingCharacter;
                 speakingCharacter = character;
 
-                nameBox.SetActive(true);
+                if (nameBox != null) nameBox.SetActive(true);
 
                 // Dim portraits of non-speaking characters
                 var activeStages = Stage.ActiveStages;
