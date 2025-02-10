@@ -15,6 +15,7 @@ public class LocaleSelector : MonoBehaviour
     {
         currLocaleID = PlayerPrefs.GetInt("LocaleKey", 0);
         ChangeLocale(0);
+        //StartCoroutine(SetLocale(0));
 
         if (f != null)
         {
