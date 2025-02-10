@@ -62,6 +62,6 @@ SAY.ENIntro.185.Ellie,,"...OK, Miss! I’ve made my decision! Hand over that con
 SAY.ENIntro.199.,,Are you really really sure?,Você tem certeza mesmo?,Ти точно-точно впевнена?
 MENU.ENIntro.207,,Yes (ends the game),Sim (fim de jogo),Так (кінець гри)
 MENU.ENIntro.208,,No (good choice),Não (boa escolha),Ні (хороший вибір)
-CHARACTER.Ellie,,bro what,HUH,Еллі
+CHARACTER.Ellie,,Ellie,Ellie,Еллі
 CHARACTER.???,,???,???,???
 CHARACTER.Miss,,Miss,Dona,Панна
