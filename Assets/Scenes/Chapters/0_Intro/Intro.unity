@@ -749,7 +749,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameText: Ellie
+  nameText: Past Ellie
   nameColor: {r: 0.4245283, g: 0.15859738, b: 0.15859738, a: 1}
   soundEffect: {fileID: 0}
   portraits:
@@ -8655,6 +8655,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2304395036709058705, guid: d8d1bfff5a13e4a28a1181447aa36a47, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -5.3479004
+      objectReference: {fileID: 0}
     - target: {fileID: 5835075832672851715, guid: d8d1bfff5a13e4a28a1181447aa36a47, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -8738,6 +8742,10 @@ PrefabInstance:
     - target: {fileID: 5835075832672851715, guid: d8d1bfff5a13e4a28a1181447aa36a47, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6570843919129835908, guid: d8d1bfff5a13e4a28a1181447aa36a47, type: 3}
+      propertyPath: m_text
+      value: Miss
       objectReference: {fileID: 0}
     - target: {fileID: 8274581280841978804, guid: d8d1bfff5a13e4a28a1181447aa36a47, type: 3}
       propertyPath: m_Name
