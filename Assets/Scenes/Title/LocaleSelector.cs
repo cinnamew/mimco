@@ -13,7 +13,7 @@ public class LocaleSelector : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        currLocaleID = PlayerPrefs.GetInt("LocaleKey", 0);
+        currLocaleID = PlayerPrefs.GetInt("LocaleKey", 1);
         ChangeLocale(0);
         //StartCoroutine(SetLocale(2));
 
