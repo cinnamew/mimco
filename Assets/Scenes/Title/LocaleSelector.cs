@@ -19,9 +19,10 @@ public class LocaleSelector : MonoBehaviour
 
         if (f != null)
         {
+            //could switch case later 🤓
             if (currLocaleID == 1) f.ExecuteBlock("ptbr");
             else if (currLocaleID == 2) f.ExecuteBlock("uk");
-            //else if (currLocaleID == 3) f.ExecuteBlock("zh-TW");
+            else if (currLocaleID == 3) f.ExecuteBlock("zh-TW");
         }
     }
 
