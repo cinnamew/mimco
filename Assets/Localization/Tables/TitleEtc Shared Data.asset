@@ -91,6 +91,10 @@ MonoBehaviour:
     m_Key: back
     m_Metadata:
       m_Items: []
+  - m_Id: 200995002626596864
+    m_Key: New Entry
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
