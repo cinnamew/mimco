@@ -27,6 +27,9 @@ namespace Fungus
         [SerializeField] protected Text nameText;
         [Tooltip("TextAdapter will search for appropriate output on this GameObject if nameText is null")]
         [SerializeField] protected GameObject nameTextGO;
+
+        [SerializeField] protected GameObject nameBox;
+        [Tooltip("the box for the name :3c")]
         protected TextAdapter nameTextAdapter = new TextAdapter();
         public virtual string NameText
         {
@@ -67,14 +70,14 @@ namespace Fungus
         [Tooltip("The character UI object")]
         [SerializeField] protected Image characterImage;
         public virtual Image CharacterImage { get { return characterImage; } }
-    
+
         [Tooltip("Adjust width of story text when Character Image is displayed (to avoid overlapping)")]
         [SerializeField] protected bool fitTextWithImage = true;
 
         [Tooltip("Close any other open Say Dialogs when this one is active")]
         [SerializeField] protected bool closeOtherDialogs;
 
-        protected float startStoryTextWidth; 
+        protected float startStoryTextWidth;
         protected float startStoryTextInset;
 
         protected WriterAudio writerAudio;
@@ -92,26 +95,26 @@ namespace Fungus
 
         protected StringSubstituter stringSubstituter = new StringSubstituter();
 
-		// Cache active Say Dialogs to avoid expensive scene search
-		protected static List<SayDialog> activeSayDialogs = new List<SayDialog>();
+        // Cache active Say Dialogs to avoid expensive scene search
+        protected static List<SayDialog> activeSayDialogs = new List<SayDialog>();
 
-		protected virtual void Awake()
-		{
-			if (!activeSayDialogs.Contains(this))
-			{
-				activeSayDialogs.Add(this);
-			}
+        protected virtual void Awake()
+        {
+            if (!activeSayDialogs.Contains(this))
+            {
+                activeSayDialogs.Add(this);
+            }
 
             nameTextAdapter.InitFromGameObject(nameText != null ? nameText.gameObject : nameTextGO);
             storyTextAdapter.InitFromGameObject(storyText != null ? storyText.gameObject : storyTextGO);
         }
 
-		protected virtual void OnDestroy()
-		{
-			activeSayDialogs.Remove(this);
-		}
-			
-		protected virtual Writer GetWriter()
+        protected virtual void OnDestroy()
+        {
+            activeSayDialogs.Remove(this);
+        }
+
+        protected virtual Writer GetWriter()
         {
             if (writer != null)
             {
@@ -133,13 +136,13 @@ namespace Fungus
             {
                 return canvasGroup;
             }
-            
+
             canvasGroup = GetComponent<CanvasGroup>();
             if (canvasGroup == null)
             {
                 canvasGroup = gameObject.AddComponent<CanvasGroup>();
             }
-            
+
             return canvasGroup;
         }
 
@@ -149,13 +152,13 @@ namespace Fungus
             {
                 return writerAudio;
             }
-            
+
             writerAudio = GetComponent<WriterAudio>();
             if (writerAudio == null)
             {
                 writerAudio = gameObject.AddComponent<WriterAudio>();
             }
-            
+
             return writerAudio;
         }
 
@@ -168,7 +171,7 @@ namespace Fungus
             GraphicRaycaster raycaster = GetComponent<GraphicRaycaster>();
             if (raycaster == null)
             {
-                gameObject.AddComponent<GraphicRaycaster>();    
+                gameObject.AddComponent<GraphicRaycaster>();
             }
 
             // It's possible that SetCharacterImage() has already been called from the
@@ -180,7 +183,7 @@ namespace Fungus
                 SetCharacterName("", Color.white);
             }
             if (currentCharacterImage == null)
-            {                
+            {
                 // Character image is hidden by default.
                 SetCharacterImage(null);
             }
@@ -192,7 +195,7 @@ namespace Fungus
 
             if (continueButton != null)
             {
-                continueButton.gameObject.SetActive( GetWriter().IsWaitingForInput );
+                continueButton.gameObject.SetActive(GetWriter().IsWaitingForInput);
             }
         }
 
@@ -226,7 +229,7 @@ namespace Fungus
                 canvasGroup.alpha = alpha;
 
                 if (alpha <= 0f)
-                {                   
+                {
                     // Deactivate dialog object once invisible
                     gameObject.SetActive(false);
                 }
@@ -240,7 +243,7 @@ namespace Fungus
 
         #region Public members
 
-		public Character SpeakingCharacter { get { return speakingCharacter; } }
+        public Character SpeakingCharacter { get { return speakingCharacter; } }
 
         /// <summary>
         /// Currently active Say Dialog used to display Say text
@@ -254,13 +257,13 @@ namespace Fungus
         {
             if (ActiveSayDialog == null)
             {
-				SayDialog sd = null;
+                SayDialog sd = null;
 
-				// Use first active Say Dialog in the scene (if any)
-				if (activeSayDialogs.Count > 0)
-				{
-					sd = activeSayDialogs[0];
-				}
+                // Use first active Say Dialog in the scene (if any)
+                if (activeSayDialogs.Count > 0)
+                {
+                    sd = activeSayDialogs[0];
+                }
 
                 if (sd != null)
                 {
@@ -377,7 +380,7 @@ namespace Fungus
                     // Use game object name as default
                     characterName = character.GetObjectName();
                 }
-                    
+
                 SetCharacterName(characterName, character.NameColor);
             }
         }
@@ -404,34 +407,34 @@ namespace Fungus
 
                 if (startStoryTextWidth != 0)
                 {
-                    StoryTextRectTrans.SetInsetAndSizeFromParentEdge(RectTransform.Edge.Left, 
-                        startStoryTextInset, 
+                    StoryTextRectTrans.SetInsetAndSizeFromParentEdge(RectTransform.Edge.Left,
+                        startStoryTextInset,
                         startStoryTextWidth);
                 }
             }
 
             // Adjust story text box to not overlap image rect
-            if (fitTextWithImage && 
+            if (fitTextWithImage &&
                 StoryText != null &&
                 characterImage.gameObject.activeSelf)
             {
                 if (Mathf.Approximately(startStoryTextWidth, 0f))
                 {
                     startStoryTextWidth = StoryTextRectTrans.rect.width;
-                    startStoryTextInset = StoryTextRectTrans.offsetMin.x; 
+                    startStoryTextInset = StoryTextRectTrans.offsetMin.x;
                 }
 
                 // Clamp story text to left or right depending on relative position of the character image
                 if (StoryTextRectTrans.position.x < characterImage.rectTransform.position.x)
                 {
-                    StoryTextRectTrans.SetInsetAndSizeFromParentEdge(RectTransform.Edge.Left, 
-                        startStoryTextInset, 
+                    StoryTextRectTrans.SetInsetAndSizeFromParentEdge(RectTransform.Edge.Left,
+                        startStoryTextInset,
                         startStoryTextWidth - characterImage.rectTransform.rect.width);
                 }
                 else
                 {
-                    StoryTextRectTrans.SetInsetAndSizeFromParentEdge(RectTransform.Edge.Right, 
-                        startStoryTextInset, 
+                    StoryTextRectTrans.SetInsetAndSizeFromParentEdge(RectTransform.Edge.Right,
+                        startStoryTextInset,
                         startStoryTextWidth - characterImage.rectTransform.rect.width);
                 }
             }
@@ -525,7 +528,7 @@ namespace Fungus
         /// <summary>
         /// Tell the Say Dialog to fade out once writing and player input have finished.
         /// </summary>
-        public virtual bool FadeWhenDone { get {return fadeWhenDone; } set { fadeWhenDone = value; } }
+        public virtual bool FadeWhenDone { get { return fadeWhenDone; } set { fadeWhenDone = value; } }
 
         /// <summary>
         /// Stop the Say Dialog while its writing text.
