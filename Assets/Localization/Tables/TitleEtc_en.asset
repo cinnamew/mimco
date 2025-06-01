@@ -79,19 +79,24 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 984483895664640
-    m_Localized: 'made by...
+    m_Localized: '<b>made by...</b>
 
-      > cinnamew: code/dialogue/story
+      > <b>cinnamew:</b> code/dialogue/story
 
-      > effixs:
-      minigame art
+      >
+      <b>effixs:</b> minigame art
 
-      > pocketnii: UI/other art/story
+      > <b>pocketnii:</b> UI/other art/story
 
-      > spiderface721:
-      minigame code
+      >
+      <b>spiderface721:</b> minigame code
 
-      (music not by us!)'
+      (music not by us!)
+
+
+      if you
+      liked this game, please feel free to drop a comment/rating :) we (aka cinna)
+      love reading them!!'
     m_Metadata:
       m_Items: []
   - m_Id: 986048287170560

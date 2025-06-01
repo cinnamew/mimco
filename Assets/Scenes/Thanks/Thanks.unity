@@ -959,8 +959,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000012398, y: 8.5}
-  m_SizeDelta: {x: 499.9543, y: 214.439}
+  m_AnchoredPosition: {x: -0.000011444, y: -0.0000076293945}
+  m_SizeDelta: {x: 605.1545, y: 214.439}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1069860959
 MonoBehaviour:
@@ -982,13 +982,26 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "cr\xE9ditos:\n> cinnamew: programa\xE7\xE3o, di\xE1logos, hist\xF3ria\n>
-    effixs: arte dos minijogos\n> pocketnii: IU, outras artes, hist\xF3ria\n> spiderface721:
-    programa\xE7\xE3o dos minijogos\n> Natthan Coelho: tradu\xE7\xE3o PTBR\n(as m\xFAsicas
-    n\xE3o s\xE3o nossas!)"
+  m_text: '<b>made by...</b>
+
+    > <b>cinnamew:</b> code/dialogue/story
+
+    > <b>effixs:</b>
+    minigame art
+
+    > <b>pocketnii:</b> UI/other art/story
+
+    > <b>spiderface721:</b>
+    minigame code
+
+    (music not by us!)
+
+
+    if you liked this game, please feel
+    free to drop a comment/rating :) we (aka cinna) love reading them!!'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: d4575b43d263e554d9449f06feb058b3, type: 2}
-  m_sharedMaterial: {fileID: 2473524833943559444, guid: d4575b43d263e554d9449f06feb058b3, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a6f27af2775b630489f9cfd4c8387f68, type: 2}
+  m_sharedMaterial: {fileID: 6308839291456559617, guid: a6f27af2775b630489f9cfd4c8387f68, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1012,8 +1025,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 30
-  m_fontSizeBase: 30
+  m_fontSize: 23
+  m_fontSizeBase: 23
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
