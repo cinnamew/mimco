@@ -2293,8 +2293,8 @@ MonoBehaviour:
   fallbackFontAssets: []
   m_FallbackFontAssetTable:
   - {fileID: 11400000, guid: b4438aaafff64472298e04a87895a1af, type: 2}
-  - {fileID: 11400000, guid: 8bc737acf853243c4a21905509001c5a, type: 2}
   - {fileID: 11400000, guid: e97769ce8c7da492884eb1383f7f740e, type: 2}
+  - {fileID: 11400000, guid: 8bc737acf853243c4a21905509001c5a, type: 2}
   - {fileID: 11400000, guid: 95c17194b10fa4704908502e815b99b2, type: 2}
   - {fileID: 11400000, guid: 4f6eb8c8383bf4c489b4e5d413afeabb, type: 2}
   - {fileID: 11400000, guid: 8c2519dc3bdc0427498b427c778d41a8, type: 2}
