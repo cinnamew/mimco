@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 62fb8a6f9298a46ab861667d532822cd
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - April
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: f79fe42fec57e944ca7274797dbe0c92, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
