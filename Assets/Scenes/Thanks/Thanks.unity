@@ -559,7 +559,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 67
     y: 70
-    width: 112.4
+    width: 111
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -662,8 +662,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.0000095367, y: -179.3433}
-  m_SizeDelta: {x: 212.4615, y: 33.3134}
+  m_AnchoredPosition: {x: 0.0000095367, y: -178.1}
+  m_SizeDelta: {x: 212.4615, y: 50.0888}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &871775674
 MonoBehaviour:
@@ -959,7 +959,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000011444, y: -0.0000076293945}
+  m_AnchoredPosition: {x: -0.000011444, y: 15.513}
   m_SizeDelta: {x: 605.1545, y: 214.439}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1069860959
@@ -982,26 +982,22 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '<b>made by...</b>
-
-    > <b>cinnamew:</b> code/dialogue/story
-
-    > <b>effixs:</b>
-    minigame art
-
-    > <b>pocketnii:</b> UI/other art/story
-
-    > <b>spiderface721:</b>
-    minigame code
-
-    (music not by us!)
-
-
-    if you liked this game, please feel
-    free to drop a comment/rating :) we (aka cinna) love reading them!!'
+  m_text: "<b>\u043A\u043E\u043C\u0430\u043D\u0434\u0430:</b>\n<b>> cinnamew:</b>
+    \u043A\u043E\u0434, \u0434\u0456\u0430\u043B\u043E\u0433\u0438, \u0441\u044E\u0436\u0435\u0442\n<b>>
+    effix:</b> \u0430\u0440\u0442\u0438 \u0434\u043E \u043C\u0456\u043D\u0456\u0456\u0433\u043E\u0440\n<b>>
+    pocketnii:</b> UI, \u0456\u043D\u0448\u0456 \u0430\u0440\u0442\u0438, \u0441\u044E\u0436\u0435\u0442\n<b>>
+    spiderface721:</b> \u043A\u043E\u0434 \u0434\u043E \u043C\u0456\u043D\u0456\u0456\u0433\u043E\u0440\n<b>>
+    blossomtsvit:</b> \u043F\u0435\u0440\u0435\u043A\u043B\u0430\u0434\u0430\u0447
+    \u0437 \u0443\u043A\u0440\u0430\u0457\u043D\u0441\u044C\u043A\u043E\u0457 \u043C\u043E\u0432\u0438\n(\u043C\u0443\u0437\u0438\u043A\u0430
+    \u043D\u0435 \u043D\u0430\u0448\u0430!)\n\n\u042F\u043A\u0449\u043E \u0432\u0430\u043C
+    \u0441\u043F\u043E\u0434\u043E\u0431\u0430\u043B\u0430\u0441\u044F \u0446\u044F
+    \u0433\u0440\u0430, \u0431\u0443\u0434\u044C \u043B\u0430\u0441\u043A\u0430,
+    \u0437\u0430\u043B\u0438\u0448\u0442\u0435 \u043A\u043E\u043C\u0435\u043D\u0442\u0430\u0440/\u043E\u0446\u0456\u043D\u043A\u0443
+    :) \u043D\u0430\u043C \u043F\u043E\u0434\u043E\u0431\u0430\u0454\u0442\u044C\u0441\u044F
+    \u0457\u0445 \u0447\u0438\u0442\u0430\u0442\u0438!!"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: a6f27af2775b630489f9cfd4c8387f68, type: 2}
-  m_sharedMaterial: {fileID: 6308839291456559617, guid: a6f27af2775b630489f9cfd4c8387f68, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b4438aaafff64472298e04a87895a1af, type: 2}
+  m_sharedMaterial: {fileID: 7161143898969721854, guid: b4438aaafff64472298e04a87895a1af, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []

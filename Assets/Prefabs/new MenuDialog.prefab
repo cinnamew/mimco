@@ -328,7 +328,7 @@ RectTransform:
   - {fileID: 4342874850041949215}
   - {fileID: 1480842685528859915}
   m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -1059,8 +1059,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "\u041C\u0435\u043D\u0456\u04A3 \u0433\u0430\u0443\u04BB\u0430\u0440\u044B\u043C"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: a6f27af2775b630489f9cfd4c8387f68, type: 2}
-  m_sharedMaterial: {fileID: 6308839291456559617, guid: a6f27af2775b630489f9cfd4c8387f68, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b4438aaafff64472298e04a87895a1af, type: 2}
+  m_sharedMaterial: {fileID: 7161143898969721854, guid: b4438aaafff64472298e04a87895a1af, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []

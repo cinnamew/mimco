@@ -1575,6 +1575,8 @@ GameObject:
   - component: {fileID: 897259667}
   - component: {fileID: 897259668}
   - component: {fileID: 897259669}
+  - component: {fileID: 897259671}
+  - component: {fileID: 897259670}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1669,9 +1671,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 897259482}
-  selectedCommands:
-  - {fileID: 897259494}
+  - {fileID: 897259671}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -6648,6 +6649,51 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 980097476}
+--- !u!114 &897259670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 897259449}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fc625e237d6048bf86f34835d8266d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 217
+  indentLevel: 0
+  _languageCode:
+    stringRef: {fileID: 0}
+    stringVal: uk
+  languageCodeOLD: 
+--- !u!114 &897259671
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 897259449}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: -128.32758
+    y: 135.88222
+    width: 64
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 218
+  blockName: uk
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 897259670}
+  suppressAllAutoSelections: 0
 --- !u!1 &905689937
 GameObject:
   m_ObjectHideFlags: 1
@@ -6735,7 +6781,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   activeLanguage: 
-  localizationFile: {fileID: 4900000, guid: 366ca27535287d643ae671af25e1b843, type: 3}
+  localizationFile: {fileID: 4900000, guid: c202cb817477a425da7983f766f9f613, type: 3}
 --- !u!4 &1158056283
 Transform:
   m_ObjectHideFlags: 0
@@ -8693,11 +8739,11 @@ PrefabInstance:
     - target: {fileID: 6760608502904292708, guid: ea7ac6102b6124e1090b3d816fe9b020, type: 3}
       propertyPath: m_fontAsset
       value: 
-      objectReference: {fileID: 11400000, guid: a6f27af2775b630489f9cfd4c8387f68, type: 2}
+      objectReference: {fileID: 11400000, guid: b4438aaafff64472298e04a87895a1af, type: 2}
     - target: {fileID: 6760608502904292708, guid: ea7ac6102b6124e1090b3d816fe9b020, type: 3}
       propertyPath: m_sharedMaterial
       value: 
-      objectReference: {fileID: 6308839291456559617, guid: a6f27af2775b630489f9cfd4c8387f68, type: 2}
+      objectReference: {fileID: 7161143898969721854, guid: b4438aaafff64472298e04a87895a1af, type: 2}
     - target: {fileID: 6760608502904292708, guid: ea7ac6102b6124e1090b3d816fe9b020, type: 3}
       propertyPath: m_hasFontAssetChanged
       value: 0
