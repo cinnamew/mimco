@@ -21,16 +21,14 @@ public class LevelManagerScript : MonoBehaviour
 
     float timeStamp = 0;
 
+    //[SerializeField] GameObject 
+
     // Start is called before the first frame update
     void Start()
     {
         //print(LocalizationSettings.SelectedLocale + ", " + LocalizationSettings.AvailableLocales.Locales[0]);
-        
-        if(LocalizationSettings.SelectedLocale == LocalizationSettings.AvailableLocales.Locales[0]) {
-            text.text = (thingsToFind - thingsFound).ToString() + " things to fix";
-        }else {
-            text.text = "Restam " + (thingsToFind - thingsFound).ToString() + " itens";
-        }
+
+        UpdateItemsFoundText();
     }
 
     // Update is called once per frame
@@ -39,8 +37,8 @@ public class LevelManagerScript : MonoBehaviour
         if (thingsFound >= thingsToFind)
         {
             //Debug.Log("COMPLETED LEVEL");
-            
-            
+
+
             if (!isTiming)
             {
                 timeStamp = Time.time;
@@ -48,13 +46,13 @@ public class LevelManagerScript : MonoBehaviour
             }
             if (Time.time > timeStamp + delayAfterFinish && canContinue)
             {
-                switch(level)
+                switch (level)
                 {
-                    case 1:                  
-                            SceneManager.LoadScene("Two_Before");
-                            break;       
-                    case 2:                   
-                            SceneManager.LoadScene("Three_Before");
+                    case 1:
+                        SceneManager.LoadScene("Two_Before");
+                        break;
+                    case 2:
+                        SceneManager.LoadScene("Three_Before");
                         break;
                     case 3:
                         SceneManager.LoadScene("Final");
@@ -64,26 +62,38 @@ public class LevelManagerScript : MonoBehaviour
             }
         }
 
-        if(LocalizationSettings.SelectedLocale == LocalizationSettings.AvailableLocales.Locales[0]) {
-            text.text = (thingsToFind - thingsFound).ToString() + " things to fix";
-        }else {
-            text.text = "Restam " + (thingsToFind - thingsFound).ToString() + " itens";
+        UpdateItemsFoundText();
+    }
+
+    public void UpdateItemsFoundText()
+    {
+        string newItemsStr = (thingsToFind - thingsFound).ToString();
+        if (LocalizationSettings.SelectedLocale == LocalizationSettings.AvailableLocales.Locales[1])
+        {
+            text.enabled = true;
+            text.text = "Restam " + newItemsStr + " itens";
+        }
+        else if (LocalizationSettings.SelectedLocale == LocalizationSettings.AvailableLocales.Locales[0])
+        {
+            //ptbrtext.enabled = false;
+            text.text = newItemsStr + " things to fix";
+        }
+        else if (LocalizationSettings.SelectedLocale == LocalizationSettings.AvailableLocales.Locales[2])
+        {   //uk
+            text.text = newItemsStr + " зламаних речей";
         }
     }
-    
+
     public void ThingFound()
     {
         thingsFound++;
-        if(LocalizationSettings.SelectedLocale == LocalizationSettings.AvailableLocales.Locales[0]) {
-            text.text = (thingsToFind - thingsFound).ToString() + " things to fix";
-        }else {
-            text.text = "Restam " + (thingsToFind - thingsFound).ToString() + " itens";
-        }
+        UpdateItemsFoundText();
         canContinue = false;
     }
 
-    public void okToContinue() {    //the flowchart calls this so that the last dialogue isn't cut off
-    //ew lol why did i java the function name
+    public void okToContinue()
+    {    //the flowchart calls this so that the last dialogue isn't cut off
+         //ew lol why did i java the function name
         canContinue = true;
     }
 }
