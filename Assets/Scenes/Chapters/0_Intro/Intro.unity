@@ -749,7 +749,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameText: Ellie
+  nameText: Past Ellie
   nameColor: {r: 0.4245283, g: 0.15859738, b: 0.15859738, a: 1}
   soundEffect: {fileID: 0}
   portraits:
