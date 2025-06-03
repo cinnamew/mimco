@@ -9,7 +9,7 @@ public class LocaleSelector : MonoBehaviour
     [SerializeField] int currLocaleID = 0;
     [SerializeField] Flowchart f;
 
-    static int MAX_LOCALE = 2;  //# of non-english locales
+    static int MAX_LOCALE = 3;  //# of non-english locales
     private bool active = false;
 
     // Start is called before the first frame update
@@ -20,9 +20,21 @@ public class LocaleSelector : MonoBehaviour
 
         if (f != null)
         {
-            //0 = english, 1 = ptbr, 2 = uk
-            if (currLocaleID == 1) f.ExecuteBlock("ptbr");
-            else if (currLocaleID == 2) f.ExecuteBlock("uk");
+            //0 = english, 1 = ptbr, 2 = uk, 3 = ru
+            switch (currLocaleID) {
+                case 1:
+                    f.ExecuteBlock("ptbr");
+                    break;
+                case 2:
+                    f.ExecuteBlock("uk");
+                    break;
+                case 3:
+                    f.ExecuteBlock("ru");
+                    break;
+                default:
+                    break;
+            }
+            
         }
     }
 
@@ -37,7 +49,7 @@ public class LocaleSelector : MonoBehaviour
 
     IEnumerator SetLocale(int localeID)
     {
-        //ids: en 0, pt-br 1, uk 2
+        //ids: en 0, pt-br 1, uk 2, ru 3
         active = true;
         yield return LocalizationSettings.InitializationOperation;
         LocalizationSettings.SelectedLocale = LocalizationSettings.AvailableLocales.Locales[localeID];

@@ -693,7 +693,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   activeLanguage: 
-  localizationFile: {fileID: 4900000, guid: 36f252239a1d746328b3a6000b8ee84a, type: 3}
+  localizationFile: {fileID: 4900000, guid: a3b2cbd51d95a415189705cb6b167eed, type: 3}
 --- !u!4 &427865203
 Transform:
   m_ObjectHideFlags: 0
@@ -1543,6 +1543,8 @@ GameObject:
   - component: {fileID: 897259741}
   - component: {fileID: 897259743}
   - component: {fileID: 897259744}
+  - component: {fileID: 897259745}
+  - component: {fileID: 897259746}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1660,7 +1662,7 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 897259743}
+  - {fileID: 897259745}
   selectedCommands: []
   variables: []
   description: 
@@ -5613,7 +5615,7 @@ MonoBehaviour:
   suppressAllAutoSelections: 0
 --- !u!114 &897259743
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -5640,7 +5642,7 @@ MonoBehaviour:
   suppressAllAutoSelections: 0
 --- !u!114 &897259744
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -5655,6 +5657,51 @@ MonoBehaviour:
   _languageCode:
     stringRef: {fileID: 0}
     stringVal: uk
+  languageCodeOLD: 
+--- !u!114 &897259745
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 897259449}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: -120.327576
+    y: 177.88222
+    width: 61
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 218
+  blockName: ru
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 897259746}
+  suppressAllAutoSelections: 0
+--- !u!114 &897259746
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 897259449}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fc625e237d6048bf86f34835d8266d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 297
+  indentLevel: 0
+  _languageCode:
+    stringRef: {fileID: 0}
+    stringVal: ru
   languageCodeOLD: 
 --- !u!1 &905689937
 GameObject:

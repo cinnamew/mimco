@@ -478,6 +478,8 @@ GameObject:
   - component: {fileID: 369760167}
   - component: {fileID: 369760168}
   - component: {fileID: 369760169}
+  - component: {fileID: 369760170}
+  - component: {fileID: 369760171}
   m_Layer: 0
   m_Name: flowchart
   m_TagString: Flowchart
@@ -1007,7 +1009,7 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 369760168}
+  - {fileID: 369760170}
   selectedCommands: []
   variables: []
   description: 
@@ -2552,7 +2554,7 @@ MonoBehaviour:
     stringVal: ptbr caleld
 --- !u!114 &369760168
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2570,7 +2572,7 @@ MonoBehaviour:
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
-  itemId: 212
+  itemId: 216
   blockName: uk
   description: 
   eventHandler: {fileID: 0}
@@ -2579,7 +2581,7 @@ MonoBehaviour:
   suppressAllAutoSelections: 0
 --- !u!114 &369760169
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2594,6 +2596,51 @@ MonoBehaviour:
   _languageCode:
     stringRef: {fileID: 0}
     stringVal: uk
+  languageCodeOLD: 
+--- !u!114 &369760170
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 369760099}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: -52.327576
+    y: 236.88222
+    width: 61
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 218
+  blockName: ru
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 369760171}
+  suppressAllAutoSelections: 0
+--- !u!114 &369760171
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 369760099}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fc625e237d6048bf86f34835d8266d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 218
+  indentLevel: 0
+  _languageCode:
+    stringRef: {fileID: 0}
+    stringVal: ru
   languageCodeOLD: 
 --- !u!1001 &390232357
 PrefabInstance:
@@ -2811,7 +2858,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   activeLanguage: 
-  localizationFile: {fileID: 4900000, guid: cc171844921bc5e458d53373d86452a9, type: 3}
+  localizationFile: {fileID: 4900000, guid: daa3aaa0c4ad44900a5dc0153bc9c489, type: 3}
 --- !u!4 &471821812
 Transform:
   m_ObjectHideFlags: 0
