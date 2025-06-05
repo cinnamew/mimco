@@ -7177,7 +7177,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 218
+  itemId: 313
   indentLevel: 0
   text: I don't really want to.
   description: 
@@ -10301,7 +10301,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   activeLanguage: 
-  localizationFile: {fileID: 4900000, guid: 10eaad09782244d72a2cd9ead385938a, type: 3}
+  localizationFile: {fileID: 4900000, guid: ff304f0e0816a4f9ca9ab849e4a557c9, type: 3}
 --- !u!4 &1155351170
 Transform:
   m_ObjectHideFlags: 0

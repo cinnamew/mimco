@@ -693,7 +693,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   activeLanguage: 
-  localizationFile: {fileID: 4900000, guid: a3b2cbd51d95a415189705cb6b167eed, type: 3}
+  localizationFile: {fileID: 4900000, guid: 34f56cc5db3bb4e23a0ac55747fdded9, type: 3}
 --- !u!4 &427865203
 Transform:
   m_ObjectHideFlags: 0
@@ -1534,7 +1534,6 @@ GameObject:
   - component: {fileID: 897259733}
   - component: {fileID: 897259732}
   - component: {fileID: 897259735}
-  - component: {fileID: 897259736}
   - component: {fileID: 897259738}
   - component: {fileID: 897259737}
   - component: {fileID: 897259739}
@@ -1545,6 +1544,7 @@ GameObject:
   - component: {fileID: 897259744}
   - component: {fileID: 897259745}
   - component: {fileID: 897259746}
+  - component: {fileID: 897259747}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1575,7 +1575,7 @@ MonoBehaviour:
   itemId: 0
   blockName: start
   description: 
-  eventHandler: {fileID: 897259736}
+  eventHandler: {fileID: 897259747}
   commandList:
   - {fileID: 897259738}
   - {fileID: 897259460}
@@ -1662,9 +1662,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 897259680}
-  selectedCommands:
-  - {fileID: 897259689}
+  - {fileID: 897259451}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -5465,21 +5464,6 @@ MonoBehaviour:
   move: 0
   shiftIntoPlace: 0
   waitUntilFinished: 0
---- !u!114 &897259736
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 897259449}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d2f6487d21a03404cb21b245f0242e79, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  parentBlock: {fileID: 897259451}
-  suppressBlockAutoSelect: 0
-  waitForFrames: 1
 --- !u!114 &897259737
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -5703,6 +5687,21 @@ MonoBehaviour:
     stringRef: {fileID: 0}
     stringVal: ru
   languageCodeOLD: 
+--- !u!114 &897259747
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 897259449}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2f6487d21a03404cb21b245f0242e79, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentBlock: {fileID: 897259451}
+  suppressBlockAutoSelect: 0
+  waitForFrames: 1
 --- !u!1 &905689937
 GameObject:
   m_ObjectHideFlags: 1
