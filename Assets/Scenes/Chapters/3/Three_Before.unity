@@ -1662,8 +1662,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 897259745}
-  selectedCommands: []
+  - {fileID: 897259680}
+  selectedCommands:
+  - {fileID: 897259689}
   variables: []
   description: 
   stepPause: 0
@@ -3437,7 +3438,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 218
+  itemId: 298
   indentLevel: 0
   storyText: "Um... hmm, I\u2019m not sure what you\u2019re talking about exactly...{wc}...{wc}"
   description: 
@@ -4148,8 +4149,7 @@ MonoBehaviour:
     have an address! Miss just told me it was connected to the place at 721 Effix
     Street and that I\u2019d have to search for a staircase down.{wc}I did find this
     place after searching a while, though it does give me a bit of the creeps. It\u2019s
-    so dirty, and there are so many random pairs of childrens\u2019 shoes and litter
-    everywhere."
+    so dirty, and there are so many random pairs of children's shoes and litter everywhere."
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
