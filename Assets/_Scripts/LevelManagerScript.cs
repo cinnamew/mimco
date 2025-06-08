@@ -76,11 +76,15 @@ public class LevelManagerScript : MonoBehaviour
         else if (LocalizationSettings.SelectedLocale == LocalizationSettings.AvailableLocales.Locales[0])
         {
             //ptbrtext.enabled = false;
-            text.text = newItemsStr + " things to fix";
+            text.text = newItemsStr + (thingsToFind - thingsFound == 1 ? " thing to fix" : " things to fix");
         }
         else if (LocalizationSettings.SelectedLocale == LocalizationSettings.AvailableLocales.Locales[2])
         {   //uk
             text.text = newItemsStr + " зламаних речей";
+        }
+        else if (LocalizationSettings.SelectedLocale == LocalizationSettings.AvailableLocales.Locales[3])
+        {   //uk
+            text.text = newItemsStr + " 個東西還要修";
         }
     }
 

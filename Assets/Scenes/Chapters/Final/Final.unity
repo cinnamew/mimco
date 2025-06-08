@@ -3127,6 +3127,8 @@ GameObject:
   - component: {fileID: 897259753}
   - component: {fileID: 897259754}
   - component: {fileID: 897259755}
+  - component: {fileID: 897259756}
+  - component: {fileID: 897259757}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -3238,8 +3240,7 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 897259754}
+  selectedBlocks: []
   selectedCommands: []
   variables: []
   description: 
@@ -9703,7 +9704,7 @@ MonoBehaviour:
   languageCodeOLD: 
 --- !u!114 &897259754
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -9730,7 +9731,7 @@ MonoBehaviour:
   suppressAllAutoSelections: 0
 --- !u!114 &897259755
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -9745,6 +9746,51 @@ MonoBehaviour:
   _languageCode:
     stringRef: {fileID: 0}
     stringVal: ru
+  languageCodeOLD: 
+--- !u!114 &897259756
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 897259449}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: -75.827576
+    y: 291.6322
+    width: 88
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 221
+  blockName: zh-TW
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 897259757}
+  suppressAllAutoSelections: 0
+--- !u!114 &897259757
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 897259449}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fc625e237d6048bf86f34835d8266d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 315
+  indentLevel: 0
+  _languageCode:
+    stringRef: {fileID: 0}
+    stringVal: zh-TW
   languageCodeOLD: 
 --- !u!1 &903196325
 GameObject:
@@ -10301,7 +10347,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   activeLanguage: 
-  localizationFile: {fileID: 4900000, guid: ff304f0e0816a4f9ca9ab849e4a557c9, type: 3}
+  localizationFile: {fileID: 4900000, guid: 884949015c55e4982bb3e6f26ee08029, type: 3}
 --- !u!4 &1155351170
 Transform:
   m_ObjectHideFlags: 0

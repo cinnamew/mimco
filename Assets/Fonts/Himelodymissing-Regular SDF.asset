@@ -120,9 +120,9 @@ Material:
     - _OutlineWidth: 0
     - _PerspectiveFilter: 0.875
     - _Reflectivity: 10
-    - _ScaleRatioA: 1
-    - _ScaleRatioB: 1
-    - _ScaleRatioC: 1
+    - _ScaleRatioA: 0.9
+    - _ScaleRatioB: 0.73125
+    - _ScaleRatioC: 0.73125
     - _ScaleX: 1
     - _ScaleY: 1
     - _ShaderFlags: 0
@@ -197,6 +197,21 @@ MonoBehaviour:
     m_StrikethroughThickness: 4.5
     m_TabWidth: 23
   m_GlyphTable:
+  - m_Index: 4
+    m_Metrics:
+      m_Width: 0
+      m_Height: 0
+      m_HorizontalBearingX: 0
+      m_HorizontalBearingY: 0
+      m_HorizontalAdvance: 22.5
+    m_GlyphRect:
+      m_X: 0
+      m_Y: 0
+      m_Width: 0
+      m_Height: 0
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
   - m_Index: 6
     m_Metrics:
       m_Width: 17.640625
@@ -258,6 +273,10 @@ MonoBehaviour:
     m_AtlasIndex: 0
     m_ClassDefinitionType: 0
   m_CharacterTable:
+  - m_ElementType: 1
+    m_Unicode: 32
+    m_GlyphIndex: 4
+    m_Scale: 1
   - m_ElementType: 1
     m_Unicode: 1030
     m_GlyphIndex: 6
