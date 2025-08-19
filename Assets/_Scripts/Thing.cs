@@ -29,6 +29,7 @@ public class Thing : MonoBehaviour
     void Start()
     {
         levelManagerScript = FindObjectOfType<LevelManagerScript>();
+        print("hello i am " + summonedDialog + " and i have " + levelManagerScript);
         spriteRenderer = GetComponent<SpriteRenderer>();
         audioSource = gameObject.GetComponent<AudioSource>();
         if(flowchart == null) {

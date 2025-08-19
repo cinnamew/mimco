@@ -482,6 +482,8 @@ GameObject:
   - component: {fileID: 369760171}
   - component: {fileID: 369760172}
   - component: {fileID: 369760173}
+  - component: {fileID: 369760174}
+  - component: {fileID: 369760175}
   m_Layer: 0
   m_Name: flowchart
   m_TagString: Flowchart
@@ -1010,8 +1012,7 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 369760172}
+  selectedBlocks: []
   selectedCommands: []
   variables: []
   description: 
@@ -2646,7 +2647,7 @@ MonoBehaviour:
   languageCodeOLD: 
 --- !u!114 &369760172
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2660,7 +2661,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -89.827576
     y: 284.6322
-    width: 88
+    width: 89
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2673,7 +2674,7 @@ MonoBehaviour:
   suppressAllAutoSelections: 0
 --- !u!114 &369760173
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2683,11 +2684,56 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3fc625e237d6048bf86f34835d8266d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 221
+  itemId: 222
   indentLevel: 0
   _languageCode:
     stringRef: {fileID: 0}
     stringVal: zh-TW
+  languageCodeOLD: 
+--- !u!114 &369760174
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 369760099}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: -53.827576
+    y: 336.3822
+    width: 60
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 224
+  blockName: fr
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 369760175}
+  suppressAllAutoSelections: 0
+--- !u!114 &369760175
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 369760099}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fc625e237d6048bf86f34835d8266d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 225
+  indentLevel: 0
+  _languageCode:
+    stringRef: {fileID: 0}
+    stringVal: fr
   languageCodeOLD: 
 --- !u!1001 &390232357
 PrefabInstance:
@@ -2905,7 +2951,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   activeLanguage: 
-  localizationFile: {fileID: 4900000, guid: 3b57d2dabe11e46579f301b138327eee, type: 3}
+  localizationFile: {fileID: 4900000, guid: acbf320523e15467a9acf2c839aaf407, type: 3}
 --- !u!4 &471821812
 Transform:
   m_ObjectHideFlags: 0

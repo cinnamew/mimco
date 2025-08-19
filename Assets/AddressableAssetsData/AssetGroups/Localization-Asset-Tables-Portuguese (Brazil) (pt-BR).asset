@@ -16,14 +16,7 @@ MonoBehaviour:
   m_Data:
     m_SerializedData: []
   m_GUID: 13c12f127216c9944a6505027c0dda45
-  m_SerializeEntries:
-  - m_GUID: 653e55f6d6474dd47b01fafe0e695fd2
-    m_Address: AssetsYay_pt-BR
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-pt-BR
-    - Preload
-    FlaggedDuringContentUpdateRestriction: 0
+  m_SerializeEntries: []
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 4f2b6e5a5502eed4e9460bb175350968, type: 2}
   m_SchemaSet:

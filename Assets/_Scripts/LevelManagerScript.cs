@@ -62,12 +62,13 @@ public class LevelManagerScript : MonoBehaviour
             }
         }
 
-        UpdateItemsFoundText();
+        // UpdateItemsFoundText();
     }
 
     public void UpdateItemsFoundText()
     {
         string newItemsStr = (thingsToFind - thingsFound).ToString();
+        Debug.Log("hayyyy" + newItemsStr + LocalizationSettings.SelectedLocale);
         if (LocalizationSettings.SelectedLocale == LocalizationSettings.AvailableLocales.Locales[1])
         {
             text.enabled = true;
@@ -83,8 +84,12 @@ public class LevelManagerScript : MonoBehaviour
             text.text = newItemsStr + " зламаних речей";
         }
         else if (LocalizationSettings.SelectedLocale == LocalizationSettings.AvailableLocales.Locales[3])
-        {   //uk
+        {   //cn-tw
             text.text = newItemsStr + " 個東西還要修";
+        }else if (LocalizationSettings.SelectedLocale == LocalizationSettings.AvailableLocales.Locales[4])
+        {   //fr
+            Debug.Log("we fr tonight");
+            text.text = newItemsStr + " choses à arranger";
         }
     }
 
