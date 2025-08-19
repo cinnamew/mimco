@@ -68,7 +68,6 @@ public class LevelManagerScript : MonoBehaviour
     public void UpdateItemsFoundText()
     {
         string newItemsStr = (thingsToFind - thingsFound).ToString();
-        Debug.Log("hayyyy" + newItemsStr + LocalizationSettings.SelectedLocale);
         if (LocalizationSettings.SelectedLocale == LocalizationSettings.AvailableLocales.Locales[1])
         {
             text.enabled = true;
@@ -86,9 +85,9 @@ public class LevelManagerScript : MonoBehaviour
         else if (LocalizationSettings.SelectedLocale == LocalizationSettings.AvailableLocales.Locales[3])
         {   //cn-tw
             text.text = newItemsStr + " 個東西還要修";
-        }else if (LocalizationSettings.SelectedLocale == LocalizationSettings.AvailableLocales.Locales[4])
+        }
+        else if (LocalizationSettings.SelectedLocale == LocalizationSettings.AvailableLocales.Locales[4])
         {   //fr
-            Debug.Log("we fr tonight");
             text.text = newItemsStr + " choses à arranger";
         }
     }

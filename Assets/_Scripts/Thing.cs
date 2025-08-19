@@ -17,7 +17,7 @@ public class Thing : MonoBehaviour
 
     AudioSource audioSource;
     [SerializeField] AudioClip sfx;
-    [Range(0.0f, 1f)] [SerializeField] float volume;
+    [Range(0.0f, 1f)][SerializeField] float volume;
 
     [SerializeField] int summonedDialog;
 
@@ -29,10 +29,10 @@ public class Thing : MonoBehaviour
     void Start()
     {
         levelManagerScript = FindObjectOfType<LevelManagerScript>();
-        print("hello i am " + summonedDialog + " and i have " + levelManagerScript);
         spriteRenderer = GetComponent<SpriteRenderer>();
         audioSource = gameObject.GetComponent<AudioSource>();
-        if(flowchart == null) {
+        if (flowchart == null)
+        {
             //flowchart = FindObjectOfType<Flowchart>();
             flowchart = GameObject.FindWithTag("Flowchart").GetComponent<Flowchart>();
         }
@@ -78,85 +78,85 @@ public class Thing : MonoBehaviour
         spriteRenderer.sprite = foundSprite;
         //if (summonedDialog > 0)
         //{
-            switch(summonedDialog)
-            {
-                case 1:
-                    flowchart.ExecuteBlock("tilted painting");
-                    break;
-                case 2:
-                    flowchart.ExecuteBlock("broken glass at front");
-                    break;
-                case 3:
-                    flowchart.ExecuteBlock("broken drawers at back");
-                    break;
-                case 4:
-                    flowchart.ExecuteBlock("glass on floor");
-                    break;
-                case 5:
-                    flowchart.ExecuteBlock("broken window");
-                    break;
-                case 6:
-                    flowchart.ExecuteBlock("bedsheets");
-                    break;
-                case 7:
-                    flowchart.ExecuteBlock("cracked window");
-                    break;
-                case 8:
-                    flowchart.ExecuteBlock("knocked over cup");
-                    break;
-                case 9:
-                    flowchart.ExecuteBlock("pillow on floor");
-                    break;
-                case 10:
-                    flowchart.ExecuteBlock("broken drawer handle");
-                    break;
-                case 11:
-                    flowchart.ExecuteBlock("phone");
-                    break;
-                case 12:
-                    flowchart.ExecuteBlock("tv");
-                    break;
-                case 13:
-                    flowchart.ExecuteBlock("lampshade");
-                    break;
-                case 14:
-                    flowchart.ExecuteBlock("blood");
-                    break;
-                case 15:
-                    flowchart.ExecuteBlock("cobweb");
-                    break;
-                case 16:
-                    flowchart.ExecuteBlock("pillow in corner");
-                    break;
-                case 17:
-                    flowchart.ExecuteBlock("pile of clothes");
-                    break;
-                case 18:
-                    flowchart.ExecuteBlock("blood on bed");
-                    break;
-                case 19:
-                    flowchart.ExecuteBlock("blanket messy");
-                    break;
-                case 20:
-                    flowchart.ExecuteBlock("bloodstain");
-                    break;
-                case 21:
-                    flowchart.ExecuteBlock("bloodstain");
-                    break;
-                case 22:
-                    flowchart.ExecuteBlock("fan");
-                    break;
-                case 23:
-                    flowchart.ExecuteBlock("train toy");
-                    break;
-                default:    //hi borys! i added these lines so that all the ones w/o dialogue would still pass to the next scene :)
-                    flowchart.ExecuteBlock("next scene");
-                    //print("no dialogue");
-                    break;
+        switch (summonedDialog)
+        {
+            case 1:
+                flowchart.ExecuteBlock("tilted painting");
+                break;
+            case 2:
+                flowchart.ExecuteBlock("broken glass at front");
+                break;
+            case 3:
+                flowchart.ExecuteBlock("broken drawers at back");
+                break;
+            case 4:
+                flowchart.ExecuteBlock("glass on floor");
+                break;
+            case 5:
+                flowchart.ExecuteBlock("broken window");
+                break;
+            case 6:
+                flowchart.ExecuteBlock("bedsheets");
+                break;
+            case 7:
+                flowchart.ExecuteBlock("cracked window");
+                break;
+            case 8:
+                flowchart.ExecuteBlock("knocked over cup");
+                break;
+            case 9:
+                flowchart.ExecuteBlock("pillow on floor");
+                break;
+            case 10:
+                flowchart.ExecuteBlock("broken drawer handle");
+                break;
+            case 11:
+                flowchart.ExecuteBlock("phone");
+                break;
+            case 12:
+                flowchart.ExecuteBlock("tv");
+                break;
+            case 13:
+                flowchart.ExecuteBlock("lampshade");
+                break;
+            case 14:
+                flowchart.ExecuteBlock("blood");
+                break;
+            case 15:
+                flowchart.ExecuteBlock("cobweb");
+                break;
+            case 16:
+                flowchart.ExecuteBlock("pillow in corner");
+                break;
+            case 17:
+                flowchart.ExecuteBlock("pile of clothes");
+                break;
+            case 18:
+                flowchart.ExecuteBlock("blood on bed");
+                break;
+            case 19:
+                flowchart.ExecuteBlock("blanket messy");
+                break;
+            case 20:
+                flowchart.ExecuteBlock("bloodstain");
+                break;
+            case 21:
+                flowchart.ExecuteBlock("bloodstain");
+                break;
+            case 22:
+                flowchart.ExecuteBlock("fan");
+                break;
+            case 23:
+                flowchart.ExecuteBlock("train toy");
+                break;
+            default:    //hi borys! i added these lines so that all the ones w/o dialogue would still pass to the next scene :)
+                flowchart.ExecuteBlock("next scene");
+                //print("no dialogue");
+                break;
 
-                    
-            }
-            
+
+        }
+
         //}
     }
 }
