@@ -25,4 +25,10 @@ public class AreYouSure : MonoBehaviour
         if (promptsIndex > _prompts.Length - 1) SceneManager.LoadScene(0);
         else _displayText.text = _prompts[promptsIndex];
     }
+
+    public void ResetPromptIndex() 
+    {
+        promptsIndex = 0;
+        _displayText.text = _prompts[promptsIndex];
+    }
 }
