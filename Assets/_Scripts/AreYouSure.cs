@@ -9,7 +9,7 @@ public class AreYouSure : MonoBehaviour
     {
         "Are you sure?\n\nYour progress will not be saved.",
         "Are you ABSOLUTELY sure?\n\nLike, really think about what I just said. Do you still wanna quit?",
-        "\"Your progrss will not be saved\"\n\nAre you sure you read that part?",
+        "\"Your progress will not be saved\"\n\nAre you sure you read that part?",
         "I really don't wanna implement a whole saving system. Feel free to file a complaint with Cinna.\n\nLet the email spam begin >:)"
     };
     private int promptsIndex = 0;
