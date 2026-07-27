@@ -9,12 +9,15 @@ public class LocaleSelector : MonoBehaviour
     [SerializeField] int currLocaleID = 0;
     [SerializeField] Flowchart f;
 
-    static int MAX_LOCALE = 6;  //# of non-english locales
+    int MAX_LOCALE;  //# of non-english locales
     private bool active = false;
 
     // Start is called before the first frame update
-    void Start()
+    IEnumerator Start()
     {
+        yield return LocalizationSettings.InitializationOperation;
+        MAX_LOCALE = LocalizationSettings.AvailableLocales.Locales.Count;
+        //print(MAX_LOCALE);
         currLocaleID = PlayerPrefs.GetInt("LocaleKey", 0);
         ChangeLocale(0);
 
@@ -41,6 +44,9 @@ public class LocaleSelector : MonoBehaviour
                 case 6:
                     f.ExecuteBlock("pl");
                     break;
+                case 7:
+                    f.ExecuteBlock("es");
+                    break;
                 default:
                     break;
             }
@@ -53,7 +59,7 @@ public class LocaleSelector : MonoBehaviour
         if (active) return;
         currLocaleID += add;
         if (currLocaleID < 0) currLocaleID = MAX_LOCALE;
-        if (currLocaleID > MAX_LOCALE) currLocaleID = 0;
+        if (currLocaleID > MAX_LOCALE - 1) currLocaleID = 0;
         StartCoroutine(SetLocale(currLocaleID));
     }
 

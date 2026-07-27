@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: TitleEtc_es
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: es
+  m_SharedData: {fileID: 11400000, guid: 43a7446c5bc03eb468d39cf562a0d1ca, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 2143811756032
+    m_Localized: "\xA1Jugar!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9044041621504
+    m_Localized: "\xA1Acerca de!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9282248728576
+    m_Localized: "\xA1Salir!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9900904374272
+    m_Localized: "\xA1ACERCA DE!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10603148304384
+    m_Localized: Volver al presente...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10743129006080
+    m_Localized: "- hecho en 72 horas para la MelonJam 4 (tema: corrupci\xF3n)\n\n-
+      hecho por cinnamew, effixs, pocketnii, spiderface721\n\n- \xA1AD!: menciones
+      de asesinato, sangre, terror ligero, cr\xEDmenes violentos y agresi\xF3n sexual"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180424633475072
+    m_Localized: Hace 3 semanas...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180901131575296
+    m_Localized: "Volviendo al presente (3 semanas despu\xE9s)..."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181127586242560
+    m_Localized: "7 horas despu\xE9s..."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 649697533353984
+    m_Localized: Cosas por arreglar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 699418809458688
+    m_Localized: "Semanas despu\xE9s..."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 740985686679552
+    m_Localized: En la tienda...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 983884324102144
+    m_Localized: "\xA1gracias por jugar!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 984483895664640
+    m_Localized: "<b>hecho por...</b>\n> <b>cinnamew:</b> c\xF3digo/di\xE1logos/historia\n>
+      <b>effixs:</b> arte de los minijuegos\n> <b>pocketnii:</b> UI/otros artes/historia\n>
+      <b>spiderface721:</b> c\xF3digo de los minijuegos\n(\xA1la m\xFAsica no es
+      nuestra!)\n\nsi te gust\xF3 el juego no olvides dejarnos un comentario/calificaci\xF3n
+      :) \xA1tambi\xE9n hay una secuela as\xED que puedes darle un vistazo!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 986048287170560
+    m_Localized: Volver al Inicio
+    m_Metadata:
+      m_Items: []
+  - m_Id: 997841499807744
+    m_Localized: es
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1044770027954176
+    m_Localized: "*\xA1Por favor, revisa las advertencias (AD) antes de jugar!*"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1045539603046400
+    m_Localized: "*\xA1Juega con m\xFAsica para una mejor experiencia!*"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2116517649145856
+    m_Localized: "\xA1Volver!"
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []
