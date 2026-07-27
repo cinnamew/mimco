@@ -9,7 +9,7 @@ public class LocaleSelector : MonoBehaviour
     [SerializeField] int currLocaleID = 0;
     [SerializeField] Flowchart f;
 
-    static int MAX_LOCALE = 5;  //# of non-english locales
+    static int MAX_LOCALE = 6;  //# of non-english locales
     private bool active = false;
 
     // Start is called before the first frame update
@@ -37,6 +37,9 @@ public class LocaleSelector : MonoBehaviour
                     break;
                 case 5:
                     f.ExecuteBlock("fr");
+                    break;
+                case 6:
+                    f.ExecuteBlock("pl");
                     break;
                 default:
                     break;
